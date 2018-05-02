@@ -1,9 +1,9 @@
 package Factory;
 
-public class ConcreteCreator {
+public class ConcreteCreator extends Creator{
 
-
-    public static <T extends Product> T createProduct(Class<T> clazz) {
+    @Override
+    public  <T extends Product> T createProduct(Class<T> clazz) {
         Product product = null;
         try {
             product = (Product) Class.forName(clazz.getName()).newInstance();
