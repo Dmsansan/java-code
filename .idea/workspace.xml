@@ -2,66 +2,177 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73fa401b-eefa-44f4-98e5-b4dc256a6b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/GateWay/GateWayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaHightStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaHightStudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/ProxyPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/ProxyRealImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Adapter/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Adapter/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Adapter/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Adapter/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Adapter/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/Bottle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/Burger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/CouldDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/Packing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Builder/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/ConCreateProduct1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/ConCreateProduct2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/ConcreteCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/Creator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/FactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Factory/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Prototype/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/Singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/decorator/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/decorator/DecoratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/decorator/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/decorator/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/facade/CPU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/facade/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/facade/Disk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/facade/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/facade/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/interfaceAdapter/SourceSub1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/interfaceAdapter/SourceSub2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/interfaceAdapter/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/interfaceAdapter/Wrapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/designType/main/com/sansan/cn/interfaceAdapter/WrapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHightStudy/realImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Adapter/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Adapter/Targetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Targetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Adapter/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/CouldDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/CouldDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Packing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Builder/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/ConCreateProduct1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/ConCreateProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConcreteCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Factory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/GateWay/GateWayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/process/Process1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/process/Process2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/process/Process3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/process/Process4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/Thread/process/Process5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceAdapter/SourceSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceAdapter/SourceSub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceAdapter/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceAdapter/Wrapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Wrapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceAdapter/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/WrapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-574165943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="md" value="1" />
+          <entry key="java" value="5" />
+          <entry key="jsp" value="2" />
+          <entry key="md" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="JSP" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="391" />
-          <entry key="txt" value="58" />
+          <entry key="dummy" value="14" />
+          <entry key="java" value="1289" />
+          <entry key="txt" value="77" />
+          <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="391" />
-          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="JAVA" value="1289" />
+          <entry key="PLAIN_TEXT" value="91" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#942#957#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designType/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="247">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/GateWay/GateWayHandler.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="551">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -87,6 +198,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RedisUtil</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>RedisConnect</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -95,6 +214,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/designType/test/Test.java" />
         <option value="$PROJECT_DIR$/src/designType/main/com/sansan/cn/GateWay/GateWayHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" />
+        <option value="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" />
       </list>
     </option>
   </component>
@@ -105,10 +227,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="351" />
-    <option name="y" value="50" />
-    <option name="width" value="1311" />
-    <option name="height" value="630" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,53 +244,68 @@
         <subPane>
           <expand>
             <path>
-              <item name="JavaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designType" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designType" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designType" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designType" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557914726606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560237031759" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designType.main.com.sansan.cn.redis.config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestRedis">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designType.test.Test" />
       <module name="JavaHightStudy" />
@@ -196,8 +333,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designType.main.com.sansan.cn.redis.TestRedis" />
+      <module name="JavaHightStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designType.main.com.sansan.cn.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestRedis" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRedis" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -212,7 +367,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557911141445</updated>
-      <workItem from="1557911143369" duration="3365000" />
+      <workItem from="1557911143369" duration="3421000" />
+      <workItem from="1557968981932" duration="605000" />
+      <workItem from="1558688949653" duration="17000" />
+      <workItem from="1558688970249" duration="4000" />
+      <workItem from="1558689051859" duration="956000" />
+      <workItem from="1558920421537" duration="484000" />
+      <workItem from="1560216354927" duration="1399000" />
+      <workItem from="1560222563783" duration="1859000" />
+      <workItem from="1560231894601" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="添加责任链模式">
       <created>1557912627444</created>
@@ -228,17 +391,23 @@
       <option name="project" value="LOCAL" />
       <updated>1557913284215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加路由抽象拦截器">
+      <created>1557914759196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557914759196</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3365000" />
+    <option name="totallyTimeSpent" value="13119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.17473525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -248,10 +417,9 @@
       <window_info id="Web" order="7" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="BPMN Editor" order="8" weight="0.32980332" />
       <window_info id="JRebel" order="9" sideWeight="0.509375" side_tool="true" weight="0.30673498" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.717608" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3678161" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -269,6 +437,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="20" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -292,7 +461,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加责任链模式" />
     <MESSAGE value="java集合的赋值以及引用模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="java集合的赋值以及引用模式" />
+    <MESSAGE value="添加路由抽象拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加路由抽象拦截器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -303,10 +473,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/多线程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="183">
+            <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -320,16 +493,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/GateWay/GateWayHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#942#957#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -343,11 +584,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaHightStudy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
