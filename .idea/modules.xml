@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/route/route.iml" filepath="$PROJECT_DIR$/route/route.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" filepath="$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" />
     </modules>
   </component>
 </project>
