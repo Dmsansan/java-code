@@ -18,7 +18,6 @@ import cn.gson.oasys.services.user.NotepaperService;
 import com.github.pagehelper.util.StringUtil;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -36,7 +35,6 @@ import javax.annotation.PostConstruct;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.sound.midi.Soundbank;
 import javax.validation.Valid;
 import java.io.File;
 import java.io.FileInputStream;
@@ -70,7 +68,7 @@ public class UserpanelController {
 	@PostConstruct
 	public void UserpanelController(){
 		try {
-			rootpath= ResourceUtils.getURL("classpath:").getPath().replace("/target/classes/","/static/image");
+			rootpath= ResourceUtils.getURL("classpath:").getPath().replace("/target/classes/","/src/main/resources/static/image");
 			System.out.println(rootpath);
 
 		}catch (IOException e){
@@ -238,11 +236,11 @@ public class UserpanelController {
 		String projectPath = ClassUtils.getDefaultClassLoader().getResource("").getPath();
 		System.out.println(projectPath);
 		String startpath = new String(URLDecoder.decode(request.getRequestURI(), "utf-8"));
-		
+
 		String path = startpath.replace("/image", "");
-		
+
 		File f = new File(rootpath, path);
-		
+
 		ServletOutputStream sos = response.getOutputStream();
 		FileInputStream input = new FileInputStream(f.getPath());
 		byte[] data = new byte[(int) f.length()];

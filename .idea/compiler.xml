@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka" />
         <module name="JavaHightStudy" />
+        <module name="oasys" />
         <module name="route" />
         <module name="spring-boot" />
         <module name="spring-boot-task" />
@@ -17,6 +18,7 @@
       <module name="eraka" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="JavaHightStudy" target="1.8" />
+      <module name="oasys" target="1.8" />
       <module name="route" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-task" target="1.8" />
