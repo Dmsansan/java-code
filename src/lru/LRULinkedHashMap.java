@@ -23,10 +23,14 @@ public class LRULinkedHashMap<K, V> extends LinkedHashMap<K, V> {
 
     private final Lock lock = new ReentrantLock();
 
-    public LRULinkedHashMap() {
-        super(maxCapacity, DEFAULT_LOAD_FACTOR, true);
+    public LRULinkedHashMap(int maxCapacity) {
         this.maxCapacity = maxCapacity;
     }
+
+//    public LRULinkedHashMap() {
+//        super(maxCapacity, DEFAULT_LOAD_FACTOR, true);
+//        this.maxCapacity = maxCapacity;
+//    }
 
     @Override
     protected boolean removeEldestEntry(java.util.Map.Entry<K, V> eldest) {
@@ -88,11 +92,5 @@ public class LRULinkedHashMap<K, V> extends LinkedHashMap<K, V> {
         } finally {
             lock.unlock();
         }
-    }
-
-    public static void main(String[] args) {
-        LRULinkedHashMap<String, Object> linkedHashMap = new LRULinkedHashMap<>();
-        linkedHashMap.put("1", "A");
-        System.out.println(linkedHashMap.get("1"));
     }
 }
