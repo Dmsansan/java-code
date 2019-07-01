@@ -95,7 +95,7 @@ public class UserpanelController {
 			//找到这个用户
 			user=udao.findOne(userId);
 		}
-		
+
 		//找到部门名称
 		String deptname=ddao.findname(user.getDept().getDeptId());
 		
