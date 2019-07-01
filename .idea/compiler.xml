@@ -12,6 +12,7 @@
         <module name="route" />
         <module name="spring-boot" />
         <module name="spring-boot-task" />
+        <module name="springresource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,8 +21,10 @@
       <module name="JavaHightStudy" target="1.8" />
       <module name="oasys" target="1.8" />
       <module name="route" target="1.8" />
+      <module name="spring" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-task" target="1.8" />
+      <module name="springresource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
