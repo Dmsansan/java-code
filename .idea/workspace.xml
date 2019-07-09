@@ -1,493 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73fa401b-eefa-44f4-98e5-b4dc256a6b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/thread.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="73fa401b-eefa-44f4-98e5-b4dc256a6b62" name="Default Changelist" comment="添加并发编程Thread内容">
+      <change afterPath="$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/com/sansan/example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/easyui-lang-zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/easyui-lang-zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/color.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/color.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/gray/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/gray/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/material/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/material/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/metro/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/easyui/themes/metro/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/static/js/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/bin/src/main/resources/templates/index/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/bin/src/main/resources/templates/index/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/OasysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/OasysApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/Interceptorconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/Interceptorconfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/recordInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Interceptor/recordInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/Tool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/MapToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/MapToList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/common/formValid/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/ValidatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/ValidatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/address/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/address/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/attendce/AttendceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/attendce/AttendceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/daymanage/DaymanageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/daymanage/DaymanageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/file/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/file/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/file/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/file/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/process/ProcedureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/process/ProcedureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/process/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/process/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/role/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/role/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/system/StatusSysController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/system/StatusSysController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/task/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/task/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/task/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/task/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/PossionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/PossionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/user/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/exception/WebControllerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/exception/WebControllerException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/mappers/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/mappers/AddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/mappers/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/mappers/NoticeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/BlogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/BlogDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/IndexDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/IndexDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/AddressDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/AddressUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/AddressUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/address/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/attendcedao/AttendceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/attendcedao/AttendceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/attendcedao/AttendceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/attendcedao/AttendceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/daymanagedao/DaymanageDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/daymanagedao/DaymanageDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/CommentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/VoteListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/VoteListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/discuss/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/FileListdao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/FileListdao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/FilePathdao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/FilePathdao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/filedao/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/InMailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/InMailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/MailnumberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/MailnumberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/maildao/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/AttachmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/AttachmentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/CatalogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/CatalogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/NoteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/NoteDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/NoteUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/notedao/NoteUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/plandao/PlanDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/plandao/PlanDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/plandao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/plandao/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/EvectionMoneyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/EvectionMoneyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/NotepaperDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/NotepaperDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/ProcessListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/ProcessListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/StayDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/processdao/StayDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/roledao/RolepowerlistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/roledao/RolepowerlistDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/scheduledao/ScheduleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/scheduledao/ScheduleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/scheduledao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/scheduledao/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/SystemMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/SystemMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/TypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/TypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/system/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/taskdao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/taskdao/TaskDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/taskdao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/taskdao/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/DeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/DeptDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserLogRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserLogRecordDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserLogRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserLogRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/dao/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/attendce/Attends.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/attendce/Attends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/Reply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/VoteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/VoteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/VoteTitles.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/VoteTitles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/discuss/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/file/FileList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/file/FileList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/mail/Mailreciver.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/mail/Mailreciver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/mail/Pagemail.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/mail/Pagemail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/Attachment.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/Attachment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/Noteuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/Noteuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/note/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/notice/NoticeUserRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/notice/NoticeUserRelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/notice/NoticesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/notice/NoticesList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/plan/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/plan/Plan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Bursement.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Bursement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/DetailsBurse.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/DetailsBurse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/EvectionMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/EvectionMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Holiday.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Holiday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Overtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Overtime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/ProcessList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/ProcessList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Regular.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Regular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Resign.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Resign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Reviewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Reviewed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Stay.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/process/Stay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/Rolepowerlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/Rolepowerlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/role/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/schedule/ScheduleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/schedule/ScheduleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/schedule/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/schedule/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/system/SystemTypeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/system/SystemTypeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/system/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/system/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/task/Tasklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/task/Tasklist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/task/Taskuser.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/task/Taskuser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/user/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/user/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/user/UserLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/entity/user/UserLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/model/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/address/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/address/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/daymanage/DaymanageServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/daymanage/DaymanageServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/VoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/VoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/discuss/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/file/FileServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/file/FileServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/mail/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/mail/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/system/StatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/system/StatusService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/system/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/system/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/user/UserLongRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/user/UserLongRecordService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/user/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/services/user/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/mappers/address-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/mappers/address-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/attendce/weektable.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/attendce/weektable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/box.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/box.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/skintheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/common/skintheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/controlpanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/controlpanel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/file/filebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/file/filebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/homelist.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/homelist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/mail/seemail.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/mail/seemail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/plan/plantable.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/plan/plantable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/role/roleset.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/role/roleset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/sharemess.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/sharemess.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/mytask.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/mytask.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/tabletask.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/tabletask.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/task.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/css/task/task.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/black/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/black/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/material/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/material/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/metro/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/easyui/themes/metro/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/attendce/monthtable.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/attendce/monthtable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/common/panelslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/common/panelslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/common/tocolor.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/common/tocolor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/file/filejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/file/filejs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/mail/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/mail/mail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/note/noteedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/note/noteedit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/pjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/pjax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/plan/plantable.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/plan/plantable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/role/rolemanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/role/rolemanage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/tongji.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/tongji.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/usershow.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/js/usershow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/skin/blue/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/skin/blue/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/WdatePicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/default/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/whyGreen/datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/basic-views.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/basic-views.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/fullcalendar/fullcalendar.print.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/fullcalendar/fullcalendar.print.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/gcal.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/gcal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/json.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/json.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/selectable.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/selectable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/fullcalendar/theme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/auto-height.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/auto-height.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/colorpicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/colorpicker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/custom-plugin.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/custom-plugin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/dynamic-load.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/dynamic-load.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/file-manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/file-manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/filter-mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/filter-mode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery-ui.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery-ui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/word-count.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/examples/word-count.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/jsp/demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/jsp/demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/lang/zh_TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/anchor/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/anchor/anchor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/autoheight/autoheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/baidumap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/baidumap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/baidumap/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/baidumap/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/code/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/code/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/code/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/code/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/filemanager/filemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/flash/flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/flash/flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/image/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/insertfile/insertfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/map/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/media/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/media/media.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/multiimage/multiimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/plainpaste/plainpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/preview/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/preview/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/quickformat/quickformat.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/template/html/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/wordpaste/wordpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/default/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/qq/qq.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/qq/qq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/simple/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/static/plugins/kindeditor/themes/simple/simple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/addressedit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/addressedit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/addrmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/addrmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/inaddrss.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/inaddrss.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/inmessshow.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/inmessshow.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/modalpaging.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/modalpaging.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/outaddrss.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/outaddrss.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/outmessshow.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/outmessshow.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/sharesuccess.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/address/sharesuccess.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/attendce/attendceview.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/attendce/attendceview.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/attendce/monthtable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/attendce/monthtable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/chatmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/chatmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/replaymanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/replaymanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/replylike.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/replylike.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/votetable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/votetable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/writechat.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/chat/writechat.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/comment.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/comment.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/commoncss.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/commoncss.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/iosstyle.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/iosstyle.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/leftlists.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/leftlists.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/modalTip.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/modalTip.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/notepaging.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/notepaging.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/pagingmybatis.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/common/pagingmybatis.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/daymanage/editday.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/daymanage/editday.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informedit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informedit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informlist.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informlist.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informlistpaging.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informlistpaging.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informshow.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informshow.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informtable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/inform/informtable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/mailbody.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/mailbody.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/mailmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/mailmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/wirtemail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/mail/wirtemail.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/note/noteinfo.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/note/noteinfo.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/note/noteview.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/note/noteview.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/plantable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/plantable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/planview.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/planview.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/planviewtable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/planviewtable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/realplantable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/plan/realplantable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/evection.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/evection.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/eveserach.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/eveserach.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/flowmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/flowmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/holiserch.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/holiserch.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/overserch.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/overserch.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/overtime.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/overtime.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/regular.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/process/regular.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/role/addrole.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/role/addrole.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/role/roletable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/role/roletable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/newpage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/newpage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/signin.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/signin.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/usermanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/systemcontrol/usermanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/addtask.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/addtask.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/managetable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/managetable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/myseetask.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/myseetask.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/taskmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/task/taskmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/deptread.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/deptread.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/editpaper.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/editpaper.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/positionedit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/positionedit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/positionmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/positionmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlog.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlog.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogmanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogmanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogmanagetable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogmanagetable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogrecordmanagetable.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/userlogrecordmanagetable.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/usermanage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/main/resources/templates/user/usermanage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/test/java/cn/gson/oasys/OasysApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/test/java/cn/gson/oasys/OasysApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_system/src/test/java/cn/gson/oasys/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_system/src/test/java/cn/gson/oasys/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Daidai_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Daidai_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/NativeQueryResultEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/NativeQueryResultEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/job/ChickenJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/job/ChickenJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IJobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/JobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/alt/AdminLTE-select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/_all-skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-blue-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-green-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-purple-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-red-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/AdminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/less/_ionicons-font.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/Ionicons/less/_ionicons-font.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/button/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/button/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/fontas/css/font-awesome-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/fontas/css/font-awesome-ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/fontas/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/fontas/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/icheck/skin/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/cron/icheck/skin/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/glyphicons/flat-ui-icons-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/glyphicons/flat-ui-icons-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-bolditalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-bolditalic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/fonts/lato/lato-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/book.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/chat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/clocks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/clocks.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/compas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/compas.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/loop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/loop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/retina.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/retina.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/toilet-paper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/img/icons/svg/toilet-paper.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/flat-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/flat-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/vendor/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/vendor/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/vendor/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/js/vendor/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/iview/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/iview/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/task/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/task/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/entity/QuartzEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/entity/QuartzEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/job/ChickenJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/job/ChickenJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/service/impl/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/service/impl/JobServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/web/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/web/JobController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/adminlte.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/adminlte.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/adminlte.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/adminlte.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/alt/AdminLTE-select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/_all-skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-black-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-black-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-black.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-blue-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-green-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-green.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-purple-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-red-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-red.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-yellow-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/adminlte.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/adminlte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/pages/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/pages/dashboard2.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/AdminLTE/js/pages/dashboard2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/less/_ionicons-font.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/less/_ionicons-font.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/scss/_ionicons-font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/scss/_ionicons-font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/scss/ionicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/Ionicons/scss/ionicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/button/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/button/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/cronboot.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/cronboot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/css/font-awesome-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/css/font-awesome-ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/font/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/fontas/font/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/icheck/skin/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/cron/icheck/skin/blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/css/flat-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/css/flat-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/css/flat-ui.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/css/flat-ui.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/glyphicons/flat-ui-icons-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/glyphicons/flat-ui-icons-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/glyphicons/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/glyphicons/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-bolditalic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-bolditalic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/fonts/lato/lato-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/book.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/chat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/clocks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/clocks.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/compas.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/compas.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/loop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/loop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/paper-bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/paper-bag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/pencils.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/pencils.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/retina.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/retina.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/toilet-paper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/img/icons/svg/toilet-paper.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/flat-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/flat-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/vendor/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/vendor/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/vendor/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/flat_ui/js/vendor/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/static/iview/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/static/iview/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/task/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/task/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/task/cron.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/templates/task/cron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/system/SystemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/system/SystemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-resource/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-resource/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyRealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyRealImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Memory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/TestMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/TestMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/realImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/realImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/adapter/Wrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/adapter/Wrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/decorator/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/decorator/Decorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/facade/CPU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/facade/CPU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/mysql/MysqlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/mysql/MysqlConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/redis/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/redis/TestRedis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designType/main/com/sansan/cn/singleton/Singleton.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -536,7 +56,7 @@
           <entry key="class" value="3" />
           <entry key="cmd" value="1" />
           <entry key="ftl" value="6" />
-          <entry key="java" value="61" />
+          <entry key="java" value="66" />
           <entry key="jpg" value="2" />
           <entry key="jsp" value="2" />
           <entry key="md" value="8" />
@@ -552,7 +72,7 @@
           <entry key="CLASS" value="3" />
           <entry key="FTL" value="6" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="61" />
+          <entry key="JAVA" value="66" />
           <entry key="JSP" value="2" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="5" />
@@ -564,18 +84,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
-          <entry key="java" value="4401" />
+          <entry key="java" value="5168" />
           <entry key="md" value="1697" />
           <entry key="properties" value="1128" />
-          <entry key="txt" value="491" />
+          <entry key="txt" value="510" />
           <entry key="xml" value="633" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4401" />
+          <entry key="JAVA" value="5168" />
           <entry key="Markdown" value="1697" />
-          <entry key="PLAIN_TEXT" value="517" />
+          <entry key="PLAIN_TEXT" value="536" />
           <entry key="Properties" value="1128" />
           <entry key="XML" value="633" />
         </counts>
@@ -585,71 +105,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/SpringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="57">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
+        <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/target/classes/beans.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/user/UserInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="399">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/thread.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="437">
-                <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -721,6 +228,11 @@
         <option value="$PROJECT_DIR$/spring-resource/pom.xml" />
         <option value="$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/thread/thread.md" />
+        <option value="$PROJECT_DIR$/src/thread/com/sansan/example/Product.java" />
+        <option value="$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java" />
+        <option value="$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java" />
+        <option value="$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java" />
       </list>
     </option>
   </component>
@@ -761,7 +273,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -808,6 +320,13 @@
             </path>
             <path>
               <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaHightStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -828,7 +347,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562635796779" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562637360148" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/oa_system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -871,7 +390,20 @@
     </option>
     <option name="contentProportion" value="0.17001545" />
   </component>
-  <component name="RunManager" selected="Application.SpringTest">
+  <component name="RunManager" selected="Application.MainTest">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.com.sansan.example.MainTest" />
+      <module name="JavaHightStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.com.sansan.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RPCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designType.main.com.sansan.cn.rpc.client.RPCTest" />
       <module name="JavaHightStudy" />
@@ -891,19 +423,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sansan.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designType.test.Test" />
-      <module name="JavaHightStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designType.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -979,19 +498,19 @@
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.spring-boot-quartz" />
       <item itemvalue="Spring Boot.OasysApplication" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestRedis" />
       <item itemvalue="Application.RPCTest" />
       <item itemvalue="Application.TestMysql" />
       <item itemvalue="Application.SpringTest" />
+      <item itemvalue="Application.MainTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.SpringTest" />
         <item itemvalue="Application.TestMysql" />
         <item itemvalue="Application.RPCTest" />
         <item itemvalue="Application.TestRedis" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1034,7 +553,7 @@
       <workItem from="1561943788149" duration="266000" />
       <workItem from="1561944920852" duration="2602000" />
       <workItem from="1561947822712" duration="273000" />
-      <workItem from="1562634627425" duration="1157000" />
+      <workItem from="1562634627425" duration="2600000" />
     </task>
     <task id="LOCAL-00001" summary="添加责任链模式">
       <created>1557912627444</created>
@@ -1152,13 +671,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61560000" />
+    <option name="totallyTimeSpent" value="63003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48941177" weight="0.31996974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.31996974" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1222,38 +741,10 @@
     <MESSAGE value="添加oa_sys系统代码" />
     <MESSAGE value="添加spring源码分析模块" />
     <MESSAGE value="新增spring读取xml文件内容代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增spring读取xml文件内容代码" />
+    <MESSAGE value="添加并发编程Thread内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加并发编程Thread内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/resources/sql/tables_mysql_innodb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/spring-boot/src/main/java/com/sansan/springboot/system/SystemResource.java" />
-    <entry file="file://$PROJECT_DIR$/src/lru/LRULinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/mappers/AddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_system/src/main/java/cn/gson/oasys/controller/plan/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1477,13 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-resource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-resource/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1504,13 +988,6 @@
     <entry file="file://$PROJECT_DIR$/spring-resource/target/classes/beans.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/user/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1528,6 +1005,67 @@
             <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/user/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-resource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
