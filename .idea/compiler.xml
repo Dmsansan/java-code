@@ -13,6 +13,7 @@
         <module name="spring" />
         <module name="spring-boot" />
         <module name="spring-boot-task" />
+        <module name="spring-mybatis" />
         <module name="springresource" />
       </profile>
       <profile name="Annotation profile for spring-boot-seckill" enabled="true">
@@ -32,6 +33,7 @@
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-seckill" target="1.5" />
       <module name="spring-boot-task" target="1.8" />
+      <module name="spring-mybatis" target="1.8" />
       <module name="springresource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
