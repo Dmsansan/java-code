@@ -2,7 +2,8 @@ package designType.main.com.sansan.cn.decorator;
 
 public class Decorator implements Sourceable {
     private Sourceable source;
-    public Decorator(Sourceable source){
+
+    public Decorator(Sourceable source) {
         super();
         this.source = source;
     }

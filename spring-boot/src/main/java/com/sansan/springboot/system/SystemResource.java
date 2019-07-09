@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SystemResource {
 
     @RequestMapping(value = "/sayHello", method = RequestMethod.GET, produces = "application/json;charset=utf-8")
-    public String sayHello(){
+    public String sayHello() {
         return "welcome to spring boot project";
     }
 }

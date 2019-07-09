@@ -19,108 +19,106 @@ import javax.persistence.Transient;
 import cn.gson.oasys.model.entity.user.User;
 
 @Entity
-@Table(name="aoa_reviewed")
+@Table(name = "aoa_reviewed")
 //审核表
 public class Reviewed {
 
-	@Id
-	@Column(name="reviewed_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long reviewedId;
-	
-	@ManyToOne
-	@JoinColumn(name="user_id")
-	private User userId;//审核人
-	
-	private String advice; //审核人意见
-	
-	private Long statusId;//审核人状态
-	
-	@Column(name="reviewed_time")
-	private Date reviewedTime;//审核时间
-	
-	@ManyToOne
-	@JoinColumn(name="pro_id")
-	private ProcessList proId;
-	
-	@Column(name="del")
-	private Boolean del=false;
-	
-	@Transient
-	private String username;//传过来的审核人的名字
-	
+    @Id
+    @Column(name = "reviewed_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long reviewedId;
 
-	public String getUsername() {
-		return username;
-	}
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User userId;//审核人
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    private String advice; //审核人意见
 
-	public Boolean getDel() {
-		return del;
-	}
+    private Long statusId;//审核人状态
 
-	public void setDel(Boolean del) {
-		this.del = del;
-	}
+    @Column(name = "reviewed_time")
+    private Date reviewedTime;//审核时间
 
-	public ProcessList getProId() {
-		return proId;
-	}
+    @ManyToOne
+    @JoinColumn(name = "pro_id")
+    private ProcessList proId;
 
-	public void setProId(ProcessList proId) {
-		this.proId = proId;
-	}
+    @Column(name = "del")
+    private Boolean del = false;
 
-	public Long getReviewedId() {
-		return reviewedId;
-	}
+    @Transient
+    private String username;//传过来的审核人的名字
 
-	public void setReviewedId(Long reviewedId) {
-		this.reviewedId = reviewedId;
-	}
 
-	public User getUserId() {
-		return userId;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public void setUserId(User userId) {
-		this.userId = userId;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public String getAdvice() {
-		return advice;
-	}
+    public Boolean getDel() {
+        return del;
+    }
 
-	public void setAdvice(String advice) {
-		this.advice = advice;
-	}
+    public void setDel(Boolean del) {
+        this.del = del;
+    }
 
-	public Long getStatusId() {
-		return statusId;
-	}
+    public ProcessList getProId() {
+        return proId;
+    }
 
-	public void setStatusId(Long statusId) {
-		this.statusId = statusId;
-	}
+    public void setProId(ProcessList proId) {
+        this.proId = proId;
+    }
 
-	public Date getReviewedTime() {
-		return reviewedTime;
-	}
+    public Long getReviewedId() {
+        return reviewedId;
+    }
 
-	public void setReviewedTime(Date reviewedTime) {
-		this.reviewedTime = reviewedTime;
-	}
+    public void setReviewedId(Long reviewedId) {
+        this.reviewedId = reviewedId;
+    }
 
-	@Override
-	public String toString() {
-		return "Reviewed [reviewedId=" + reviewedId + ", advice=" + advice + ", statusId=" + statusId
-				+ ", reviewedTime=" + reviewedTime + ", del=" + del + ", username=" + username + "]";
-	}
+    public User getUserId() {
+        return userId;
+    }
 
-	
-	
-	
+    public void setUserId(User userId) {
+        this.userId = userId;
+    }
+
+    public String getAdvice() {
+        return advice;
+    }
+
+    public void setAdvice(String advice) {
+        this.advice = advice;
+    }
+
+    public Long getStatusId() {
+        return statusId;
+    }
+
+    public void setStatusId(Long statusId) {
+        this.statusId = statusId;
+    }
+
+    public Date getReviewedTime() {
+        return reviewedTime;
+    }
+
+    public void setReviewedTime(Date reviewedTime) {
+        this.reviewedTime = reviewedTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Reviewed [reviewedId=" + reviewedId + ", advice=" + advice + ", statusId=" + statusId
+                + ", reviewedTime=" + reviewedTime + ", del=" + del + ", username=" + username + "]";
+    }
+
+
 }

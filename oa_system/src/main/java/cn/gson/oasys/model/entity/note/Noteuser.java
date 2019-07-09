@@ -8,67 +8,65 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="aoa_receiver_note")
+@Table(name = "aoa_receiver_note")
 public class Noteuser {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	
-	/**
-	 * 笔记id
-	 */
-	@Column(name = "note_id", nullable = false)
-	private Long noteId;
-	
-	/**
-	 * 用户id
-	 */
-	@Column(name = "user_id", nullable = false)
-	private Long userId;
 
-	public Long getId() {
-		return id;
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    /**
+     * 笔记id
+     */
+    @Column(name = "note_id", nullable = false)
+    private Long noteId;
 
-	public Long getNoteId() {
-		return noteId;
-	}
+    /**
+     * 用户id
+     */
+    @Column(name = "user_id", nullable = false)
+    private Long userId;
 
-	public void setNoteId(Long noteId) {
-		this.noteId = noteId;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public Long getUserId() {
-		return userId;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setUserId(Long userId) {
-		this.userId = userId;
-	}
+    public Long getNoteId() {
+        return noteId;
+    }
 
-	@Override
-	public String toString() {
-		return "Noteuser [id=" + id + ", noteId=" + noteId + ", userId=" + userId + "]";
-	}
+    public void setNoteId(Long noteId) {
+        this.noteId = noteId;
+    }
 
-	public Noteuser(Long id, Long noteId, Long userId) {
-		super();
-		this.id = id;
-		this.noteId = noteId;
-		this.userId = userId;
-	}
+    public Long getUserId() {
+        return userId;
+    }
 
-	public Noteuser() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
-	
-	
-	
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    @Override
+    public String toString() {
+        return "Noteuser [id=" + id + ", noteId=" + noteId + ", userId=" + userId + "]";
+    }
+
+    public Noteuser(Long id, Long noteId, Long userId) {
+        super();
+        this.id = id;
+        this.noteId = noteId;
+        this.userId = userId;
+    }
+
+    public Noteuser() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+
 }

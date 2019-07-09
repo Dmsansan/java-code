@@ -15,7 +15,7 @@ public class TestRedis {
      * 连接redis服务器
      */
     public void connectRedis() {
-        jedis= RedisConnect.getJedis();
+        jedis = RedisConnect.getJedis();
     }
 
     /**
@@ -35,9 +35,9 @@ public class TestRedis {
         System.out.println(jedis.get("name"));
 
         //设置多个键值对
-        jedis.mset("name","yc","age","22","qq","1933108196");
+        jedis.mset("name", "yc", "age", "22", "qq", "1933108196");
         jedis.incr("age");//加1操作
-        System.out.println(jedis.get("name") + "-" + jedis.get("age") + "-" +jedis.get("qq"));
+        System.out.println(jedis.get("name") + "-" + jedis.get("age") + "-" + jedis.get("qq"));
     }
 
 
@@ -46,7 +46,7 @@ public class TestRedis {
      */
     public void testMap() {
         //添加数据
-        Map<String,String> map = new HashMap<String,String>();
+        Map<String, String> map = new HashMap<String, String>();
 
         map.put("name", "yc");
         map.put("age", "22");
@@ -55,7 +55,7 @@ public class TestRedis {
 
         //取出users中的Name,执行结果:[minxr]-->注意结果是一个泛型的List
         //第一个参数是存入redis中map对象的key,后面跟的是放入map中对象的key,后面的key可以是多个，是可变的
-        List<String> rsmap = jedis.hmget("user", "name","age","qq");
+        List<String> rsmap = jedis.hmget("user", "name", "age", "qq");
         System.out.println(rsmap);
 
 
@@ -68,9 +68,9 @@ public class TestRedis {
         System.out.println(jedis.hvals("user"));//返回map对象中的所有value
 
         Iterator<String> iter = jedis.hkeys("user").iterator();
-        while(iter.hasNext()) {
+        while (iter.hasNext()) {
             String key = iter.next();
-            System.out.println(key+":" + jedis.hmget("user", key));
+            System.out.println(key + ":" + jedis.hmget("user", key));
         }
     }
 
@@ -83,7 +83,7 @@ public class TestRedis {
         System.out.println(jedis.lrange("java framework", 0, -1));
 
         //先向key java framework 中存放三条数据
-        jedis.lpush("java framework","spring");
+        jedis.lpush("java framework", "spring");
         jedis.lpush("java framework", "struts");
         jedis.lpush("java framework", "hibernate");
 
@@ -94,14 +94,13 @@ public class TestRedis {
         jedis.del("java framework");
         jedis.rpush("java framework", "spring");
         jedis.rpush("java framework", "struts");
-        jedis.rpush("java framework","hibernate");
+        jedis.rpush("java framework", "hibernate");
         System.out.println(jedis.lrange("java framework", 0, -1));
     }
 
 
     /**
      * redis操作set集合
-     *
      */
 
     public void testSet() {
@@ -109,7 +108,7 @@ public class TestRedis {
         //添加
         jedis.sadd("user", "liuling");
         jedis.sadd("user", "xinxin");
-        jedis.sadd("user","ling");
+        jedis.sadd("user", "ling");
         jedis.sadd("user", "zhangxinxin");
         jedis.sadd("user", "who");
 

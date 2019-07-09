@@ -5,13 +5,13 @@ public class Computer {
     private Memory memory;
     private Disk disk;
 
-    public Computer(){
+    public Computer() {
         cpu = new CPU();
         memory = new Memory();
         disk = new Disk();
     }
 
-    public void startUp(){
+    public void startUp() {
         System.out.println("start the computer");
         cpu.startUp();
         memory.startUp();
@@ -19,7 +19,7 @@ public class Computer {
         System.out.println("start computer finished");
     }
 
-    public void shutDown(){
+    public void shutDown() {
         System.out.println("shutdwon the computer");
         cpu.shutDown();
         memory.shutDown();

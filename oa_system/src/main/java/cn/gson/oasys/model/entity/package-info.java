@@ -1,7 +1,7 @@
 
 /**
  * 实体类
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.model.entity;

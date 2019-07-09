@@ -6,6 +6,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import cn.gson.oasys.model.entity.system.SystemMenu;
 
 
-public interface SystemMenuDao extends PagingAndSortingRepository<SystemMenu, Long>{
+public interface SystemMenuDao extends PagingAndSortingRepository<SystemMenu, Long> {
 
 }

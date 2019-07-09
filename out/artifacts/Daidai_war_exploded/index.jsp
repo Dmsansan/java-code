@@ -7,11 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  如何使用IDEA
-  </body>
+</head>
+<body>
+如何使用IDEA
+</body>
 </html>
 

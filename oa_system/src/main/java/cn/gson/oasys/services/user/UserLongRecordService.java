@@ -11,11 +11,11 @@ import cn.gson.oasys.model.entity.user.LoginRecord;
 @Service
 @Transactional
 public class UserLongRecordService {
-	@Autowired
-	private UserLogRecordDao  ulDao;
-	
-	public LoginRecord save(LoginRecord lr){
-		return ulDao.save(lr);
-	}
-	
+    @Autowired
+    private UserLogRecordDao ulDao;
+
+    public LoginRecord save(LoginRecord lr) {
+        return ulDao.save(lr);
+    }
+
 }

@@ -15,92 +15,86 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="aoa_voteList")
-public class VoteList{
-	
-	@Id
-	@Column(name="vote_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long voteId;				//主键id
-	
-	@Column(name="start_time")			//投票开始时间
-	private Date startTime;
-	
-	@Column(name="end_time")			//投票结束时间
-	private Date endTime;
-	
-	private Integer selectone;				//单选和多选
-	
-	@OneToOne(mappedBy = "voteList")
-	private Discuss discuss;
-	
-	@OneToMany(mappedBy="voteList",fetch=FetchType.LAZY,cascade=CascadeType.ALL)
-	private Set<VoteTitles> voteTitles;
-	
-	
-	
-	
+@Table(name = "aoa_voteList")
+public class VoteList {
 
-	public Integer getSelectone() {
-		return selectone;
-	}
+    @Id
+    @Column(name = "vote_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long voteId;                //主键id
 
-	public void setSelectone(Integer selectone) {
-		this.selectone = selectone;
-	}
+    @Column(name = "start_time")            //投票开始时间
+    private Date startTime;
 
-	public Set<VoteTitles> getVoteTitles() {
-		return voteTitles;
-	}
+    @Column(name = "end_time")            //投票结束时间
+    private Date endTime;
 
-	public void setVoteTitles(Set<VoteTitles> voteTitles) {
-		this.voteTitles = voteTitles;
-	}
+    private Integer selectone;                //单选和多选
 
-	public Discuss getDiscuss() {
-		return discuss;
-	}
+    @OneToOne(mappedBy = "voteList")
+    private Discuss discuss;
 
-	public void setDiscuss(Discuss discuss) {
-		this.discuss = discuss;
-	}
+    @OneToMany(mappedBy = "voteList", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private Set<VoteTitles> voteTitles;
 
-	public Long getVoteId() {
-		return voteId;
-	}
 
-	public void setVoteId(Long voteId) {
-		this.voteId = voteId;
-	}
+    public Integer getSelectone() {
+        return selectone;
+    }
 
-	public Date getStartTime() {
-		return startTime;
-	}
+    public void setSelectone(Integer selectone) {
+        this.selectone = selectone;
+    }
 
-	public void setStartTime(Date startTime) {
-		this.startTime = startTime;
-	}
+    public Set<VoteTitles> getVoteTitles() {
+        return voteTitles;
+    }
 
-	public Date getEndTime() {
-		return endTime;
-	}
+    public void setVoteTitles(Set<VoteTitles> voteTitles) {
+        this.voteTitles = voteTitles;
+    }
 
-	public void setEndTime(Date endTime) {
-		this.endTime = endTime;
-	}
+    public Discuss getDiscuss() {
+        return discuss;
+    }
 
-	public VoteList() {
-		super();
-	}
+    public void setDiscuss(Discuss discuss) {
+        this.discuss = discuss;
+    }
 
-	@Override
-	public String toString() {
-		return "VoteList [voteId=" + voteId + ", startTime=" + startTime + ", endTime=" + endTime + ", selectone=" + selectone
-				+ "]";
-	}
-	
-	
-	
-	
-	
+    public Long getVoteId() {
+        return voteId;
+    }
+
+    public void setVoteId(Long voteId) {
+        this.voteId = voteId;
+    }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(Date startTime) {
+        this.startTime = startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
+    }
+
+    public VoteList() {
+        super();
+    }
+
+    @Override
+    public String toString() {
+        return "VoteList [voteId=" + voteId + ", startTime=" + startTime + ", endTime=" + endTime + ", selectone=" + selectone
+                + "]";
+    }
+
+
 }

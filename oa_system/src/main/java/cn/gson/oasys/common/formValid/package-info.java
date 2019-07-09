@@ -1,7 +1,7 @@
 
 /**
  * 表单验证
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.common.formValid;

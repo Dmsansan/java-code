@@ -15,81 +15,81 @@ import javax.persistence.Table;
 @Table(name = "aoa_user_log")
 public class UserLog {
 
-	@Id
-	@Column(name = "log_id")
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;	//logid
-	
-	@Column(name = "ip_addr")
-	private String ipAddr;	//ip地址
-	
-	private String title;	//操作菜单名字
-	
-	private String url;		//操作菜单url
-	
-	@Column(name = "log_time")
-	private Date logTime;	//日志记录时间
-	
-	@ManyToOne
-	@JoinColumn(name = "user_id")
-	private User user;
+    @Id
+    @Column(name = "log_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;    //logid
 
-	public UserLog() {
+    @Column(name = "ip_addr")
+    private String ipAddr;    //ip地址
 
-	}
+    private String title;    //操作菜单名字
 
-	public Long getId() {
-		return id;
-	}
+    private String url;        //操作菜单url
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    @Column(name = "log_time")
+    private Date logTime;    //日志记录时间
 
-	public String getIpAddr() {
-		return ipAddr;
-	}
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
-	public void setIpAddr(String ipAddr) {
-		this.ipAddr = ipAddr;
-	}
+    public UserLog() {
 
-	public String getTitle() {
-		return title;
-	}
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public String getUrl() {
-		return url;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setUrl(String url) {
-		this.url = url;
-	}
+    public String getIpAddr() {
+        return ipAddr;
+    }
 
-	public Date getLogTime() {
-		return logTime;
-	}
+    public void setIpAddr(String ipAddr) {
+        this.ipAddr = ipAddr;
+    }
 
-	public void setLogTime(Date logTime) {
-		this.logTime = logTime;
-	}
-	
-	public User getUser() {
-		return user;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setUser(User user) {
-		this.user = user;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	@Override
-	public String toString() {
-		return "UserLog [id=" + id + ", ipAddr=" + ipAddr + ", title=" + title + ", url=" + url + ", logTime=" + logTime
-				+ "]";
-	}
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public Date getLogTime() {
+        return logTime;
+    }
+
+    public void setLogTime(Date logTime) {
+        this.logTime = logTime;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    @Override
+    public String toString() {
+        return "UserLog [id=" + id + ", ipAddr=" + ipAddr + ", title=" + title + ", url=" + url + ", logTime=" + logTime
+                + "]";
+    }
 
 }

@@ -9,13 +9,13 @@ import org.springframework.stereotype.Service;
 @Transactional
 public class CatalogService {
 
-	@Autowired
-	CatalogDao catalogDao;
-	
-	//删除
-		public int delete(long catalogId) {
-			return catalogDao.delete(catalogId);
-		}
-		
-	
+    @Autowired
+    CatalogDao catalogDao;
+
+    //删除
+    public int delete(long catalogId) {
+        return catalogDao.delete(catalogId);
+    }
+
+
 }

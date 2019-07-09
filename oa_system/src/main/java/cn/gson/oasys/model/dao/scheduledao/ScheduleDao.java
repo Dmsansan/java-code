@@ -9,8 +9,8 @@ import org.springframework.stereotype.Repository;
 import cn.gson.oasys.model.entity.schedule.ScheduleList;
 
 @Repository
-public interface ScheduleDao extends JpaRepository<ScheduleList, Long>{
+public interface ScheduleDao extends JpaRepository<ScheduleList, Long> {
 
-	@Query("from ScheduleList s where s.user.userId=?1")
-	List<ScheduleList> findstart(long userid);
+    @Query("from ScheduleList s where s.user.userId=?1")
+    List<ScheduleList> findstart(long userid);
 }

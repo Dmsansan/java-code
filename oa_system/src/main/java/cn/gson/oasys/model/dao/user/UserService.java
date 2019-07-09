@@ -16,19 +16,18 @@ import cn.gson.oasys.model.entity.user.User;
 @Service
 public class UserService {
 
-	@Autowired
-	UserDao userDao;
-	
-	//找到该管理员下面的所有用户并且分页
-	public Page<User> findmyemployuser(int page, String baseKey,long parentid) {
-		Pageable pa=new  PageRequest(page, 10);
-		if (!StringUtils.isEmpty(baseKey)) {
-			// 模糊查询
-			return userDao.findbyFatherId(baseKey, parentid, pa);
-		}
-		else{
-			return userDao.findByFatherId(parentid, pa);
-		}
-		
-	}
+    @Autowired
+    UserDao userDao;
+
+    //找到该管理员下面的所有用户并且分页
+    public Page<User> findmyemployuser(int page, String baseKey, long parentid) {
+        Pageable pa = new PageRequest(page, 10);
+        if (!StringUtils.isEmpty(baseKey)) {
+            // 模糊查询
+            return userDao.findbyFatherId(baseKey, parentid, pa);
+        } else {
+            return userDao.findByFatherId(parentid, pa);
+        }
+
+    }
 }

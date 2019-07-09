@@ -6,83 +6,84 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
 /**
  * 职位类
- * @author Administrator
  *
+ * @author Administrator
  */
 @Entity
 @Table(name = "aoa_position")
 public class Position {
 
-	@Id
-	@Column(name = "position_id")
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;	//职位id
-	
-	@Column(unique = true)
-	private String name;	//职位名称。
-	
-	private Integer level;	//职位层级
-	
-	private String describtion;//职位描述
-	
-	private Long deptid;
+    @Id
+    @Column(name = "position_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;    //职位id
 
-	public Position() {
+    @Column(unique = true)
+    private String name;    //职位名称。
 
-	}
-	
-	public Position(String name, Integer level) {
-		
-		this.name = name;
-		this.level = level;
-	}
+    private Integer level;    //职位层级
 
-	public Long getId() {
-		return id;
-	}
+    private String describtion;//职位描述
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    private Long deptid;
 
-	public String getName() {
-		return name;
-	}
+    public Position() {
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    }
 
-	public Integer getLevel() {
-		return level;
-	}
+    public Position(String name, Integer level) {
 
-	public void setLevel(Integer level) {
-		this.level = level;
-	}
-	
-	public String getDescribtion() {
-		return describtion;
-	}
+        this.name = name;
+        this.level = level;
+    }
 
-	public void setDescribtion(String describtion) {
-		this.describtion = describtion;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public Long getDeptid() {
-		return deptid;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public void setDeptid(Long deptid) {
-		this.deptid = deptid;
-	}
+    public String getName() {
+        return name;
+    }
 
-	@Override
-	public String toString() {
-		return "Position [id=" + id + ", name=" + name + ", level=" + level + ", describtion=" + describtion
-				+ ", deptid=" + deptid + "]";
-	}
-	
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getLevel() {
+        return level;
+    }
+
+    public void setLevel(Integer level) {
+        this.level = level;
+    }
+
+    public String getDescribtion() {
+        return describtion;
+    }
+
+    public void setDescribtion(String describtion) {
+        this.describtion = describtion;
+    }
+
+    public Long getDeptid() {
+        return deptid;
+    }
+
+    public void setDeptid(Long deptid) {
+        this.deptid = deptid;
+    }
+
+    @Override
+    public String toString() {
+        return "Position [id=" + id + ", name=" + name + ", level=" + level + ", describtion=" + describtion
+                + ", deptid=" + deptid + "]";
+    }
+
 }

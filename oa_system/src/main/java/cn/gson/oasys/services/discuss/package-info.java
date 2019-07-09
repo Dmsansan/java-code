@@ -1,7 +1,7 @@
 
 /**
  * 讨论区services
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.services.discuss;

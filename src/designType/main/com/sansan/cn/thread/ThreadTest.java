@@ -41,10 +41,10 @@ public class ThreadTest {
         Thread t = new Thread(new Process3());
         t.start();
         for (int i = 0; i < 11; i++) {
-            System.out.println(Thread.currentThread().getName()+"====================>"+i);
-            try{
+            System.out.println(Thread.currentThread().getName() + "====================>" + i);
+            try {
                 t.sleep(5000);
-            }catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }

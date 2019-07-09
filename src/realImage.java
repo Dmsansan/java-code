@@ -1,7 +1,7 @@
-public class realImage implements Image{
+public class realImage implements Image {
     private String fileName;
 
-    public realImage(String fileName){
+    public realImage(String fileName) {
         this.fileName = fileName;
         loadFromDisk(fileName);
     }
@@ -11,7 +11,7 @@ public class realImage implements Image{
         System.out.println("Displaying " + fileName);
     }
 
-    private void loadFromDisk(String fileName){
+    private void loadFromDisk(String fileName) {
         System.out.println("Loading " + fileName);
     }
 }

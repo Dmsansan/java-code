@@ -16,25 +16,25 @@ public class TestMysql {
         String s = jedis.get(redisKey);
         long redisEnd = System.currentTimeMillis();
 
-        if(s != null){
-            System.out.println("查询数据时间："+(redisEnd-redisStr));
+        if (s != null) {
+            System.out.println("查询数据时间：" + (redisEnd - redisStr));
             List<UserInfo> list = JSON.parseArray(s, UserInfo.class);
             System.out.println("从redis 缓存数据库加载数据");
-            for(UserInfo userInfo : list){
-                System.out.println(userInfo.getId()+userInfo.getUserCode()+
-                        userInfo.getUserName()+userInfo.getCreateTime());
+            for (UserInfo userInfo : list) {
+                System.out.println(userInfo.getId() + userInfo.getUserCode() +
+                        userInfo.getUserName() + userInfo.getCreateTime());
             }
 
-        }else{
+        } else {
             long mysqlStr = System.currentTimeMillis();
             List<UserInfo> list = UserOperation.getInstance().selectUserInfo();
             long mysqlEnd = System.currentTimeMillis();
-            System.out.println("查询数据时间："+(mysqlEnd-mysqlStr));
+            System.out.println("查询数据时间：" + (mysqlEnd - mysqlStr));
 
             System.out.println("从mysql 数据库获取数据");
-            for(UserInfo userInfo : list){
-                System.out.println(userInfo.getId()+userInfo.getUserCode()+
-                        userInfo.getUserName()+userInfo.getCreateTime());
+            for (UserInfo userInfo : list) {
+                System.out.println(userInfo.getId() + userInfo.getUserCode() +
+                        userInfo.getUserName() + userInfo.getCreateTime());
             }
 
             String userJson = JSON.toJSONString(list);

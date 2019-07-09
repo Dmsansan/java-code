@@ -13,91 +13,91 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="aoa_detailsburse")
+@Table(name = "aoa_detailsburse")
 //报销费用明细表
 public class DetailsBurse {
 
-	@Id
-	@Column(name="detailsburse_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long detailsburseId;
-	
-	private Date produceTime;//费用产生时间
-	
-	private String 	subject;//费用产生科目
-	
-	private String descript;//费用说明
-	
-	private Integer invoices ;//票据张数
-	
-	private double detailmoney;//报销金额
-	
-	@ManyToOne()
-	@JoinColumn(name="bursment_id")
-	private Bursement burs;//对应报销表
-	
+    @Id
+    @Column(name = "detailsburse_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long detailsburseId;
 
-	public Bursement getBurs() {
-		return burs;
-	}
+    private Date produceTime;//费用产生时间
 
-	public void setBurs(Bursement burs) {
-		this.burs = burs;
-	}
+    private String subject;//费用产生科目
 
-	public Long getDetailsburseId() {
-		return detailsburseId;
-	}
+    private String descript;//费用说明
 
-	public void setDetailsburseId(Long detailsburseId) {
-		this.detailsburseId = detailsburseId;
-	}
+    private Integer invoices;//票据张数
 
-	public Date getProduceTime() {
-		return produceTime;
-	}
+    private double detailmoney;//报销金额
 
-	public void setProduceTime(Date produceTime) {
-		this.produceTime = produceTime;
-	}
+    @ManyToOne()
+    @JoinColumn(name = "bursment_id")
+    private Bursement burs;//对应报销表
 
-	public String getSubject() {
-		return subject;
-	}
 
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
+    public Bursement getBurs() {
+        return burs;
+    }
 
-	public String getDescript() {
-		return descript;
-	}
+    public void setBurs(Bursement burs) {
+        this.burs = burs;
+    }
 
-	public void setDescript(String descript) {
-		this.descript = descript;
-	}
+    public Long getDetailsburseId() {
+        return detailsburseId;
+    }
 
-	public Integer getInvoices() {
-		return invoices;
-	}
+    public void setDetailsburseId(Long detailsburseId) {
+        this.detailsburseId = detailsburseId;
+    }
 
-	public void setInvoices(Integer invoices) {
-		this.invoices = invoices;
-	}
+    public Date getProduceTime() {
+        return produceTime;
+    }
 
-	public double getDetailmoney() {
-		return detailmoney;
-	}
+    public void setProduceTime(Date produceTime) {
+        this.produceTime = produceTime;
+    }
 
-	public void setDetailmoney(double detailmoney) {
-		this.detailmoney = detailmoney;
-	}
+    public String getSubject() {
+        return subject;
+    }
 
-	@Override
-	public String toString() {
-		return "DetailsBurse [detailsburseId=" + detailsburseId + ", produceTime=" + produceTime + ", subject="
-				+ subject + ", descript=" + descript + ", invoices=" + invoices + ", detailmoney=" + detailmoney + "]";
-	}
-	
-	
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getDescript() {
+        return descript;
+    }
+
+    public void setDescript(String descript) {
+        this.descript = descript;
+    }
+
+    public Integer getInvoices() {
+        return invoices;
+    }
+
+    public void setInvoices(Integer invoices) {
+        this.invoices = invoices;
+    }
+
+    public double getDetailmoney() {
+        return detailmoney;
+    }
+
+    public void setDetailmoney(double detailmoney) {
+        this.detailmoney = detailmoney;
+    }
+
+    @Override
+    public String toString() {
+        return "DetailsBurse [detailsburseId=" + detailsburseId + ", produceTime=" + produceTime + ", subject="
+                + subject + ", descript=" + descript + ", invoices=" + invoices + ", detailmoney=" + detailmoney + "]";
+    }
+
+
 }

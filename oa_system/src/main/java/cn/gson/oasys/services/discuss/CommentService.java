@@ -11,16 +11,16 @@ import cn.gson.oasys.model.entity.discuss.Comment;
 @Service
 @Transactional
 public class CommentService {
-	@Autowired
-	private CommentDao commentDao;
-	
-	//保存
-	public Comment save(Comment comment){
-		return commentDao.save(comment);
-	}
-	
-	public void deleteComment(Long comment){
-		commentDao.delete(comment);
-	}
+    @Autowired
+    private CommentDao commentDao;
+
+    //保存
+    public Comment save(Comment comment) {
+        return commentDao.save(comment);
+    }
+
+    public void deleteComment(Long comment) {
+        commentDao.delete(comment);
+    }
 
 }

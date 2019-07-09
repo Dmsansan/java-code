@@ -10,7 +10,8 @@ package cn.gson.oasys.common.formValid;
 public enum ResultEnum {
     ERROR(2, "验证失败"),
     SUCCESS(200, "成功"),
-    NONETYPE(1, "找不到参数"),;
+    NONETYPE(1, "找不到参数"),
+    ;
 
     private Integer code;
     private String message;

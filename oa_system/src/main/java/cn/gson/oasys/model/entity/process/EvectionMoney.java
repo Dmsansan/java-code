@@ -15,134 +15,128 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name="aoa_evectionmoney")
+@Table(name = "aoa_evectionmoney")
 //出差费用申请表
 public class EvectionMoney {
 
-	@Id
-	@Column(name="evectionmoney_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long evectionmoneyId;
-	
-	private Double money; //申请总金额
-	
-	private String name; //关联客户
-	
-	@Column(name="manager_advice")
-	private String managerAdvice;//经理意见及说明
-	
-	@Column(name="financial_advice")
-	private String financialAdvice;//财务部意见及说明
-	
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="pro_id")
-	private ProcessList proId;
-	
-	private Long pro;
-	
-	@OneToMany(cascade=CascadeType.ALL,mappedBy="evection")
-	List<Traffic> traffic;
-	
-	@OneToMany(cascade=CascadeType.ALL,mappedBy="evemoney")
-	List<Stay> stay;
-	
-	@Transient
-	private String shenname;//审核人员
-	
-	
+    @Id
+    @Column(name = "evectionmoney_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long evectionmoneyId;
 
-	public String getShenname() {
-		return shenname;
-	}
+    private Double money; //申请总金额
 
-	public void setShenname(String shenname) {
-		this.shenname = shenname;
-	}
+    private String name; //关联客户
 
-	public Long getEvectionmoneyId() {
-		return evectionmoneyId;
-	}
+    @Column(name = "manager_advice")
+    private String managerAdvice;//经理意见及说明
 
-	public void setEvectionmoneyId(Long evectionmoneyId) {
-		this.evectionmoneyId = evectionmoneyId;
-	}
+    @Column(name = "financial_advice")
+    private String financialAdvice;//财务部意见及说明
 
-	public Double getMoney() {
-		return money;
-	}
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "pro_id")
+    private ProcessList proId;
 
-	public void setMoney(Double money) {
-		this.money = money;
-	}
+    private Long pro;
 
-	public String getName() {
-		return name;
-	}
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "evection")
+    List<Traffic> traffic;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "evemoney")
+    List<Stay> stay;
 
-	public String getManagerAdvice() {
-		return managerAdvice;
-	}
+    @Transient
+    private String shenname;//审核人员
 
-	public void setManagerAdvice(String managerAdvice) {
-		this.managerAdvice = managerAdvice;
-	}
 
-	public String getFinancialAdvice() {
-		return financialAdvice;
-	}
+    public String getShenname() {
+        return shenname;
+    }
 
-	public void setFinancialAdvice(String financialAdvice) {
-		this.financialAdvice = financialAdvice;
-	}
+    public void setShenname(String shenname) {
+        this.shenname = shenname;
+    }
 
-	public ProcessList getProId() {
-		return proId;
-	}
+    public Long getEvectionmoneyId() {
+        return evectionmoneyId;
+    }
 
-	public void setProId(ProcessList proId) {
-		this.proId = proId;
-	}
+    public void setEvectionmoneyId(Long evectionmoneyId) {
+        this.evectionmoneyId = evectionmoneyId;
+    }
 
-	public List<Traffic> getTraffic() {
-		return traffic;
-	}
+    public Double getMoney() {
+        return money;
+    }
 
-	public void setTraffic(List<Traffic> traffic) {
-		this.traffic = traffic;
-	}
+    public void setMoney(Double money) {
+        this.money = money;
+    }
 
-	public List<Stay> getStay() {
-		return stay;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setStay(List<Stay> stay) {
-		this.stay = stay;
-	}
-	
-	
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public Long getPro() {
-		return pro;
-	}
+    public String getManagerAdvice() {
+        return managerAdvice;
+    }
 
-	public void setPro(Long pro) {
-		this.pro = pro;
-	}
+    public void setManagerAdvice(String managerAdvice) {
+        this.managerAdvice = managerAdvice;
+    }
 
-	@Override
-	public String toString() {
-		return "EvectionMoney [evectionmoneyId=" + evectionmoneyId + ", money=" + money + ", name=" + name
-				+ ", managerAdvice=" + managerAdvice + ", financialAdvice=" + financialAdvice + ", pro=" + pro
-				+ ", shenname=" + shenname + "]";
-	}
+    public String getFinancialAdvice() {
+        return financialAdvice;
+    }
 
-	
+    public void setFinancialAdvice(String financialAdvice) {
+        this.financialAdvice = financialAdvice;
+    }
 
-	
-	
-	
+    public ProcessList getProId() {
+        return proId;
+    }
+
+    public void setProId(ProcessList proId) {
+        this.proId = proId;
+    }
+
+    public List<Traffic> getTraffic() {
+        return traffic;
+    }
+
+    public void setTraffic(List<Traffic> traffic) {
+        this.traffic = traffic;
+    }
+
+    public List<Stay> getStay() {
+        return stay;
+    }
+
+    public void setStay(List<Stay> stay) {
+        this.stay = stay;
+    }
+
+
+    public Long getPro() {
+        return pro;
+    }
+
+    public void setPro(Long pro) {
+        this.pro = pro;
+    }
+
+    @Override
+    public String toString() {
+        return "EvectionMoney [evectionmoneyId=" + evectionmoneyId + ", money=" + money + ", name=" + name
+                + ", managerAdvice=" + managerAdvice + ", financialAdvice=" + financialAdvice + ", pro=" + pro
+                + ", shenname=" + shenname + "]";
+    }
+
+
 }

@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring.iml" filepath="$PROJECT_DIR$/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" filepath="$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-resource/springresource.iml" filepath="$PROJECT_DIR$/spring-resource/springresource.iml" />
     </modules>
   </component>

@@ -16,22 +16,18 @@ import cn.gson.oasys.services.inform.InformService;
 //@RunWith(SpringRunner.class)
 //@SpringBootTest
 public class OasysApplicationTests {
-	
-	@Autowired
-	private NoticeMapper nm;
-	
-	@Autowired
-	private InformService informService;
-	
-	
 
-		
+    @Autowired
+    private NoticeMapper nm;
+
+    @Autowired
+    private InformService informService;
+
+
 //		List<Map<String, Object>> list=informService.informList(listOne);
 //		for (Map<String, Object> map : list) {
 //			System.out.println(map);
 //		}
 
-	
-	
 
 }

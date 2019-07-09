@@ -7,14 +7,16 @@ package designType.main.com.sansan.cn.singleton;
 public class Singleton {
     //实例化对象instance,私有的
     private static Singleton instance;
+
     //构造方法为私有属性，外部类无法通过new来实例化该对象
-    private Singleton(){
+    private Singleton() {
 
     }
+
     //全局函数的实现，返回instance对象
-    public static Singleton getInstance(){
-        if(instance==null){
-            instance =new Singleton();
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
         }
         return instance;
     }

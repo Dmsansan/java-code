@@ -4,7 +4,6 @@
  */
 
 
-
 /**
  * 表达式重置为默认值
  */
@@ -19,14 +18,14 @@ function everyTime(dom) {
  入参为元素的名字
  */
 function everyTimeByName(v_name) {
-    var item = $("span[name=" +v_name + "]");
+    var item = $("span[name=" + v_name + "]");
     item.html("*");
     item.change();
 }
 
 //清除表达式的值
-function clearSpan(dom){
-    var item = $("span[name=v_" +dom.name + "]");
+function clearSpan(dom) {
+    var item = $("span[name=v_" + dom.name + "]");
     item.html("");
     item.change();
 }
@@ -60,7 +59,7 @@ function unAppointByName(v_name) {
 }
 
 //最后一日
-function lastDay(dom){
+function lastDay(dom) {
     var item = $("span[name=v_" + dom.name + "]");
     item.html("L");
     item.change();
@@ -69,7 +68,7 @@ function lastDay(dom){
 /**
  * 书写有前后的公式，包括 1-2 1/2 1#2 等
  */
-function writeStartAndEnd(dom,sym) {
+function writeStartAndEnd(dom, sym) {
     var name = dom.name;
     var ns = $(dom).closest('.radiocheck').find(".numberspinner");
     var start = ns.eq(0).val();
@@ -80,7 +79,7 @@ function writeStartAndEnd(dom,sym) {
 }
 
 //书写只有前的工时，包括1W 1L等
-function writeEnd(dom,sym){
+function writeEnd(dom, sym) {
     var name = dom.name;
     var ns = $(dom).closest('.radiocheck').find(".numberspinner");
     var value = ns.eq(0).val();
@@ -91,13 +90,13 @@ function writeEnd(dom,sym){
 
 
 //点击div中的内容，对应radio即被选中的功能
-function radioCheckByClick(dom){
+function radioCheckByClick(dom) {
     var theRadio = $(dom).find(':radio');
     theRadio.eq(0).iCheck('check');
 }
 
 //从checkList更新span的通用方法
-function changeSpanFromCheckList(checkList,maxvalue,spanname){
+function changeSpanFromCheckList(checkList, maxvalue, spanname) {
     var vals = [];
     checkList.each(function () {
         if (this.checked) {
@@ -107,10 +106,10 @@ function changeSpanFromCheckList(checkList,maxvalue,spanname){
     var val = "?";
     if (vals.length > 0 && vals.length < maxvalue) {
         val = vals.join(",");
-    }else if(vals.length == maxvalue){
+    } else if (vals.length == maxvalue) {
         val = "*";
     }
-    var item = $("span[name=v_"+spanname+"]");
+    var item = $("span[name=v_" + spanname + "]");
     item.html(val);
     item.change();
 }
@@ -127,34 +126,34 @@ function reverseExp() {
         expObj(regs[2], "hour");
         expDay(regs[3], "day");
         expObj(regs[4], "month");
-        expWeek(regs[5],"week");
+        expWeek(regs[5], "week");
 
         if (regs.length > 6) {
             $("span[name=v_year]").html(regs[6]);
-            expYear(regs[6],"year");
+            expYear(regs[6], "year");
         }
     }
 }
 
 //解析时分秒月
-function expObj(val,type){
+function expObj(val, type) {
     //表达式结果框赋值
-    $("span[name=v_"+type+"]").html(val);
+    $("span[name=v_" + type + "]").html(val);
     //寻找对应类型的radio列表
-    var radios = $(":radio[name="+type+"]");
+    var radios = $(":radio[name=" + type + "]");
     var ary = null;
     //根据值的类型进行判断与对应赋值，以及radio的选中。
     if (val == "*") {
         radios.eq(0).iCheck("check");
     } else if (val.split('-').length > 1) {
         ary = val.split('-');
-        $(":text[name="+type+"]").eq(0).val(ary[0]);
-        $(":text[name="+type+"]").eq(1).val(ary[1]);
+        $(":text[name=" + type + "]").eq(0).val(ary[0]);
+        $(":text[name=" + type + "]").eq(1).val(ary[1]);
         radios.eq(1).iCheck("check");
     } else if (val.split('/').length > 1) {
         ary = val.split('/');
-        $(":text[name="+type+"]").eq(2).val(ary[0]);
-        $(":text[name="+type+"]").eq(3).val(ary[1]);
+        $(":text[name=" + type + "]").eq(2).val(ary[0]);
+        $(":text[name=" + type + "]").eq(3).val(ary[1]);
         radios.eq(2).iCheck("check");
     } else {
         if (val != "?") {
@@ -168,34 +167,34 @@ function expObj(val,type){
 }
 
 //解析日
-function expDay(val,type){
+function expDay(val, type) {
     //表达式结果框赋值
-    $("span[name=v_"+type+"]").html(val);
+    $("span[name=v_" + type + "]").html(val);
     //寻找对应类型的radio列表
-    var radios = $(":radio[name="+type+"]");
+    var radios = $(":radio[name=" + type + "]");
     var ary = null;
     //根据值的类型进行判断与对应赋值，以及radio的选中。
     if (val == "*") {
         radios.eq(0).iCheck("check");
-    }else if (val == "?") {
+    } else if (val == "?") {
         radios.eq(1).iCheck("check");
-    }else if (val == "L") {
+    } else if (val == "L") {
         radios.eq(2).iCheck("check");
-    }else if (val.split('-').length > 1) {
+    } else if (val.split('-').length > 1) {
         ary = val.split('-');
-        $(":text[name="+type+"]").eq(0).val(ary[0]);
-        $(":text[name="+type+"]").eq(1).val(ary[1]);
+        $(":text[name=" + type + "]").eq(0).val(ary[0]);
+        $(":text[name=" + type + "]").eq(1).val(ary[1]);
         radios.eq(3).iCheck("check");
     } else if (val.split('/').length > 1) {
         ary = val.split('/');
-        $(":text[name="+type+"]").eq(2).val(ary[0]);
-        $(":text[name="+type+"]").eq(3).val(ary[1]);
+        $(":text[name=" + type + "]").eq(2).val(ary[0]);
+        $(":text[name=" + type + "]").eq(3).val(ary[1]);
         radios.eq(4).iCheck("check");
     } else if (val.split('W').length > 1) {
         ary = val.split('W');
-        $(":text[name="+type+"]").eq(4).val(ary[0]);
+        $(":text[name=" + type + "]").eq(4).val(ary[0]);
         radios.eq(5).iCheck("check");
-    }else {
+    } else {
         if (val != "?") {
             ary = val.split(",");
             for (var i = 0; i < ary.length; i++) {
@@ -207,37 +206,37 @@ function expDay(val,type){
 }
 
 //解析周
-function expWeek(val,type){
+function expWeek(val, type) {
     //表达式结果框赋值
-    $("span[name=v_"+type+"]").html(val);
+    $("span[name=v_" + type + "]").html(val);
     //寻找对应类型的radio列表
-    var radios = $(":radio[name="+type+"]");
+    var radios = $(":radio[name=" + type + "]");
     var ary = null;
     //根据值的类型进行判断与对应赋值，以及radio的选中。
     if (val == "*") {
         radios.eq(0).iCheck("check");
-    }else if (val == "?") {
+    } else if (val == "?") {
         radios.eq(1).iCheck("check");
-    }else if (val.split('-').length > 1) {
+    } else if (val.split('-').length > 1) {
         ary = val.split('-');
-        $(":text[name="+type+"]").eq(0).val(ary[0]);
-        $(":text[name="+type+"]").eq(1).val(ary[1]);
+        $(":text[name=" + type + "]").eq(0).val(ary[0]);
+        $(":text[name=" + type + "]").eq(1).val(ary[1]);
         radios.eq(2).iCheck("check");
     } else if (val.split('/').length > 1) {
         ary = val.split('/');
-        $(":text[name="+type+"]").eq(2).val(ary[0]);
-        $(":text[name="+type+"]").eq(3).val(ary[1]);
+        $(":text[name=" + type + "]").eq(2).val(ary[0]);
+        $(":text[name=" + type + "]").eq(3).val(ary[1]);
         radios.eq(3).iCheck("check");
-    }else if (val.split('#').length > 1) {
+    } else if (val.split('#').length > 1) {
         ary = val.split('#');
-        $(":text[name="+type+"]").eq(4).val(ary[0]);
-        $(":text[name="+type+"]").eq(5).val(ary[1]);
+        $(":text[name=" + type + "]").eq(4).val(ary[0]);
+        $(":text[name=" + type + "]").eq(5).val(ary[1]);
         radios.eq(4).iCheck("check");
     } else if (val.split('L').length > 1) {
         ary = val.split('L');
-        $(":text[name="+type+"]").eq(6).val(ary[0]);
+        $(":text[name=" + type + "]").eq(6).val(ary[0]);
         radios.eq(5).iCheck("check");
-    }else {
+    } else {
         if (val != "?") {
             ary = val.split(",");
             for (var i = 0; i < ary.length; i++) {
@@ -249,19 +248,19 @@ function expWeek(val,type){
 }
 
 //解析年
-function expYear(val,type){
+function expYear(val, type) {
     //表达式结果框赋值
-    $("span[name=v_"+type+"]").html(val);
+    $("span[name=v_" + type + "]").html(val);
     //寻找对应类型的radio列表
-    var radios = $(":radio[name="+type+"]");
+    var radios = $(":radio[name=" + type + "]");
     var ary = null;
     //根据值的类型进行判断与对应赋值，以及radio的选中。
     if (val == "*") {
         radios.eq(1).iCheck("check");
-    }else if (val.split('-').length > 1) {
+    } else if (val.split('-').length > 1) {
         ary = val.split('-');
-        $(":text[name="+type+"]").eq(0).val(ary[0]);
-        $(":text[name="+type+"]").eq(1).val(ary[1]);
+        $(":text[name=" + type + "]").eq(0).val(ary[0]);
+        $(":text[name=" + type + "]").eq(1).val(ary[1]);
         radios.eq(2).iCheck("check");
     }
 }

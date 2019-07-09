@@ -15,36 +15,36 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="aoa_voteTitles")
-public class VoteTitles{
-		
-	@Id
-	@Column(name="title_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private  Long titleId;
-	
+@Table(name = "aoa_voteTitles")
+public class VoteTitles {
+
+    @Id
+    @Column(name = "title_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long titleId;
+
 //	@Column(name="vote_id")				//投票id
 //	private Long voteId;				
-	
-	private String  title;				//投票标题
-	
-	private String color;				//进度条颜色
-	
-	@OneToMany(mappedBy="voteTitles",fetch=FetchType.LAZY,cascade=CascadeType.ALL)
-	private Set<VoteTitleUser> voteTitleUsers;
-	
-	@ManyToOne
-	@JoinColumn(name = "vote_id")
-	private VoteList voteList;			//关联投标表      投票id
 
-	
-	public Long getTitleId() {
-		return titleId;
-	}
+    private String title;                //投票标题
 
-	public void setTitleId(Long titleId) {
-		this.titleId = titleId;
-	}
+    private String color;                //进度条颜色
+
+    @OneToMany(mappedBy = "voteTitles", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private Set<VoteTitleUser> voteTitleUsers;
+
+    @ManyToOne
+    @JoinColumn(name = "vote_id")
+    private VoteList voteList;            //关联投标表      投票id
+
+
+    public Long getTitleId() {
+        return titleId;
+    }
+
+    public void setTitleId(Long titleId) {
+        this.titleId = titleId;
+    }
 
 //	public Long getVoteId() {
 //		return voteId;
@@ -53,43 +53,40 @@ public class VoteTitles{
 //	public void setVoteId(Long voteId) {
 //		this.voteId = voteId;
 //	}
-	
-	
 
-	public String getTitle() {
-		return title;
-	}
 
-	public VoteList getVoteList() {
-		return voteList;
-	}
+    public String getTitle() {
+        return title;
+    }
 
-	public void setVoteList(VoteList voteList) {
-		this.voteList = voteList;
-	}
+    public VoteList getVoteList() {
+        return voteList;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public void setVoteList(VoteList voteList) {
+        this.voteList = voteList;
+    }
 
-	public String getColor() {
-		return color;
-	}
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-	public void setColor(String color) {
-		this.color = color;
-	}
+    public String getColor() {
+        return color;
+    }
 
-	public VoteTitles() {
-		super();
-	}
+    public void setColor(String color) {
+        this.color = color;
+    }
 
-	@Override
-	public String toString() {
-		return "VoteTitles [titleId=" + titleId + ", title=" + title + ", color=" + color + "]";
-	}
-	
-	
-	
-	
+    public VoteTitles() {
+        super();
+    }
+
+    @Override
+    public String toString() {
+        return "VoteTitles [titleId=" + titleId + ", title=" + title + ", color=" + color + "]";
+    }
+
+
 }

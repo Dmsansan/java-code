@@ -20,156 +20,155 @@ import cn.gson.oasys.model.entity.user.User;
 @Entity
 @Table(name = "aoa_file_list")
 public class FileList {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "file_id")
-	private Long fileId;	//文件id
-	
-	@Column(name = "file_name")
-	private String fileName;	//文件名字
-	
-	@Column(name = "file_path")
-	private String filePath;	//文件路径
-	
-	private Long size;	//文件大小
-	
-	@Column(name = "content_type")
-	private String contentType;	//文件类型id
-	
-	@Column(name = "upload_time")
-	private Date uploadTime;	//上传时间
-	
-	private String model;		//所属模块
-	
-	@Column(name = "file_shuffix")
-	private String fileShuffix;	//文件后缀名
-	
-	@Column(name = "file_istrash")
-	private Long fileIstrash = 0L;
-	
-	@Column(name = "file_isshare")
-	private Long fileIsshare = 0L;
 
-	
-	@ManyToOne
-	@JoinColumn(name = "file_user_id")
-	private User user;			//外键关联用户表  -文件上传者
-	
-	@ManyToOne
-	@JoinColumn(name = "path_id")
-	@JsonIgnore
-	private FilePath fpath;
-	
-	public FileList() {
-		
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "file_id")
+    private Long fileId;    //文件id
 
-	public Long getFileId() {
-		return fileId;
-	}
+    @Column(name = "file_name")
+    private String fileName;    //文件名字
 
-	public void setFileId(Long fileId) {
-		this.fileId = fileId;
-	}
+    @Column(name = "file_path")
+    private String filePath;    //文件路径
 
-	public String getFileName() {
-		return fileName;
-	}
+    private Long size;    //文件大小
 
-	public void setFileName(String fileName) {
-		this.fileName = fileName;
-	}
+    @Column(name = "content_type")
+    private String contentType;    //文件类型id
 
-	public String getFilePath() {
-		return filePath;
-	}
+    @Column(name = "upload_time")
+    private Date uploadTime;    //上传时间
 
-	public void setFilePath(String filePath) {
-		this.filePath = filePath;
-	}
+    private String model;        //所属模块
 
-	public Long getSize() {
-		return size;
-	}
+    @Column(name = "file_shuffix")
+    private String fileShuffix;    //文件后缀名
 
-	public void setSize(Long size) {
-		this.size = size;
-	}
+    @Column(name = "file_istrash")
+    private Long fileIstrash = 0L;
 
-	public String getContentType() {
-		return contentType;
-	}
+    @Column(name = "file_isshare")
+    private Long fileIsshare = 0L;
 
-	public void setContentType(String contentType) {
-		this.contentType = contentType;
-	}
 
-	public Date getUploadTime() {
-		return uploadTime;
-	}
+    @ManyToOne
+    @JoinColumn(name = "file_user_id")
+    private User user;            //外键关联用户表  -文件上传者
 
-	public void setUploadTime(Date uploadTime) {
-		this.uploadTime = uploadTime;
-	}
+    @ManyToOne
+    @JoinColumn(name = "path_id")
+    @JsonIgnore
+    private FilePath fpath;
 
-	
-	public String getModel() {
-		return model;
-	}
+    public FileList() {
 
-	public void setModel(String model) {
-		this.model = model;
-	}
+    }
 
-	public String getFileShuffix() {
-		return fileShuffix;
-	}
+    public Long getFileId() {
+        return fileId;
+    }
 
-	public void setFileShuffix(String fileShuffix) {
-		this.fileShuffix = fileShuffix;
-	}
-	
-	public Long getFileIstrash() {
-		return fileIstrash;
-	}
+    public void setFileId(Long fileId) {
+        this.fileId = fileId;
+    }
 
-	public void setFileIstrash(Long fileIstrash) {
-		this.fileIstrash = fileIstrash;
-	}
+    public String getFileName() {
+        return fileName;
+    }
 
-	public User getUser() {
-		return user;
-	}
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
 
-	public void setUser(User user) {
-		this.user = user;
-	}
+    public String getFilePath() {
+        return filePath;
+    }
 
-	public FilePath getFpath() {
-		return fpath;
-	}
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
 
-	public void setFpath(FilePath fpath) {
-		this.fpath = fpath;
-	}
+    public Long getSize() {
+        return size;
+    }
 
-	
-	public Long getFileIsshare() {
-		return fileIsshare;
-	}
+    public void setSize(Long size) {
+        this.size = size;
+    }
 
-	public void setFileIsshare(Long fileIsshare) {
-		this.fileIsshare = fileIsshare;
-	}
+    public String getContentType() {
+        return contentType;
+    }
 
-	@Override
-	public String toString() {
-		return "FileList [fileId=" + fileId + ", fileName=" + fileName + ", filePath=" + filePath + ", size=" + size
-				+ ", contentType=" + contentType + ", uploadTime=" + uploadTime + ", model=" + model + ", fileShuffix="
-				+ fileShuffix + ", fileIstrash=" + fileIstrash + ", fileIsshare=" + fileIsshare + "]";
-	}
+    public void setContentType(String contentType) {
+        this.contentType = contentType;
+    }
 
-	
-	
+    public Date getUploadTime() {
+        return uploadTime;
+    }
+
+    public void setUploadTime(Date uploadTime) {
+        this.uploadTime = uploadTime;
+    }
+
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getFileShuffix() {
+        return fileShuffix;
+    }
+
+    public void setFileShuffix(String fileShuffix) {
+        this.fileShuffix = fileShuffix;
+    }
+
+    public Long getFileIstrash() {
+        return fileIstrash;
+    }
+
+    public void setFileIstrash(Long fileIstrash) {
+        this.fileIstrash = fileIstrash;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public FilePath getFpath() {
+        return fpath;
+    }
+
+    public void setFpath(FilePath fpath) {
+        this.fpath = fpath;
+    }
+
+
+    public Long getFileIsshare() {
+        return fileIsshare;
+    }
+
+    public void setFileIsshare(Long fileIsshare) {
+        this.fileIsshare = fileIsshare;
+    }
+
+    @Override
+    public String toString() {
+        return "FileList [fileId=" + fileId + ", fileName=" + fileName + ", filePath=" + filePath + ", size=" + size
+                + ", contentType=" + contentType + ", uploadTime=" + uploadTime + ", model=" + model + ", fileShuffix="
+                + fileShuffix + ", fileIstrash=" + fileIstrash + ", fileIsshare=" + fileIsshare + "]";
+    }
+
+
 }

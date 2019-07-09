@@ -1,7 +1,7 @@
 
 /**
  * 模型层
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.model;

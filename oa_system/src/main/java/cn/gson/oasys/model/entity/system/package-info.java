@@ -1,7 +1,7 @@
 
 /**
  * 系统模块
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.model.entity.system;
