@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-boot-task/pom.xml" />
         <option value="$PROJECT_DIR$/oa_system/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/security-web/pom.xml" />
       </list>
     </option>
   </component>

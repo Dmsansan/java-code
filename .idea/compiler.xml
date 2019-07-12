@@ -10,6 +10,7 @@
         <module name="JavaHightStudy" />
         <module name="oasys" />
         <module name="route" />
+        <module name="security-web" />
         <module name="spring" />
         <module name="spring-boot" />
         <module name="spring-boot-task" />
@@ -29,6 +30,7 @@
       <module name="JavaHightStudy" target="1.8" />
       <module name="oasys" target="1.8" />
       <module name="route" target="1.8" />
+      <module name="security-web" target="1.8" />
       <module name="spring" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-seckill" target="1.5" />
