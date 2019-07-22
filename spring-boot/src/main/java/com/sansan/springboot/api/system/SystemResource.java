@@ -1,4 +1,4 @@
-package com.sansan.springboot.system;
+package com.sansan.springboot.api.system;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

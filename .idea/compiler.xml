@@ -11,7 +11,6 @@
         <module name="oasys" />
         <module name="route" />
         <module name="security-web" />
-        <module name="spring" />
         <module name="spring-boot" />
         <module name="spring-boot-task" />
         <module name="spring-mybatis" />

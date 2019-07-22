@@ -3,7 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/route/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
