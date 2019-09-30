@@ -9,8 +9,10 @@ package designType.main.com.sansan.cn.builder;
 public interface Item {
     //食品名称
     public String name();
+
     //食品打包方式
     public Packing packge();
+
     //食品价格
     public float price();
 }

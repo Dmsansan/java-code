@@ -17,7 +17,7 @@ public class UserController {
     private UserInfoService userInfoService;
 
     @RequestMapping(value = "/queryUserInfo", method = RequestMethod.POST, produces = "application/json;utf-8")
-    public List<UserInfo> queryUserInfo(){
+    public List<UserInfo> queryUserInfo() {
         List<UserInfo> res = userInfoService.queryUserInfo();
 
 

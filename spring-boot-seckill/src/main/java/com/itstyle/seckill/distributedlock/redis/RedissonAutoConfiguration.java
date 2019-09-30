@@ -43,10 +43,11 @@ public class RedissonAutoConfiguration {
 
     /**
      * 单机模式自动装配
+     *
      * @return
      */
     @Bean
-    @ConditionalOnProperty(name="redisson.address")
+    @ConditionalOnProperty(name = "redisson.address")
     RedissonClient redissonSingle() {
         Config config = new Config();
         SingleServerConfig serverConfig = config.useSingleServer()
@@ -54,7 +55,7 @@ public class RedissonAutoConfiguration {
                 .setTimeout(redssionProperties.getTimeout())
                 .setConnectionPoolSize(redssionProperties.getConnectionPoolSize())
                 .setConnectionMinimumIdleSize(redssionProperties.getConnectionMinimumIdleSize());
-        if(StringUtils.isNotBlank(redssionProperties.getPassword())) {
+        if (StringUtils.isNotBlank(redssionProperties.getPassword())) {
             serverConfig.setPassword(redssionProperties.getPassword());
         }
 
@@ -63,13 +64,14 @@ public class RedissonAutoConfiguration {
 
     /**
      * 装配locker类，并将实例注入到RedissLockUtil中
+     *
      * @return
      */
     @Bean
     RedissLockUtil redissLockUtil(RedissonClient redissonClient) {
-    	RedissLockUtil redissLockUtil = new RedissLockUtil();
-    	redissLockUtil.setRedissonClient(redissonClient);
-		return redissLockUtil;
+        RedissLockUtil redissLockUtil = new RedissLockUtil();
+        redissLockUtil.setRedissonClient(redissonClient);
+        return redissLockUtil;
     }
 
 }

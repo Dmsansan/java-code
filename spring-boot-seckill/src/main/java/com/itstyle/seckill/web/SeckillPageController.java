@@ -30,41 +30,41 @@ import com.itstyle.seckill.service.ISeckillService;
 @RestController
 @RequestMapping("/seckillPage")
 public class SeckillPageController {
-	
-	@Autowired
-	private ISeckillService seckillService;
-	
-	@Autowired
-	private ActiveMQSender activeMQSender;
-	
-	@Autowired
-	private HttpClient httpClient;
-	@Value("${qq.captcha.url}")
-	private String url;
-	@Value("${qq.captcha.aid}")
-	private String aid;
-	@Value("${qq.captcha.AppSecretKey}")
-	private String appSecretKey;
-	
-	
-	@ApiOperation(value = "秒杀商品列表", nickname = "小柒2012")
-	@PostMapping("/list")
-	public Result list() {
-		//返回JSON数据、前端VUE迭代即可
-		List<Seckill>  List = seckillService.getSeckillList();
-		return Result.ok(List);
-	}
-	
-	@RequestMapping("/startSeckill")
-    public Result  startSeckill(String ticket,String randstr,HttpServletRequest request) {
-        HttpMethod method =HttpMethod.POST;
-        MultiValueMap<String, String> params= new LinkedMultiValueMap<String, String>();
+
+    @Autowired
+    private ISeckillService seckillService;
+
+    @Autowired
+    private ActiveMQSender activeMQSender;
+
+    @Autowired
+    private HttpClient httpClient;
+    @Value("${qq.captcha.url}")
+    private String url;
+    @Value("${qq.captcha.aid}")
+    private String aid;
+    @Value("${qq.captcha.AppSecretKey}")
+    private String appSecretKey;
+
+
+    @ApiOperation(value = "秒杀商品列表", nickname = "小柒2012")
+    @PostMapping("/list")
+    public Result list() {
+        //返回JSON数据、前端VUE迭代即可
+        List<Seckill> List = seckillService.getSeckillList();
+        return Result.ok(List);
+    }
+
+    @RequestMapping("/startSeckill")
+    public Result startSeckill(String ticket, String randstr, HttpServletRequest request) {
+        HttpMethod method = HttpMethod.POST;
+        MultiValueMap<String, String> params = new LinkedMultiValueMap<String, String>();
         params.add("aid", aid);
         params.add("AppSecretKey", appSecretKey);
         params.add("Ticket", ticket);
         params.add("Randstr", randstr);
         params.add("UserIP", IPUtils.getIpAddr(request));
-        String msg = httpClient.client(url,method,params);
+        String msg = httpClient.client(url, method, params);
         /**
          * response: 1:验证成功，0:验证失败，100:AppSecretKey参数校验错误[required]
          * evil_level:[0,100]，恶意等级[optional]
@@ -73,13 +73,13 @@ public class SeckillPageController {
         //{"response":"1","evil_level":"0","err_msg":"OK"}
         JSONObject json = JSONObject.parseObject(msg);
         String response = (String) json.get("response");
-        if("1".equals(response)){
-        	//进入队列、假数据而已
-        	Destination destination = new ActiveMQQueue("seckill.queue");
-        	activeMQSender.sendChannelMess(destination,1000+";"+1);
-        	return Result.ok();
-        }else{
-        	return Result.error("验证失败");
+        if ("1".equals(response)) {
+            //进入队列、假数据而已
+            Destination destination = new ActiveMQQueue("seckill.queue");
+            activeMQSender.sendChannelMess(destination, 1000 + ";" + 1);
+            return Result.ok();
+        } else {
+            return Result.error("验证失败");
         }
     }
 }

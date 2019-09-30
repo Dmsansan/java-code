@@ -1,7 +1,6 @@
 package cn.gson.oasys.common;
 
 
-
 import java.util.Date;
 import java.util.Properties;
 
@@ -12,27 +11,28 @@ import javax.mail.internet.MimeMessage;
 
 public class PushoutMail {
 
-	public PushoutMail() {}
+    public PushoutMail() {
+    }
 
-	// 发件人的 邮箱 和 密码（替换为自己的邮箱和密码）
-	public static String myEmailAccount = "962239776@qq.com";
+    // 发件人的 邮箱 和 密码（替换为自己的邮箱和密码）
+    public static String myEmailAccount = "962239776@qq.com";
     public static String myEmailPassword = "ntogbdqtuieybdje";
-    
- // 网易163邮箱的 SMTP 服务器地址为: smtp.163.com
- //qq  smtp.qq.com
+
+    // 网易163邮箱的 SMTP 服务器地址为: smtp.163.com
+    //qq  smtp.qq.com
     public static String myEmailSMTPHost = "smtp.qq.com";
-    
- // 收件人邮箱（替换为自己知道的有效邮箱）
+
+    // 收件人邮箱（替换为自己知道的有效邮箱）
     public static String receiveMailAccount = "1533047354@qq.com";
 
     public static void main(String[] args) {
-    	// 1. 创建参数配置, 用于连接邮件服务器的参数配置
+        // 1. 创建参数配置, 用于连接邮件服务器的参数配置
         Properties props = new Properties();                    // 参数配置
         props.setProperty("mail.transport.protocol", "smtp");   // 使用的协议（JavaMail规范要求）
         props.setProperty("mail.smtp.host", myEmailSMTPHost);   // 发件人的邮箱的 SMTP 服务器地址
         props.setProperty("mail.smtp.auth", "true");            // 需要请求认证
-    	
-       // 开启 SSL 安全连接。
+
+        // 开启 SSL 安全连接。
         // SMTP 服务器的端口 (非 SSL 连接的端口一般默认为 25, 可以不添加, 如果开启了 SSL 连接,
         //                  需要改为对应邮箱的 SMTP 服务器的端口, 具体可查看对应邮箱服务的帮助,
         //                  QQ邮箱的SMTP(SLL)端口为465或587, 其他邮箱自行去查看)
@@ -41,37 +41,36 @@ public class PushoutMail {
         props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.setProperty("mail.smtp.socketFactory.fallback", "false");
         props.setProperty("mail.smtp.socketFactory.port", smtpPort);
-        
-    	
-     // 2. 根据配置创建会话对象, 用于和邮件服务器交互
+
+
+        // 2. 根据配置创建会话对象, 用于和邮件服务器交互
         Session session = Session.getDefaultInstance(props);
         session.setDebug(true);                                 // 设置为debug模式, 可以查看详细的发送 log
-        
+
         // 3. 创建一封邮件
         MimeMessage message;
-		try {
-			message = createMimeMessage(session, myEmailAccount, receiveMailAccount);
-			 // 4. 根据 Session 获取邮件传输对象
-	        Transport transport = session.getTransport();
-	        
-	        // 5. 使用 邮箱账号 和 密码 连接邮件服务器, 这里认证的邮箱必须与 message 中的发件人邮箱一致, 否则报错
-	        transport.connect(myEmailAccount, myEmailPassword);
+        try {
+            message = createMimeMessage(session, myEmailAccount, receiveMailAccount);
+            // 4. 根据 Session 获取邮件传输对象
+            Transport transport = session.getTransport();
 
-	     // 6. 发送邮件, 发到所有的收件地址, message.getAllRecipients() 获取到的是在创建邮件对象时添加的所有收件人, 抄送人, 密送人
-	        transport.sendMessage(message, message.getAllRecipients());
-	     
-	        // 7. 关闭连接
-	        transport.close();
-		
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-        
-       
-        
-	}
-    
-    
+            // 5. 使用 邮箱账号 和 密码 连接邮件服务器, 这里认证的邮箱必须与 message 中的发件人邮箱一致, 否则报错
+            transport.connect(myEmailAccount, myEmailPassword);
+
+            // 6. 发送邮件, 发到所有的收件地址, message.getAllRecipients() 获取到的是在创建邮件对象时添加的所有收件人, 抄送人, 密送人
+            transport.sendMessage(message, message.getAllRecipients());
+
+            // 7. 关闭连接
+            transport.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+
     public static MimeMessage createMimeMessage(Session session, String sendMail, String receiveMail) throws Exception {
         // 1. 创建一封邮件
         MimeMessage message = new MimeMessage(session);
@@ -97,6 +96,6 @@ public class PushoutMail {
         return message;
     }
 
-    
+
 }
 

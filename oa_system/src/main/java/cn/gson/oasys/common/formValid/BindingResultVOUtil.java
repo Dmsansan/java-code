@@ -33,13 +33,12 @@ public class BindingResultVOUtil {
         }
         return new BindingResultVOUtil().success();
     }
-    
-    
+
 
     public static ResultVO success() {
         return success(null);
     }
-    
+
     public static ResultVO success(Object object) {
         ResultVO resultVO = new ResultVO();
         resultVO.setData(object);

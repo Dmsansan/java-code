@@ -1,11 +1,12 @@
 package com.itstyle.seckill.common.algorithm;
+
 /**
  * 快速排序
  */
 public class QuickSort {
-	/**
-	 * 通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
-	 */
+    /**
+     * 通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
+     */
     public static void main(String[] args) {
         int[] list = {6, 1, 2, 7, 9, 3, 4, 5, 10, 8};
         System.out.println("************快速排序************");
@@ -71,7 +72,7 @@ public class QuickSort {
      */
     public static void display(int[] list) {
         if (list != null && list.length > 0) {
-            for (int num :list) {
+            for (int num : list) {
                 System.out.print(num + " ");
             }
             System.out.println("");

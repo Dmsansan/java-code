@@ -23,7 +23,7 @@ public class UserMapperTest {
     private UserInfoService userInfoService;
 
     @Test
-    public void test(){
+    public void test() {
         List<UserInfo> userInfos = userInfoService.queryUserInfo();
 
         System.out.println(userInfos.toString());

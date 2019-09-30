@@ -7,6 +7,6 @@ import cn.gson.oasys.model.entity.process.ProcessList;
 
 public interface EvectionDao extends PagingAndSortingRepository<Evection, Long> {
 
-	Evection findByProId(ProcessList process);
+    Evection findByProId(ProcessList process);
 
 }

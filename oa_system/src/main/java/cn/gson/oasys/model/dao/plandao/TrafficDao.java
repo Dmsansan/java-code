@@ -8,7 +8,7 @@ import cn.gson.oasys.model.entity.process.EvectionMoney;
 
 import cn.gson.oasys.model.entity.process.Traffic;
 
-public interface TrafficDao extends PagingAndSortingRepository<Traffic, Long>{
+public interface TrafficDao extends PagingAndSortingRepository<Traffic, Long> {
 
-	List<Traffic> findByEvection(EvectionMoney money);
+    List<Traffic> findByEvection(EvectionMoney money);
 }

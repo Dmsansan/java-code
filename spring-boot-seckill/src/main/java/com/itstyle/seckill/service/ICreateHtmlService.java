@@ -7,5 +7,5 @@ import com.itstyle.seckill.common.entity.Result;
  * 创建者  小柒2012
  */
 public interface ICreateHtmlService {
-	Result createAllHtml();
+    Result createAllHtml();
 }

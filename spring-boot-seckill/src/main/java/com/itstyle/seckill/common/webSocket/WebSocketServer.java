@@ -15,10 +15,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-@ServerEndpoint("/websocket/{userId}")  
-@Component  
-public class WebSocketServer {  
-	private final static Logger log = LoggerFactory.getLogger(WebSocketServer.class);
+@ServerEndpoint("/websocket/{userId}")
+@Component
+public class WebSocketServer {
+    private final static Logger log = LoggerFactory.getLogger(WebSocketServer.class);
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
     private static int onlineCount = 0;
     //concurrent包的线程安全Set，用来存放每个客户端对应的MyWebSocket对象。
@@ -28,18 +28,20 @@ public class WebSocketServer {
     private Session session;
 
     //接收userId
-    private String userId="";
+    private String userId = "";
+
     /**
-     * 连接建立成功调用的方法*/
+     * 连接建立成功调用的方法
+     */
     @OnOpen
-    public void onOpen(Session session,@PathParam("userId") String userId) {
+    public void onOpen(Session session, @PathParam("userId") String userId) {
         this.session = session;
         webSocketSet.add(this);     //加入set中
         addOnlineCount();           //在线数加1
-        log.info("有新窗口开始监听:"+userId+",当前在线人数为" + getOnlineCount());
-        this.userId=userId;
+        log.info("有新窗口开始监听:" + userId + ",当前在线人数为" + getOnlineCount());
+        this.userId = userId;
         try {
-             sendMessage("连接成功");
+            sendMessage("连接成功");
         } catch (IOException e) {
             log.error("websocket IO异常");
         }
@@ -57,10 +59,12 @@ public class WebSocketServer {
 
     /**
      * 收到客户端消息后调用的方法
-     * @param message 客户端发送过来的消息*/
+     *
+     * @param message 客户端发送过来的消息
+     */
     @OnMessage
     public void onMessage(String message, Session session) {
-        log.info("收到来自窗口"+userId+"的信息:"+message);
+        log.info("收到来自窗口" + userId + "的信息:" + message);
         //群发消息
         for (WebSocketServer item : webSocketSet) {
             try {
@@ -80,23 +84,25 @@ public class WebSocketServer {
         log.error("发生错误");
         error.printStackTrace();
     }
+
     /**
      * 实现服务器主动推送
      */
     public void sendMessage(String message) throws IOException {
         this.session.getBasicRemote().sendText(message);
     }
+
     /**
      * 群发自定义消息
-     * */
-    public static void sendInfo(String message,@PathParam("userId") String userId){
-        log.info("推送消息到窗口"+userId+"，推送内容:"+message);
+     */
+    public static void sendInfo(String message, @PathParam("userId") String userId) {
+        log.info("推送消息到窗口" + userId + "，推送内容:" + message);
         for (WebSocketServer item : webSocketSet) {
             try {
                 //这里可以设定只推送给这个userId的，为null则全部推送
-                if(userId==null) {
+                if (userId == null) {
                     item.sendMessage(message);
-                }else if(item.userId.equals(userId)){
+                } else if (item.userId.equals(userId)) {
                     item.sendMessage(message);
                 }
             } catch (IOException e) {
@@ -116,5 +122,5 @@ public class WebSocketServer {
     public static synchronized void subOnlineCount() {
         WebSocketServer.onlineCount--;
     }
-  
+
 }  

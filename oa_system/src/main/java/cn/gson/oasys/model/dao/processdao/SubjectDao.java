@@ -6,11 +6,11 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import cn.gson.oasys.model.entity.process.Subject;
 
-public interface SubjectDao extends PagingAndSortingRepository<Subject, Long>{
+public interface SubjectDao extends PagingAndSortingRepository<Subject, Long> {
 
-	List<Subject> findByParentId(Long id);
-	
-	List<Subject> findByParentIdNot(Long id);
-	
-	
+    List<Subject> findByParentId(Long id);
+
+    List<Subject> findByParentIdNot(Long id);
+
+
 }

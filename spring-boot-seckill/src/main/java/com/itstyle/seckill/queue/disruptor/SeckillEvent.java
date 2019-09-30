@@ -7,28 +7,28 @@ import java.io.Serializable;
  * 创建者 科帮网
  */
 public class SeckillEvent implements Serializable {
-	private static final long serialVersionUID = 1L;
-	private long seckillId;
-	private long userId;
-	
-	public SeckillEvent(){
-		
-	}
+    private static final long serialVersionUID = 1L;
+    private long seckillId;
+    private long userId;
 
-	public long getSeckillId() {
-		return seckillId;
-	}
+    public SeckillEvent() {
 
-	public void setSeckillId(long seckillId) {
-		this.seckillId = seckillId;
-	}
+    }
 
-	public long getUserId() {
-		return userId;
-	}
+    public long getSeckillId() {
+        return seckillId;
+    }
 
-	public void setUserId(long userId) {
-		this.userId = userId;
-	}
-	
+    public void setSeckillId(long seckillId) {
+        this.seckillId = seckillId;
+    }
+
+    public long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
+    }
+
 }

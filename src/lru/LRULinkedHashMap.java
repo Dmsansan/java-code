@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * LRU 算法：存储空间有限，将存储空间长时间未访问的数据资源在
  * 存储空间满时，移除
- *
+ * <p>
  * 使用链表实现LinkedList
  * 1、将新的数据保存到链表的头部
  * 2、在访问数据过程中，将访问到的数据放在链表的头部
@@ -36,6 +36,7 @@ public class LRULinkedHashMap<K, V> extends LinkedHashMap<K, V> {
     protected boolean removeEldestEntry(java.util.Map.Entry<K, V> eldest) {
         return size() > maxCapacity;
     }
+
     @Override
     public boolean containsKey(Object key) {
         try {

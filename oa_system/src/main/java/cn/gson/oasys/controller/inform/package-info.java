@@ -1,7 +1,7 @@
 
 /**
  * 通知管理
- * @author luoxiang
  *
+ * @author luoxiang
  */
 package cn.gson.oasys.controller.inform;

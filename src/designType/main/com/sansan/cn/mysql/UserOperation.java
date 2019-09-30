@@ -10,24 +10,26 @@ import java.util.List;
 public class UserOperation {
 
     static UserOperation instance = new UserOperation();
-    public static UserOperation getInstance(){
+
+    public static UserOperation getInstance() {
         return instance;
     }
 
     /**
      * 获取用户信息
+     *
      * @return
      */
-    public List<UserInfo> selectUserInfo(){
+    public List<UserInfo> selectUserInfo() {
         List<UserInfo> list = new ArrayList<>();
         Connection conn = null;
 
-        try{
+        try {
             conn = MysqlConnection.getConn();
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("select * from user_info");
 
-            while (rs.next()){
+            while (rs.next()) {
                 UserInfo userInfo = new UserInfo();
                 userInfo.setId(rs.getInt("id"));
                 userInfo.setUserCode(rs.getString("userCode"));
@@ -35,12 +37,12 @@ public class UserOperation {
                 userInfo.setCreateTime(rs.getTimestamp("createTime"));
                 list.add(userInfo);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-            try{
+        } finally {
+            try {
                 conn.close();
-            }catch (SQLException e){
+            } catch (SQLException e) {
                 e.printStackTrace();
             }
         }

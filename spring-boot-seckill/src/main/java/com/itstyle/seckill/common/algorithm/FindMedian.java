@@ -1,15 +1,15 @@
 package com.itstyle.seckill.common.algorithm;
 
 import java.util.*;
+
 /**
- * 
  * 百亿数据中取中位数
  * 场景：股市上一个股票的价格从开市开始是不停的变化的，需要开发一个系统，给定一个股票，它能实时显示从开市到当前时间的这个股票的价格的中位数（中值）。
  * 创建者 柒
  * 创建时间	2018年12月21日
  */
 public class FindMedian {
-	//maxHeap保存较小的半边数据，minHeap保存较大的半边数据。
+    //maxHeap保存较小的半边数据，minHeap保存较大的半边数据。
     private static PriorityQueue<Integer> maxHeap, minHeap;
 
     public static void main(String[] args) {
@@ -23,10 +23,10 @@ public class FindMedian {
 
         maxHeap = new PriorityQueue<Integer>(100, revCmp);
         minHeap = new PriorityQueue<Integer>(100);
-        Random ra =new Random();
-        for(int i=0;i<=100;i++){
-        	int number = ra.nextInt(200);
-        	addNumber(number);
+        Random ra = new Random();
+        for (int i = 0; i <= 100; i++) {
+            int number = ra.nextInt(200);
+            addNumber(number);
         }
         System.out.println(minHeap);
         System.out.println(maxHeap);
@@ -61,16 +61,16 @@ public class FindMedian {
     }
 
     /*
-     * If maxHeap and minHeap are of different sizes, 
+     * If maxHeap and minHeap are of different sizes,
      * then maxHeap must have one extra element.
      */
     public static double getMedian() {
         if (maxHeap.isEmpty()) {
-            return -1; 
+            return -1;
         }
-        
+
         if (maxHeap.size() == minHeap.size()) {
-            return (double)(minHeap.peek() + maxHeap.peek())/2;
+            return (double) (minHeap.peek() + maxHeap.peek()) / 2;
         } else {
             return maxHeap.peek();
         }

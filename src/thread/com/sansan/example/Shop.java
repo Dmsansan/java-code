@@ -4,11 +4,11 @@ public class Shop {
     int nIndex = 0;
     Product[] pro = new Product[10];
 
-    public synchronized void addProduct(Product pd){
-        while (nIndex == pro.length){
-            try{
+    public synchronized void addProduct(Product pd) {
+        while (nIndex == pro.length) {
+            try {
                 this.wait();
-            }catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
@@ -18,11 +18,11 @@ public class Shop {
         nIndex++;
     }
 
-    public synchronized Product getProduct(){
-        while (nIndex == 0){
+    public synchronized Product getProduct() {
+        while (nIndex == 0) {
             try {
                 this.wait();
-            }catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }

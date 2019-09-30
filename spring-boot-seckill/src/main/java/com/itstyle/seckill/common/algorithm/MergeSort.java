@@ -1,13 +1,14 @@
 package com.itstyle.seckill.common.algorithm;
+
 /**
  * 归并排序
  */
 public class MergeSort {
-	/**
-	 * 归并排序（Merge Sort）与快速排序思想类似：将待排序数据分成两部分，继续将两个子部分进行递归的归并排序；然后将已经有序的两个子部分进行合并，最终完成排序。
-	 * 其时间复杂度与快速排序均为O(nlogn)，但是归并排序除了递归调用间接使用了辅助空间栈，还需要额外的O(n)空间进行临时存储。从此角度归并排序略逊于快速排序，但是归并排序是一种稳定的排序算法，快速排序则不然。
+    /**
+     * 归并排序（Merge Sort）与快速排序思想类似：将待排序数据分成两部分，继续将两个子部分进行递归的归并排序；然后将已经有序的两个子部分进行合并，最终完成排序。
+     * 其时间复杂度与快速排序均为O(nlogn)，但是归并排序除了递归调用间接使用了辅助空间栈，还需要额外的O(n)空间进行临时存储。从此角度归并排序略逊于快速排序，但是归并排序是一种稳定的排序算法，快速排序则不然。
      * 所谓稳定排序，表示对于具有相同值的多个元素，其间的先后顺序保持不变。对于基本数据类型而言，一个排序算法是否稳定，影响很小，但是对于结构体数组，稳定排序就十分重要。例如对于student结构体按照关键字score进行非降序排序：
-	 */
+     */
     public static void main(String[] args) {
         int[] list = {50, 10, 90, 30, 70};
         System.out.println("************归并排序************");
@@ -20,6 +21,7 @@ public class MergeSort {
 
     /**
      * 归并排序算法
+     *
      * @param list     待排序的列表
      * @param tempList 临时列表
      * @param head     列表开始位置
@@ -40,6 +42,7 @@ public class MergeSort {
 
     /**
      * 合并操作(列表的两两合并)
+     *
      * @param list
      * @param tempList
      * @param head
@@ -88,7 +91,7 @@ public class MergeSort {
      */
     public static void display(int[] list) {
         if (list != null && list.length > 0) {
-            for (int num :list) {
+            for (int num : list) {
                 System.out.print(num + " ");
             }
             System.out.println("");

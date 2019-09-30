@@ -16,134 +16,131 @@ import javax.persistence.Transient;
 import cn.gson.oasys.model.entity.user.User;
 
 @Entity
-@Table(name="aoa_traffic")
+@Table(name = "aoa_traffic")
 //交通费用明细表
 public class Traffic {
 
-	@Id
-	@Column(name="traffic_id")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long trafficId;
-	
-	@OneToOne
-	@JoinColumn(name="user_name")
-	private User user;//出差人员
-	
-	@Column(name="depart_time")
-	private Date departTime;//出发时间
-	
-	@Column(name="depart_name")
-	private String departName;//出发城市
-	
-	@Column(name="reach_name")
-	private String reachName;//到达城市
-	
-	@Column(name="traffic_name")
-	private String trafficName;//交通工具
-	
-	@Column(name="seat_type")
-	private String seatType;//座位类型
-	
-	@Column(name="traffic_money")
-	private Double trafficMoney;//交通标准
-	
-	@ManyToOne()
-	@JoinColumn(name="evection_id")
-	private  EvectionMoney  evection;
-	
-	@Transient
-	private String username;
-	
+    @Id
+    @Column(name = "traffic_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long trafficId;
 
-	public String getUsername() {
-		return username;
-	}
+    @OneToOne
+    @JoinColumn(name = "user_name")
+    private User user;//出差人员
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    @Column(name = "depart_time")
+    private Date departTime;//出发时间
 
-	public Long getTrafficId() {
-		return trafficId;
-	}
+    @Column(name = "depart_name")
+    private String departName;//出发城市
 
-	public void setTrafficId(Long trafficId) {
-		this.trafficId = trafficId;
-	}
+    @Column(name = "reach_name")
+    private String reachName;//到达城市
 
-	public User getUser() {
-		return user;
-	}
+    @Column(name = "traffic_name")
+    private String trafficName;//交通工具
 
-	public void setUser(User user) {
-		this.user = user;
-	}
+    @Column(name = "seat_type")
+    private String seatType;//座位类型
 
-	public Date getDepartTime() {
-		return departTime;
-	}
+    @Column(name = "traffic_money")
+    private Double trafficMoney;//交通标准
 
-	public void setDepartTime(Date departTime) {
-		this.departTime = departTime;
-	}
+    @ManyToOne()
+    @JoinColumn(name = "evection_id")
+    private EvectionMoney evection;
 
-	public String getDepartName() {
-		return departName;
-	}
+    @Transient
+    private String username;
 
-	public void setDepartName(String departName) {
-		this.departName = departName;
-	}
 
-	public String getReachName() {
-		return reachName;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public void setReachName(String reachName) {
-		this.reachName = reachName;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public String getTrafficName() {
-		return trafficName;
-	}
+    public Long getTrafficId() {
+        return trafficId;
+    }
 
-	public void setTrafficName(String trafficName) {
-		this.trafficName = trafficName;
-	}
+    public void setTrafficId(Long trafficId) {
+        this.trafficId = trafficId;
+    }
 
-	public String getSeatType() {
-		return seatType;
-	}
+    public User getUser() {
+        return user;
+    }
 
-	public void setSeatType(String seatType) {
-		this.seatType = seatType;
-	}
+    public void setUser(User user) {
+        this.user = user;
+    }
 
-	public Double getTrafficMoney() {
-		return trafficMoney;
-	}
+    public Date getDepartTime() {
+        return departTime;
+    }
 
-	public void setTrafficMoney(Double trafficMoney) {
-		this.trafficMoney = trafficMoney;
-	}
+    public void setDepartTime(Date departTime) {
+        this.departTime = departTime;
+    }
 
-	public EvectionMoney getEvection() {
-		return evection;
-	}
+    public String getDepartName() {
+        return departName;
+    }
 
-	public void setEvection(EvectionMoney evection) {
-		this.evection = evection;
-	}
+    public void setDepartName(String departName) {
+        this.departName = departName;
+    }
 
-	@Override
-	public String toString() {
-		return "Traffic [trafficId=" + trafficId + ", departTime=" + departTime + ", departName=" + departName
-				+ ", reachName=" + reachName + ", trafficName=" + trafficName + ", seatType=" + seatType
-				+ ", evection=" + evection + ", username=" + username + "]";
-	}
+    public String getReachName() {
+        return reachName;
+    }
 
-	
-	
-	
-	
+    public void setReachName(String reachName) {
+        this.reachName = reachName;
+    }
+
+    public String getTrafficName() {
+        return trafficName;
+    }
+
+    public void setTrafficName(String trafficName) {
+        this.trafficName = trafficName;
+    }
+
+    public String getSeatType() {
+        return seatType;
+    }
+
+    public void setSeatType(String seatType) {
+        this.seatType = seatType;
+    }
+
+    public Double getTrafficMoney() {
+        return trafficMoney;
+    }
+
+    public void setTrafficMoney(Double trafficMoney) {
+        this.trafficMoney = trafficMoney;
+    }
+
+    public EvectionMoney getEvection() {
+        return evection;
+    }
+
+    public void setEvection(EvectionMoney evection) {
+        this.evection = evection;
+    }
+
+    @Override
+    public String toString() {
+        return "Traffic [trafficId=" + trafficId + ", departTime=" + departTime + ", departName=" + departName
+                + ", reachName=" + reachName + ", trafficName=" + trafficName + ", seatType=" + seatType
+                + ", evection=" + evection + ", username=" + username + "]";
+    }
+
+
 }

@@ -70,7 +70,7 @@
         </plugins>
 
         <resources>
-           <resource>
+            <resource>
                 <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.xml</include>

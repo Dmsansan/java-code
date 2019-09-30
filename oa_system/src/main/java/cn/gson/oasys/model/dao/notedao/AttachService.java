@@ -11,12 +11,12 @@ import org.springframework.stereotype.Service;
 @Transactional
 public class AttachService {
 
-	@Autowired
-	AttachmentDao attachmentDao;
-	
-	public Integer updateatt(String attname, String attpath, String shu, Long size,String type, Date uptime,Long attid) {
-		return attachmentDao.updateatt(attname, attpath, shu, size, type, uptime, attid);
-	}
-	
-	
+    @Autowired
+    AttachmentDao attachmentDao;
+
+    public Integer updateatt(String attname, String attpath, String shu, Long size, String type, Date uptime, Long attid) {
+        return attachmentDao.updateatt(attname, attpath, shu, size, type, uptime, attid);
+    }
+
+
 }

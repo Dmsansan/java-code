@@ -4,17 +4,17 @@
 <mapper namespace="com.sansan.springboot.api.mapper.UserInfoMapper">
 
     <resultMap id="userInfoResult" type="com.sansan.springboot.api.entity.UserInfo">
-        <id column="id" property="id" jdbcType="INTEGER" />
-        <result column="username" property="username" jdbcType="VARCHAR" />
-        <result column="password" property="password" jdbcType="VARCHAR" />
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
     </resultMap>
 
     <select id="queryUserInfo" resultMap="userInfoResult" parameterType="map">
-      select
+        select
         id,
         username,
         password
-      from api_user
+        from api_user
     </select>
 
 </mapper>

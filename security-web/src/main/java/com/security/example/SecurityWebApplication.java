@@ -14,7 +14,7 @@ public class SecurityWebApplication {
     public static void main(String[] args) {
 
         ConfigurableApplicationContext context = SpringApplication.run(SecurityWebApplication.class, args);
-        System.out.println("spring security 加载bean"+context.getBean(SecurityAutoConfiguration.class));
+        System.out.println("spring security 加载bean" + context.getBean(SecurityAutoConfiguration.class));
     }
 
 

@@ -10,6 +10,7 @@ public interface UserInfoService {
 
     /**
      * 查询用户信息
+     *
      * @return
      */
     List<UserInfo> queryUserInfo();

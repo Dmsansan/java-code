@@ -8,9 +8,9 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import cn.gson.oasys.model.entity.role.Role;
 
-public interface RoleDao extends JpaRepository<Role, Long>{
+public interface RoleDao extends JpaRepository<Role, Long> {
 
-	@Query("select ro from Role as ro where ro.roleName like %?1%")
-	Page<Role> findbyrolename(String val, Pageable pa);
+    @Query("select ro from Role as ro where ro.roleName like %?1%")
+    Page<Role> findbyrolename(String val, Pageable pa);
 
 }

@@ -2,20 +2,20 @@ package designType.main.com.sansan.cn.prototype;
 
 import java.io.*;
 
-public class Prototype implements Cloneable{
+public class Prototype implements Cloneable {
     private static final long serialVersionUID = 1L;
     private String string;
 
     private Serializable obj;
 
     //浅复制
-    public Object clone() throws CloneNotSupportedException{
+    public Object clone() throws CloneNotSupportedException {
         Prototype proto = (Prototype) super.clone();
         return proto;
     }
 
     //深复制
-    public Object deepClone() throws IOException,ClassNotFoundException {
+    public Object deepClone() throws IOException, ClassNotFoundException {
         //写入二进制流产生的新对象
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(bos);

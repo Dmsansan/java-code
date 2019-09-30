@@ -3,96 +3,95 @@ package cn.gson.oasys.model.entity.process;
 import java.util.Date;
 
 
-
 public class AubUser {
 
-	private Long processId;
-	
-	private String typeNmae;	
-	
-	private Long deeply;    //紧急程度
-	
-	private String processName;	
-	
-	private String userName;//申请人姓名	
-	
-	private Date applyTime;
-	
-	private Long statusId;//审核人状态
+    private Long processId;
 
-	public Long getProcessId() {
-		return processId;
-	}
+    private String typeNmae;
 
-	public void setProcessId(Long processId) {
-		this.processId = processId;
-	}
+    private Long deeply;    //紧急程度
 
-	public String getTypeNmae() {
-		return typeNmae;
-	}
+    private String processName;
 
-	public void setTypeNmae(String typeNmae) {
-		this.typeNmae = typeNmae;
-	}
+    private String userName;//申请人姓名
 
-	public Long getDeeply() {
-		return deeply;
-	}
+    private Date applyTime;
 
-	public void setDeeply(Long deeply) {
-		this.deeply = deeply;
-	}
+    private Long statusId;//审核人状态
 
-	public String getProcessName() {
-		return processName;
-	}
+    public Long getProcessId() {
+        return processId;
+    }
 
-	public void setProcessName(String processName) {
-		this.processName = processName;
-	}
+    public void setProcessId(Long processId) {
+        this.processId = processId;
+    }
 
-	public String getUserName() {
-		return userName;
-	}
+    public String getTypeNmae() {
+        return typeNmae;
+    }
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+    public void setTypeNmae(String typeNmae) {
+        this.typeNmae = typeNmae;
+    }
 
-	public Date getApplyTime() {
-		return applyTime;
-	}
+    public Long getDeeply() {
+        return deeply;
+    }
 
-	public void setApplyTime(Date applyTime) {
-		this.applyTime = applyTime;
-	}
+    public void setDeeply(Long deeply) {
+        this.deeply = deeply;
+    }
 
-	public Long getStatusId() {
-		return statusId;
-	}
+    public String getProcessName() {
+        return processName;
+    }
 
-	public void setStatusId(Long statusId) {
-		this.statusId = statusId;
-	}
+    public void setProcessName(String processName) {
+        this.processName = processName;
+    }
 
-	@Override
-	public String toString() {
-		return "AubUser [processId=" + processId + ", typeNmae=" + typeNmae + ", deeply=" + deeply + ", processName="
-				+ processName + ", userName=" + userName + ", applyTime=" + applyTime + ", statusId=" + statusId + "]";
-	}
+    public String getUserName() {
+        return userName;
+    }
 
-	public AubUser(Long processId, String typeNmae, Long deeply, String processName, String userName, Date applyTime,
-			Long statusId) {
-		super();
-		this.processId = processId;
-		this.typeNmae = typeNmae;
-		this.deeply = deeply;
-		this.processName = processName;
-		this.userName = userName;
-		this.applyTime = applyTime;
-		this.statusId = statusId;
-	}
-	
-	
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public Date getApplyTime() {
+        return applyTime;
+    }
+
+    public void setApplyTime(Date applyTime) {
+        this.applyTime = applyTime;
+    }
+
+    public Long getStatusId() {
+        return statusId;
+    }
+
+    public void setStatusId(Long statusId) {
+        this.statusId = statusId;
+    }
+
+    @Override
+    public String toString() {
+        return "AubUser [processId=" + processId + ", typeNmae=" + typeNmae + ", deeply=" + deeply + ", processName="
+                + processName + ", userName=" + userName + ", applyTime=" + applyTime + ", statusId=" + statusId + "]";
+    }
+
+    public AubUser(Long processId, String typeNmae, Long deeply, String processName, String userName, Date applyTime,
+                   Long statusId) {
+        super();
+        this.processId = processId;
+        this.typeNmae = typeNmae;
+        this.deeply = deeply;
+        this.processName = processName;
+        this.userName = userName;
+        this.applyTime = applyTime;
+        this.statusId = statusId;
+    }
+
+
 }

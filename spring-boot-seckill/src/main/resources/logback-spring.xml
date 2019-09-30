@@ -8,7 +8,7 @@
         <file>log/spring-boot-seckill-info.log</file>
         <!-- 循环政策：基于时间创建日志文件 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-             <!-- 日志命名:单个文件大于128MB 按照时间+自增i 生成log文件 -->
+            <!-- 日志命名:单个文件大于128MB 按照时间+自增i 生成log文件 -->
             <fileNamePattern>log/spring-boot-seckill-info-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>128MB</maxFileSize>
@@ -27,7 +27,7 @@
             <onMismatch>DENY</onMismatch>
         </filter>
     </appender>
-     <!-- 错误日志 -->
+    <!-- 错误日志 -->
     <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>log/spring-boot-seckill-error.log</file>
         <!-- 循环政策：基于时间创建日志文件 -->
@@ -48,12 +48,12 @@
         </encoder>
         <!-- 日志级别过滤器 -->
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
-             <!-- 过滤的级别 -->
-		     <level>ERROR</level>
-		     <!-- 匹配时的操作：接收（记录） -->
-		     <onMatch>ACCEPT</onMatch>
-		     <!-- 不匹配时的操作：拒绝（不记录） -->
-		     <onMismatch>DENY</onMismatch>
+            <!-- 过滤的级别 -->
+            <level>ERROR</level>
+            <!-- 匹配时的操作：接收（记录） -->
+            <onMatch>ACCEPT</onMatch>
+            <!-- 不匹配时的操作：拒绝（不记录） -->
+            <onMismatch>DENY</onMismatch>
         </filter>
     </appender>
     <!-- 控制台 -->
@@ -71,14 +71,14 @@
     <!-- 屏蔽kafka的警告 -->
     <logger name="org.apache.kafka" level="ERROR"/>
     <!-- additivity 避免执行2次 -->
-    <logger name="com.itstyle"  level="INFO"  additivity="false">
+    <logger name="com.itstyle" level="INFO" additivity="false">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="INFO_FILE"/>
         <appender-ref ref="ERROR_FILE"/>
     </logger>
     <root level="INFO">
-        <appender-ref ref="STDOUT" />
-        <appender-ref ref="INFO_FILE" />
-        <appender-ref ref="ERROR_FILE" />
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="INFO_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
     </root>
 </configuration>

@@ -22,6 +22,6 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public List<UserInfo> queryUserInfo() {
-        return userInfoMapper.queryUserInfo();
+        return null;
     }
 }
