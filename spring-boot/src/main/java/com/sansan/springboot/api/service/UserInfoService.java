@@ -5,7 +5,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 import java.util.List;
 
-@ComponentScan
 public interface UserInfoService {
 
     /**
@@ -14,4 +13,12 @@ public interface UserInfoService {
      * @return
      */
     List<UserInfo> queryUserInfo();
+
+    /**
+     * 获取登录用户信息
+     * @param userName
+     * @param password
+     * @return
+     */
+    UserInfo getUserInfo(String userName, String password);
 }

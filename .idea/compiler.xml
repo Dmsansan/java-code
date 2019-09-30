@@ -8,6 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="oasys" />
+        <module name="route" />
+        <module name="security-web" />
+        <module name="spring-boot" />
+        <module name="spring-boot-seckill" />
+        <module name="spring-boot-task" />
       </profile>
     </annotationProcessing>
   </component>

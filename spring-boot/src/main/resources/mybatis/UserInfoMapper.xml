@@ -5,16 +5,24 @@
 
     <resultMap id="userInfoResult" type="com.sansan.springboot.api.entity.UserInfo">
         <id column="id" property="id" jdbcType="INTEGER"/>
-        <result column="username" property="username" jdbcType="VARCHAR"/>
-        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="user_name" property="username" jdbcType="VARCHAR"/>
+        <result column="pass_word" property="password" jdbcType="VARCHAR"/>
     </resultMap>
 
     <select id="queryUserInfo" resultMap="userInfoResult" parameterType="map">
         select
         id,
-        username,
-        password
+        user_name,
+        pass_word
         from api_user
+    </select>
+    <select id="getUserInfo" resultMap="userInfoResult" parameterType="java.util.Map">
+        select
+          id,
+          user_name,
+          pass_word
+        from api_user where user_name = #{userName,jdbcType=VARCHAR}
+        and pass_word = #{password,jdbcType=VARCHAR}
     </select>
 
 </mapper>
