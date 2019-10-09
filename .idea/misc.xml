@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-seckill/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-task/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-zookeeper/pom.xml" />
       </list>
     </option>
   </component>

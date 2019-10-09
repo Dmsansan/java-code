@@ -7,12 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="eureka" />
         <module name="oasys" />
         <module name="route" />
         <module name="security-web" />
         <module name="spring-boot" />
         <module name="spring-boot-seckill" />
         <module name="spring-boot-task" />
+        <module name="spring-zookeeper" />
+      </profile>
+      <profile name="Annotation profile for spring-resource" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-resource" />
       </profile>
     </annotationProcessing>
   </component>
