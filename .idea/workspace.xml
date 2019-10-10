@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cb3582c-b7df-488d-bb7e-2fc80d23b116" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assert/jenkins/jenkins_20191010111737.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkins.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins.md" afterDir="false" />
     </list>
@@ -64,7 +65,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1144" />
-          <entry key="md" value="1446" />
+          <entry key="md" value="1547" />
           <entry key="properties" value="119" />
           <entry key="txt" value="261" />
           <entry key="xml" value="246" />
@@ -73,7 +74,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1144" />
-          <entry key="Markdown" value="1446" />
+          <entry key="Markdown" value="1547" />
           <entry key="PLAIN_TEXT" value="261" />
           <entry key="Properties" value="119" />
           <entry key="SQL" value="10" />
@@ -127,8 +128,8 @@
         <entry file="file://$PROJECT_DIR$/Jenkins.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="228">
+                <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -256,7 +257,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570676399317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570677565591" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-resource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -387,7 +388,7 @@
       <workItem from="1569891498664" duration="33000" />
       <workItem from="1569979208253" duration="3968000" />
       <workItem from="1570609702897" duration="2045000" />
-      <workItem from="1570673555213" duration="2378000" />
+      <workItem from="1570673555213" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="redis session管理系统 springboot 单点登录">
       <created>1569837677235</created>
@@ -431,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570676332681</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加jenkins自动部署说明">
+      <created>1570676406689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570676406689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13171000" />
+    <option name="totallyTimeSpent" value="13902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -771,8 +779,8 @@
     <entry file="file://$PROJECT_DIR$/Jenkins.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
