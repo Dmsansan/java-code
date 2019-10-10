@@ -4,6 +4,7 @@
 需要一台linux服务器或者自己安装虚拟机存在linux系统。
 
 系统需要具备java环境以及tomcat容器：
+
 ![jenkins_java_version.png](./assert/jenkins/jenkins_20191010103217.png)
 
 ![jenkins_tomcat.png](./assert/jenkins/jenkins_20191010103401.png)
