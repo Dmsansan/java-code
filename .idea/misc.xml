@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-resource/pom.xml" />
         <option value="$PROJECT_DIR$/spring-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/weather/pom.xml" />
       </list>
     </option>
   </component>
