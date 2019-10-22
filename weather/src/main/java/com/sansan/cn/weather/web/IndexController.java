@@ -21,7 +21,7 @@ public class IndexController {
         ModelAndView mv = new ModelAndView();
 
         mv.addObject("name", "weather home");
-        mv.setViewName("city-weather.html");
+        mv.setViewName("city-weather");
         return mv;
     }
 
