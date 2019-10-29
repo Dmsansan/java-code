@@ -1,11 +1,14 @@
 package com.sansan.cn.weather.web;
 
+import com.alibaba.fastjson.JSON;
 import com.sansan.cn.weather.utils.HttpRequestUtil;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/index")
@@ -34,6 +37,7 @@ public class IndexController {
     public String queryCityWeather(@RequestParam(value = "cityCode") String cityCode){
         String url = "http://t.weather.sojson.com/api/weather/city/" + cityCode;
         String weatherRes = HttpRequestUtil.sendGet(url);
+
         return weatherRes;
     }
 }

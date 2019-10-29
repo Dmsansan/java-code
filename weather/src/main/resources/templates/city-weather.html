@@ -8,6 +8,7 @@
 
 <body>
 <div style="width: 500px;margin-top: 30px;">
+    <p style="margin: 40px">北京的城市代码：<span style="color: red;">101010100</span></p>
 <form class="layui-form" action="">
     <div class="layui-form-item" >
         <label class="layui-form-label">城市代码</label>
@@ -31,11 +32,11 @@
         var form = layui.form;
 
         //监听提交
-        form.on('submit(formDemo)', function(data){
-            layer.msg(JSON.stringify(data.field));
+        form.on('submit(formWeather)', function(data){
             var cityCode = data.field;
-            var url = "{:U('index/queryCityWeather')}";
-            $.ajax({
+            var url = "queryCityWeather";
+
+            layui.jquery.ajax({
                 url:url,
                 type:'get',
                 data:cityCode,
@@ -43,13 +44,14 @@
                     this.layerIndex = layer.load(0, { shade: [0.5, '#393D49'] });
                 },
                 success:function(data){
-                    if(data.status == 'error'){
-                        layer.msg(data.msg,{icon: 5});//失败的表情
+                    if(data.resData == ''){
+                        layer.msg('查询失败',{icon: 5, area: ['200px', '100px']});//失败的表情
                         return;
-                    }else if(data.status == 'success'){
-                        layer.msg(data.msg, {
+                    }else if(data.resData != ''){
+                        layer.msg('查询成功', {
                             icon: 6,//成功的表情
-                            time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                            time: 1000, //1秒关闭（如果不配置，默认是3秒）
+                            area: ['200px', '100px']
                         }, function(){
                             location.reload();
                         });
