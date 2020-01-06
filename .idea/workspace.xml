@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f3b736-0072-44ac-9141-9cac48e236cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin-client/src/main/java/com/sansan/micor/client/AdminClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" afterDir="false" />
@@ -38,31 +34,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
           <entry key="properties" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="127" />
-          <entry key="properties" value="92" />
-          <entry key="txt" value="33" />
+          <entry key="java" value="129" />
+          <entry key="properties" value="184" />
+          <entry key="txt" value="47" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="127" />
-          <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Properties" value="92" />
+          <entry key="JAVA" value="129" />
+          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="Properties" value="184" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
@@ -70,20 +66,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="228">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-449">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="363">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -103,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -112,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="152">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -127,7 +123,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,11 +151,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-admin-client/src/main/java/com/sansan/micor/client/AdminClientApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java" />
       </list>
     </option>
   </component>
@@ -195,7 +211,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -246,6 +264,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
@@ -341,7 +369,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578294813218" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578295611466" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -366,6 +394,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.14605874" />
   </component>
   <component name="RunManager" selected="Spring Boot.client">
     <configuration name="client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -400,7 +429,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577934028031</updated>
       <workItem from="1577934044127" duration="223000" />
-      <workItem from="1578292963461" duration="1782000" />
+      <workItem from="1578292963461" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="添加springboot-admin-server服务">
       <created>1578293423051</created>
@@ -409,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578293423051</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加springboot-admin-client应用">
+      <created>1578294886412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578294886412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2005000" />
+    <option name="totallyTimeSpent" value="2835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +464,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +491,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" sideWeight="0.49924356" weight="0.7126246" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49924356" weight="0.37914693" />
       <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50075644" side_tool="true" weight="0.39901477" />
-      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49621785" weight="0.47783253" />
+      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49621785" weight="0.46141216" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
@@ -481,7 +517,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加springboot-admin-server服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加springboot-admin-server服务" />
+    <MESSAGE value="添加springboot-admin-client应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加springboot-admin-client应用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/ApiManagerApplication.java">
@@ -498,17 +535,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="363">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="285">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -519,27 +556,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="152">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
