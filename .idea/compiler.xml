@@ -6,22 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka" />
-        <module name="javaHightStudy" />
-        <module name="oasys" />
-        <module name="route" />
-        <module name="security-web" />
-        <module name="spring-boot" />
-        <module name="spring-boot-seckill" />
-        <module name="spring-boot-task" />
-        <module name="spring-zookeeper" />
-        <module name="weather" />
-      </profile>
-      <profile name="Annotation profile for spring-resource" enabled="true">
-        <sourceOutputDir name="../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-resource" />
+        <module name="admin-client" />
+        <module name="admin-server" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
   </component>
