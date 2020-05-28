@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @RestController
@@ -25,7 +23,7 @@ public class UserController {
     @Autowired
     private StringRedisTemplate redisTemplate;
 
-    @RequestMapping(value = "/queryUserInfo", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/queryUserInfo", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<UserInfo> queryUserInfo() {
         List<UserInfo> res = userInfoService.queryUserInfo();
 
@@ -39,16 +37,14 @@ public class UserController {
      * @return
      */
     @RequestMapping(value = "/login",method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public String login(HttpServletRequest request, @RequestParam(value = "userName") String userName,
-            @RequestParam(value = "password") String  password){
+    public String login(@RequestParam(value = "userName") String userName,
+                        @RequestParam(value = "password") String  password){
         if(StringUtils.isEmpty(userName) || StringUtils.isEmpty(password)){
             return "login request message failure";
         }
         UserInfo userInfo = userInfoService.getUserInfo(userName, password);
         if(userInfo != null){
-            HttpSession session = request.getSession();
-            session.setAttribute("loginUserId", userInfo.getId());
-            redisTemplate.opsForValue().set("loginUser:" + userInfo.getId(), session.getId());
+            redisTemplate.opsForValue().set("loginUser:" + userInfo.getId(), String.valueOf(userInfo.getId()));
             return userInfo.toString();
         }else{
             return "用户不存在";
