@@ -1,11 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97f3b736-0072-44ac-9141-9cac48e236cf" name="Default Changelist" comment="" />
+    <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="新增arrayList 与 linkedList性能比较分析代码">
+      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-design-type/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Daidai_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/ProxyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyRealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/ProxyRealImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/AdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Targetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Targetable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/CouldDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/CouldDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Packing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Sourceable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Disk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConcreteCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Wrapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/Wrapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/WrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/TestMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/TestMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/UserOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/UserOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/prototype/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/center/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/center/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/center/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/center/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/client/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/client/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/client/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/client/RPCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/service/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process4.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process5.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designType/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lru/LRULinkedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/lru/LRULinkedHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/SpringMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/mybatis/SpringMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sansan/server/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/server/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sansan/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/SpringDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/demo/SpringDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/realImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/realImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybatis/SpringMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sansan/server/api/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/sansan/server/api/ApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sansan/spring/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/spring/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/sansan/spring/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/SpringDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/spring/demo/SpringDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/thread.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/spring-boot-admin/target/" />
-    <ignored path="$PROJECT_DIR$/spring-boot-admin-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot/target/" />
+    <ignored path="$PROJECT_DIR$/redis-lock/target/" />
+    <ignored path="$PROJECT_DIR$/eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,40 +112,45 @@
     <session id="-574165943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="23" />
+          <entry key="md" value="12" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="23" />
+          <entry key="Markdown" value="12" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="129" />
-          <entry key="properties" value="184" />
-          <entry key="txt" value="86" />
-          <entry key="xml" value="17" />
+          <entry key="java" value="566" />
+          <entry key="md" value="482" />
+          <entry key="txt" value="202" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="129" />
-          <entry key="PLAIN_TEXT" value="86" />
-          <entry key="Properties" value="184" />
-          <entry key="XML" value="17" />
+          <entry key="JAVA" value="566" />
+          <entry key="Markdown" value="482" />
+          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -60,70 +158,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-549">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-design-type/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="76">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/java/com/sansan/micor/client/AdminClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-design-type/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -140,16 +209,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../activiti-engine" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-admin-client/src/main/java/com/sansan/micor/client/AdminClientApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java" />
+        <option value="$PROJECT_DIR$/redis-lock/readme.md" />
+        <option value="$PROJECT_DIR$/redis-lock/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/service/RedisLock.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/interceptor/RedisSessionInterceptor.java" />
+        <option value="$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/EurekaApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/CommonListTest.java" />
       </list>
     </option>
   </component>
@@ -165,8 +243,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\neusoft\.m2\repository" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings-ali.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -175,11 +252,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="1" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -212,142 +295,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-admin-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -362,14 +319,15 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578295686175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592794647817" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -387,84 +345,143 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.14605874" />
+    <option name="contentProportion" value="0.23647605" />
   </component>
-  <component name="RunManager" selected="Spring Boot.client">
-    <configuration name="client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="admin-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.micor.client.AdminClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+  <component name="RunManager" selected="Application.CommonListTest">
+    <configuration name="CommonListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sansan.eureka.CommonListTest" />
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sansan.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="admin-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.micor.admin.AdminServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="EurekaApplicationTests.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sansan.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sansan.eureka" />
+      <option name="MAIN_CLASS_NAME" value="com.sansan.eureka.EurekaApplicationTests" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.springboot.api.ApiManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-lock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.redis.redislock.RedisLockApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.server" />
-      <item itemvalue="Spring Boot.client" />
+      <item itemvalue="Spring Boot.ApiManagerApplication" />
+      <item itemvalue="Spring Boot.RedisLockApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="JUnit.EurekaApplicationTests.main" />
+      <item itemvalue="Application.CommonListTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommonListTest" />
+        <item itemvalue="JUnit.EurekaApplicationTests.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\neusoft\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="97f3b736-0072-44ac-9141-9cac48e236cf" name="Default Changelist" comment="" />
-      <created>1577934028031</created>
+      <changelist id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="" />
+      <created>1589770315657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577934028031</updated>
-      <workItem from="1577934044127" duration="223000" />
-      <workItem from="1578292963461" duration="2686000" />
+      <updated>1589770315657</updated>
+      <workItem from="1589770320328" duration="696000" />
+      <workItem from="1589781740882" duration="5372000" />
+      <workItem from="1589871414601" duration="1528000" />
+      <workItem from="1590644595975" duration="462000" />
+      <workItem from="1590645144375" duration="3727000" />
+      <workItem from="1591248896000" duration="6001000" />
+      <workItem from="1591926678773" duration="1903000" />
+      <workItem from="1592793910671" duration="719000" />
     </task>
-    <task id="LOCAL-00001" summary="添加springboot-admin-server服务">
-      <created>1578293423051</created>
+    <task id="LOCAL-00001" summary="添加redis分布式锁实现模块">
+      <created>1589783031365</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1578293423051</updated>
+      <updated>1589783031365</updated>
     </task>
-    <task id="LOCAL-00002" summary="添加springboot-admin-client应用">
-      <created>1578294886412</created>
+    <task id="LOCAL-00002" summary="add readme.md">
+      <created>1589784477214</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1578294886412</updated>
+      <updated>1589784477214</updated>
     </task>
-    <task id="LOCAL-00003" summary="admin-server结合security使用安全认证机制">
-      <created>1578295667080</created>
+    <task id="LOCAL-00003" summary="调整RedisLock注释代码">
+      <created>1589871629959</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1578295667080</updated>
+      <updated>1589871629959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改api-manager关于用户登录权限api控制的代码">
+      <created>1590648245011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590648245011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增arrayList 与 linkedList性能比较分析代码">
+      <created>1591926779115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591926779115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2909000" />
+  <component name="TestHistory">
+    <history-entry file="EurekaApplicationTests_main - 2020.06.04 at 14h 45m 10s.xml">
+      <configuration name="EurekaApplicationTests.main" configurationId="JUnit" />
+    </history-entry>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -474,33 +491,33 @@
       <window_info id="Web" order="7" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="BPMN Editor" order="8" weight="0.32980332" />
       <window_info id="JRebel" order="9" sideWeight="0.509375" side_tool="true" weight="0.30673498" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.717608" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.36824876" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.61083746" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3678161" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.3974359" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.57471263" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50378215" side_tool="true" weight="0.46469623" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.30541873" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" sideWeight="0.49924356" weight="0.7126246" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49924356" weight="0.37914693" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50075644" side_tool="true" weight="0.39901477" />
-      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49621785" weight="0.46141216" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50378215" side_tool="true" weight="0.492635" />
+      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49621785" weight="0.46469623" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="20" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49723756" weight="0.22492836" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49723756" visible="true" weight="0.2246596" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -516,12 +533,157 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加springboot-admin-server服务" />
-    <MESSAGE value="添加springboot-admin-client应用" />
-    <MESSAGE value="admin-server结合security使用安全认证机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin-server结合security使用安全认证机制" />
+    <MESSAGE value="添加redis分布式锁实现模块" />
+    <MESSAGE value="add readme.md" />
+    <MESSAGE value="调整RedisLock注释代码" />
+    <MESSAGE value="修改api-manager关于用户登录权限api控制的代码" />
+    <MESSAGE value="新增arrayList 与 linkedList性能比较分析代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增arrayList 与 linkedList性能比较分析代码" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>request.getParameter(&quot;loginUserId&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getAttribute(&quot;loginUserId&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/test/java/com/sansan/springboot/api/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lock/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/RedisLockApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Dubbo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Dubbo知识精华.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/一些设计上的基本常识 - 梁飞.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Zookeeper.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/update会锁表吗？.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/服务器/Linux中find常见用法示例.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/分库分表/基本思路.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/MySql_course.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/MySQL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="-228" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/system/SystemResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/ApiManagerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -529,71 +691,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/test/java/com/sansan/micor/admin/AdminServerApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="133">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/AdminServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-549">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/src/main/java/com/sansan/micor/client/AdminClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/sansan/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/interceptor/RedisSessionInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        <state relative-caret-position="418">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/mybatis/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/EurekaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/CommonListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/service/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-task/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2242">
+            <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-design-type/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-design-type/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -607,11 +864,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -630,6 +900,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
