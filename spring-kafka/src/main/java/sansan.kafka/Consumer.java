@@ -19,7 +19,7 @@ public class Consumer {
 
     public static void main(String[] args) {
         Properties props = new Properties();
-        props.put("bootstrap.servers", "124.70.254.139:9092");
+        props.put("bootstrap.servers", "124.70.154.139:9092");
         props.put("group.id", "test");
         props.put("enable.auto.commit", "true");
         props.put("auto.commit.interval.ms", "1000");
