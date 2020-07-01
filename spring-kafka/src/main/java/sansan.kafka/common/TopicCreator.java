@@ -1,4 +1,4 @@
-package sansan.kafka;
+package sansan.kafka.common;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.CreateTopicsResult;
