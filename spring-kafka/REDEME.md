@@ -5,7 +5,7 @@
  * 1、1 下载
  
     在apache-kafka官方网站：http://kafka.apache.org/downloads，下载kafka的linux系统压缩包，这里选择
-    kafka-2.5.0版本：
+    kafka-2.5.0版本(备注：代src的kafka的源代码，需要下载它的二进制执行文件)：
     ![](./doc/images/kafka_001.png)
     
  * 1、2 安装
@@ -19,6 +19,32 @@
     
 #### 2、Linux环境下kafka的使用
 
- * 2、1 启动
+ * 2、1 启动zookeeper
  
-        ./gradlew jar -PscalaVersion=2.12.10  
+    bin/zookeeper-server-start.sh config/zookeeper.properties
+    ![](./doc/images/kafka_003.png)
+    
+ * 2、2 启动kafka
+ 
+    bin/kafka-server-start.sh config/server.properties
+    ![](./doc/images/kafka_004.png)
+    
+ * 2、3 创建一个topic test
+    
+    bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+    ![](./doc/images/kafka_005.png)
+    
+ * 2、4 创建一个consumer
+ 
+    bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+    ![](./doc/images/kafka_007.png)
+    
+ * 2、5 创建一个producer
+ 
+    bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+    ![](./doc/images/kafka_006.png)
+    
+ 至此一个简单的kafka软件应用就在Linux服务器上搭建完成，只需要在producer里面输入你想要
+ 发送的消息文本按回车，在consumer终端就能看见你的消息message.                
+ 
+          
