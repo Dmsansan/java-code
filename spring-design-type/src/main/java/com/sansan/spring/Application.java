@@ -1,4 +1,4 @@
-package main.java.com.sansan.spring;
+package com.sansan.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

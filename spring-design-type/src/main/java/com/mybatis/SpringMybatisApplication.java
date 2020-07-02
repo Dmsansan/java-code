@@ -1,4 +1,4 @@
-package main.java.com.mybatis;
+package com.mybatis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
