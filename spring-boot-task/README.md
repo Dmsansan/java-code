@@ -123,19 +123,19 @@ hibernate 5.2 废弃了 setResultTransformer，说是要开发一种新的获取
 
 ## 项目截图
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181340_cfbf6c90_87650.png "1.png")
+![](../assert/tasks/181340_cfbf6c90_87650.png)
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181347_8b91b864_87650.png "2.png")
+![输入图片说明](../assert/tasks/181347_8b91b864_87650.png)
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181352_cfcdce10_87650.png "3.png")
+![输入图片说明](../assert/tasks/181352_cfcdce10_87650.png)
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181357_e41c9cd9_87650.png "4.png")
+![输入图片说明](../assert/tasks/181357_e41c9cd9_87650.png)
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181403_b82f6edd_87650.png "5.png")
+![输入图片说明](../assert/tasks/181403_b82f6edd_87650.png)
 
-![输入图片说明](https://gitee.com/uploads/images/2018/0331/181409_b5623f27_87650.png "6.png")
+![输入图片说明](../assert/tasks/181409_b5623f27_87650.png)
 
-![表达式生成器](https://gitee.com/uploads/images/2018/0402/180033_437a1186_87650.png "7.png")
+![表达式生成器](../assert/tasks/180033_437a1186_87650.png)
 
 
 ## 集群测试
