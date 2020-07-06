@@ -1,15 +1,19 @@
 package com.sansan.cn.weather.web;
 
-import com.alibaba.fastjson.JSON;
 import com.sansan.cn.weather.utils.HttpRequestUtil;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
-import java.util.Map;
 
+/**
+ * @author siss
+ * @date 202/07/06
+ */
 @RestController
 @RequestMapping(value = "/index")
 public class IndexController {

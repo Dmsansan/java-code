@@ -3,6 +3,10 @@ package com.sansan.cn.weather;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author siss
+ * @date 2020/07/06
+ */
 @SpringBootApplication
 public class WeatherApplication {
 

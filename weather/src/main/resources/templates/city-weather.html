@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>springboot-thymeleaf demo</title>
+    <title>国内天气实时查询</title>
     <link rel="stylesheet" href="../layui/css/layui.css">
 </head>
 
@@ -44,16 +44,19 @@
                     this.layerIndex = layer.load(0, { shade: [0.5, '#393D49'] });
                 },
                 success:function(data){
-                    if(data.resData == ''){
+                    if(data == ''){
                         layer.msg('查询失败',{icon: 5, area: ['200px', '100px']});//失败的表情
                         return;
-                    }else if(data.resData != ''){
-                        layer.msg('查询成功', {
-                            icon: 6,//成功的表情
-                            time: 1000, //1秒关闭（如果不配置，默认是3秒）
-                            area: ['200px', '100px']
-                        }, function(){
-                            location.reload();
+                    }else if(data != ''){
+                        var cityInfo = data.cityInfo;
+                        var weatherData = data.data;
+                        layer.open({
+                            title: cityInfo.city + '天气',
+                            content: data.time+'</br>'+'湿度：'+weatherData.shidu
+                                + '</br>' +'温度：'+ weatherData.wendu
+                                +'</br>'+'PM2.5：'+weatherData.pm25
+                                +'</br>'+'质量：'+weatherData.quality
+                                +'</br>'+'活动建议：'+weatherData.ganmao
                         });
                     }
                 },
