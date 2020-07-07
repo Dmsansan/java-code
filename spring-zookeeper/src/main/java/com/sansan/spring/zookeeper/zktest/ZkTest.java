@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author siss
  * @date 2020/7/7  10:02
  * @deprecated 使用zookeeper实现多线程中分布式锁，使用的是
- *              zookeeper的节点创建的唯一性原则。
+ *             zookeeper的节点创建的唯一性原则。创建顺序临时节点
  */
 public class ZkTest implements Runnable {
 
