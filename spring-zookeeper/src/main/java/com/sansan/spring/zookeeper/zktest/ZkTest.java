@@ -1,5 +1,6 @@
 package com.sansan.spring.zookeeper.zktest;
 
+import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;
 
 import java.util.concurrent.CountDownLatch;
@@ -57,5 +58,38 @@ public class ZkTest implements Runnable {
             e.printStackTrace();
         } finally {
         }
+    }
+
+    public void lock(){
+        waitForLock();
+        lock();
+    }
+
+    public void waitForLock(){
+        System.out.println("加锁失败");
+        IZkDataListener iZkDataListener = new IZkDataListener() {
+            @Override
+            public void handleDataChange(String s, Object o) throws Exception {
+
+            }
+
+            @Override
+            public void handleDataDeleted(String s) throws Exception {
+                System.out.println("唤醒");
+                cdl.countDown();
+            }
+        };
+
+        // 监听
+        zkClient.subscribeDataChanges(Z_NODE, iZkDataListener);
+        if (zkClient.exists(Z_NODE)) {
+            try {
+                cdl.await();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        // 释放监听
+        zkClient.unsubscribeDataChanges(Z_NODE, iZkDataListener);
     }
 }
