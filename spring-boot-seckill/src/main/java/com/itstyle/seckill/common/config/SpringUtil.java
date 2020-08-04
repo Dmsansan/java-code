@@ -5,6 +5,13 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+/**
+ * 获取spring管理的bean的工具类
+ * 提供一下方法：
+ *  1、通过name获取bean
+ *  2、通过class获取bean
+ *  3、通过name+class获取bean
+ */
 @Component
 public class SpringUtil implements ApplicationContextAware {
 
@@ -15,7 +22,6 @@ public class SpringUtil implements ApplicationContextAware {
         if (SpringUtil.applicationContext == null) {
             SpringUtil.applicationContext = applicationContext;
         }
-        System.out.println("========科帮网(https://blog.52itstyle.com)========");
     }
 
     //获取applicationContext

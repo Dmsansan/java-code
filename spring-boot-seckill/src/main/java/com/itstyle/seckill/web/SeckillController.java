@@ -36,7 +36,7 @@ public class SeckillController {
     @Autowired
     private ISeckillService seckillService;
 
-    @ApiOperation(value = "秒杀一(最low实现)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀一(最low实现)", nickname = "&&&&")
     @PostMapping("/start")
     public Result start(long seckillId) {
         int skillNum = 1000;
@@ -70,7 +70,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀二(程序锁)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀二(程序锁)", nickname = "&&&&")
     @PostMapping("/startLock")
     public Result startLock(long seckillId) {
         int skillNum = 1000;
@@ -100,7 +100,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀三(AOP程序锁)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀三(AOP程序锁)", nickname = "&&&&")
     @PostMapping("/startAopLock")
     public Result startAopLock(long seckillId) {
         int skillNum = 1000;
@@ -130,7 +130,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀四(数据库悲观锁)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀四(数据库悲观锁)", nickname = "&&&&")
     @PostMapping("/startDBPCC_ONE")
     public Result startDBPCC_ONE(long seckillId) {
         int skillNum = 1000;
@@ -160,7 +160,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀五(数据库悲观锁)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀五(数据库悲观锁)", nickname = "&&&&")
     @PostMapping("/startDPCC_TWO")
     public Result startDPCC_TWO(long seckillId) {
         int skillNum = 1000;
@@ -190,7 +190,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀六(数据库乐观锁)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀六(数据库乐观锁)", nickname = "&&&&")
     @PostMapping("/startDBOCC")
     public Result startDBOCC(long seckillId) {
         int skillNum = 1000;
@@ -222,7 +222,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀柒(进程内队列)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀柒(进程内队列)", nickname = "&&&&")
     @PostMapping("/startQueue")
     public Result startQueue(long seckillId) {
         seckillService.deleteSeckill(seckillId);
@@ -261,7 +261,7 @@ public class SeckillController {
         return Result.ok();
     }
 
-    @ApiOperation(value = "秒杀柒(Disruptor队列)", nickname = "科帮网")
+    @ApiOperation(value = "秒杀玐(Disruptor队列)", nickname = "&&&&")
     @PostMapping("/startDisruptorQueue")
     public Result startDisruptorQueue(long seckillId) {
         seckillService.deleteSeckill(seckillId);
