@@ -1,5 +1,8 @@
 package com.rocketmq.example;
 
+import com.alibaba.fastjson.JSON;
+import com.rocketmq.example.entity.Panda;
+import com.rocketmq.example.entity.User;
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
@@ -20,17 +23,17 @@ public class SpringRocketMqApplication {
 
     public static void main(String[] args) throws InterruptedException, RemotingException, MQClientException, MQBrokerException {
         ApplicationContext context = SpringApplication.run(SpringRocketMqApplication.class, args);
-
-        System.out.println("测试生产者消息start");
         DefaultMQProducer producer = context.getBean(DefaultMQProducer.class);
-        for(int i = 0; i < 10; i ++) {
-            String body = "hello rocketMQ" + i;
-            //注意，第一个参数是topic，第二个tag，要和配置文件保持一致，第三个是body，也就是我们要发的消息，字节类型。
-            Message message = new Message("topic2020", "test", body.getBytes());
-            SendResult result = producer.send(message);
-            Thread.sleep(1000);
-        }
-        //关闭资源
+        User user  = new User("茜茜",18,"女");
+        Message message = new Message("topic2020", "test", JSON.toJSONString(user).getBytes());
+        SendResult result = producer.send(message);
+        System.out.println("发送了消息" + result);
+
+        Panda panda = new Panda("虎子", 5);
+        Message pandaMessage = new Message("animal", "panda", JSON.toJSONString(panda).getBytes());
+        SendResult animalResult =  producer.send(pandaMessage);
+        System.out.println("发送了消息" +animalResult );
+
         producer.shutdown();
         System.out.println("producer shutdown!");
     }
