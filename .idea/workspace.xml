@@ -1,104 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="新增arrayList 与 linkedList性能比较分析代码">
-      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-lock/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-design-type/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.gitignore" afterDir="false" />
+    <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="添加zookeeper测试代码，实现分布式锁">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/MessageProcessorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/producer/RocketMQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/authapi/RequestTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Daidai_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/ProxyPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProxyRealImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/ProxyRealImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/AdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/AdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Targetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Targetable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/adapter/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/adapter/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/CouldDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/CouldDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Packing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/builder/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/builder/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/DecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Source.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/decorator/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/decorator/Sourceable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/Memory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/facade/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/facade/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConCreateProduct1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConCreateProduct2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/ConcreteCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/ConcreteCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/Creator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/FactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/factory/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/factory/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/gateway/GateWayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/SourceSub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/Sourceable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/Wrapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/Wrapper2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/interfaceadapter/WrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/interfaceadapter/WrapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/MysqlConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/TestMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/TestMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/mysql/UserOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/mysql/UserOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/prototype/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/TestRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/config/RedisConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/center/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/center/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/center/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/center/ServiceCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/client/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/client/RPCClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/client/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/client/RPCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/rpc/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/rpc/service/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process1.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process3.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process4.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/main/com/sansan/cn/thread/process/Process5.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/thread/process/Process5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designType/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/designType/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lru/LRULinkedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/lru/LRULinkedHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mybatis/SpringMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/mybatis/SpringMybatisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sansan/server/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/server/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sansan/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/spring/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/SpringDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/demo/SpringDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/realImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/realImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mybatis/SpringMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sansan/server/api/ApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/sansan/server/api/ApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sansan/spring/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/spring/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/sansan/spring/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/SpringDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/test/java/com/spring/demo/SpringDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/com/sansan/example/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/com/sansan/example/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-design-type/src/thread/thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/src/main/java/com/security/example/SecurityWebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/src/main/java/com/security/example/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-web/src/test/java/com/security/example/SecurityWebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/test/java/com/rocketmq/example/SecurityWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/FindMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/FindMedian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot/target/" />
     <ignored path="$PROJECT_DIR$/redis-lock/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-kafaka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-design-type/target/" />
+    <ignored path="$PROJECT_DIR$/leetcode/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-task/target/" />
+    <ignored path="$PROJECT_DIR$/weather/target/" />
+    <ignored path="$PROJECT_DIR$/spring-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-seckill/target/" />
+    <ignored path="$PROJECT_DIR$/security-web/target/" />
+    <ignored path="$PROJECT_DIR$/spring-racketmq/target/" />
+    <ignored path="$PROJECT_DIR$/spring-rocketmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,74 +59,170 @@
     <session id="-574165943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
-          <entry key="md" value="12" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="6" />
+          <entry key="class" value="2" />
+          <entry key="conf" value="1" />
+          <entry key="html" value="2" />
+          <entry key="java" value="138" />
+          <entry key="jsp" value="1" />
+          <entry key="lua" value="1" />
+          <entry key="md" value="46" />
+          <entry key="png" value="5" />
+          <entry key="properties" value="20" />
+          <entry key="sql" value="2" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
-          <entry key="Markdown" value="12" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="2" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="138" />
+          <entry key="JSP" value="1" />
+          <entry key="Markdown" value="46" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="20" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="566" />
-          <entry key="md" value="482" />
-          <entry key="txt" value="202" />
-          <entry key="xml" value="2" />
+          <entry key="dummy" value="54" />
+          <entry key="ft" value="62" />
+          <entry key="html" value="374" />
+          <entry key="java" value="4199" />
+          <entry key="md" value="1575" />
+          <entry key="properties" value="132" />
+          <entry key="txt" value="585" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="566" />
-          <entry key="Markdown" value="482" />
-          <entry key="PLAIN_TEXT" value="202" />
-          <entry key="XML" value="2" />
+          <entry key="HTML" value="374" />
+          <entry key="JAVA" value="4199" />
+          <entry key="Markdown" value="1575" />
+          <entry key="PLAIN_TEXT" value="639" />
+          <entry key="Properties" value="132" />
+          <entry key="VTL" value="62" />
+          <entry key="XML" value="118" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="266">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-design-type/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="1054">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/apache-maven-3.5.4/conf/settings-ali.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2318">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/producer/RocketMQProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#607#639#1" expanded="true" />
+                <element signature="e#682#716#1" expanded="true" />
+                <element signature="e#761#796#1" expanded="true" />
+                <element signature="e#842#879#1" expanded="true" />
+                <element signature="e#924#961#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/MessageProcessorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,11 +231,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-design-type/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#840#874#1" expanded="true" />
+                <element signature="e#919#951#1" expanded="true" />
+                <element signature="e#994#1022#1" expanded="true" />
+                <element signature="e#1061#1087#1" expanded="true" />
+                <element signature="e#1124#1163#1" expanded="true" />
+                <element signature="e#1210#1249#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,9 +267,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>科帮网</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&amp;&amp;&amp;&amp;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -219,15 +293,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis-lock/readme.md" />
-        <option value="$PROJECT_DIR$/redis-lock/pom.xml" />
-        <option value="$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/service/RedisLock.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/service/impl/UserInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/interceptor/RedisSessionInterceptor.java" />
-        <option value="$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/EurekaApplicationTests.java" />
-        <option value="$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/CommonListTest.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/TopicCreator.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/Consumer.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/REDEME.md" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/config/KafkaConfig.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleProducer.java" />
+        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleConsumerListener.java" />
+        <option value="$PROJECT_DIR$/spring-design-type/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/mybatis/SpringMybatisApplication.java" />
+        <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/server/api/ApiApplication.java" />
+        <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/spring/Application.java" />
+        <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/demo/SpringDemoApplication.java" />
+        <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/spring/Application.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/solution/ListNode.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/leetcode/solution/Solution.java" />
+        <option value="$PROJECT_DIR$/leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-task/README.md" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/web/IndexController.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/resources/templates/city-weather.html" />
+        <option value="$PROJECT_DIR$/weather/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/spring-zookeeper/src/main/java/com/sansan/spring/zookeeper/SpringZookeeperApplication.java" />
+        <option value="$PROJECT_DIR$/spring-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-zookeeper/src/main/java/com/sansan/spring/zookeeper/zktest/ZkTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/config/SpringUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/web/SeckillController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/AlgorithmVs.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/FindMedian.java" />
+        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/HeapSort.java" />
+        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/authapitest/RequestTestController.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/authapi/RequestTestController.java" />
+        <option value="$PROJECT_DIR$/security-web/pom.xml" />
+        <option value="$PROJECT_DIR$/security-web/src/main/java/com/security/example/SecurityWebApplication.java" />
+        <option value="$PROJECT_DIR$/security-web/src/main/java/com/security/example/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/SecurityWebApplication.java" />
+        <option value="$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/SpringRacketMqApplication.java" />
+        <option value="$PROJECT_DIR$/spring-racketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-racketmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/racketmq/example/SpringRocketMqApplication.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/MessageProcessorImpl.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/producer/RocketMQProducer.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" />
       </list>
     </option>
   </component>
@@ -254,11 +370,25 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="weather" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="1" />
     <option name="width" value="1380" />
@@ -269,6 +399,9 @@
       <profile-state>
         <expanded-state>
           <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
           <State>
             <id>Spring</id>
           </State>
@@ -281,7 +414,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Spring BootSpring</id>
+            <id>SpringBootApplicationSetup</id>
           </State>
         </selected-state>
       </profile-state>
@@ -296,15 +429,148 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,19 +581,33 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592794647817" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598497780603" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rocketmq" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sansan.kafka.spring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\doc" />
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -345,15 +625,15 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.23647605" />
+    <option name="contentProportion" value="0.21251932" />
   </component>
-  <component name="RunManager" selected="Application.CommonListTest">
-    <configuration name="CommonListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sansan.eureka.CommonListTest" />
-      <module name="eureka" />
+  <component name="RunManager" selected="Spring Boot.SpringRocketMqApplication">
+    <configuration name="FindMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itstyle.seckill.common.algorithm.FindMedian" />
+      <module name="spring-boot-seckill" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sansan.eureka.*" />
+          <option name="PATTERN" value="com.itstyle.seckill.common.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,18 +641,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplicationTests.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eureka" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itstyle.seckill.common.algorithm.HeapSort" />
+      <module name="spring-boot-seckill" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sansan.eureka.*" />
+          <option name="PATTERN" value="com.itstyle.seckill.common.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sansan.eureka" />
-      <option name="MAIN_CLASS_NAME" value="com.sansan.eureka.EurekaApplicationTests" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,6 +704,13 @@
     <configuration name="ApiManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.springboot.api.ApiManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-task" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itstyle.quartz.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -398,17 +729,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringRocketMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rocketmq.example.SpringRocketMqApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringZookeeperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-zookeeper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.spring.zookeeper.SpringZookeeperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="weather" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sansan.cn.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.cn.weather.WeatherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring-seckill" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-seckill" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itstyle.seckill.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ApiManagerApplication" />
       <item itemvalue="Spring Boot.RedisLockApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
-      <item itemvalue="JUnit.EurekaApplicationTests.main" />
-      <item itemvalue="Application.CommonListTest" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.SpringZookeeperApplication" />
+      <item itemvalue="Spring Boot.spring-seckill" />
+      <item itemvalue="Spring Boot.SpringRocketMqApplication" />
+      <item itemvalue="Application.FindMedian" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Spring Boot.WeatherApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CommonListTest" />
-        <item itemvalue="JUnit.EurekaApplicationTests.main" />
+        <item itemvalue="Spring Boot.WeatherApplication" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.FindMedian" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +804,38 @@
       <workItem from="1590645144375" duration="3727000" />
       <workItem from="1591248896000" duration="6001000" />
       <workItem from="1591926678773" duration="1903000" />
-      <workItem from="1592793910671" duration="719000" />
+      <workItem from="1592793910671" duration="3552000" />
+      <workItem from="1592962032751" duration="328000" />
+      <workItem from="1592964304886" duration="596000" />
+      <workItem from="1593393623870" duration="5641000" />
+      <workItem from="1593566479386" duration="6277000" />
+      <workItem from="1593583817583" duration="3756000" />
+      <workItem from="1593654553627" duration="736000" />
+      <workItem from="1593668538170" duration="4326000" />
+      <workItem from="1593739718314" duration="2287000" />
+      <workItem from="1593742368053" duration="987000" />
+      <workItem from="1594000829238" duration="3004000" />
+      <workItem from="1594016806206" duration="12286000" />
+      <workItem from="1594261207725" duration="1665000" />
+      <workItem from="1594263336110" duration="2485000" />
+      <workItem from="1595226353081" duration="791000" />
+      <workItem from="1595819695457" duration="1973000" />
+      <workItem from="1595902354516" duration="641000" />
+      <workItem from="1595986088368" duration="2524000" />
+      <workItem from="1596072520968" duration="4298000" />
+      <workItem from="1596161490425" duration="1555000" />
+      <workItem from="1596511165559" duration="1686000" />
+      <workItem from="1596609376753" duration="2091000" />
+      <workItem from="1596676631109" duration="4236000" />
+      <workItem from="1597023968404" duration="9218000" />
+      <workItem from="1597107983348" duration="435000" />
+      <workItem from="1597109048979" duration="1456000" />
+      <workItem from="1597116396670" duration="1486000" />
+      <workItem from="1597199624861" duration="2632000" />
+      <workItem from="1597225721832" duration="344000" />
+      <workItem from="1597628537254" duration="103000" />
+      <workItem from="1597800171077" duration="1749000" />
+      <workItem from="1598490113485" duration="7222000" />
     </task>
     <task id="LOCAL-00001" summary="添加redis分布式锁实现模块">
       <created>1589783031365</created>
@@ -466,7 +872,105 @@
       <option name="project" value="LOCAL" />
       <updated>1591926779115</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="调整整体项目的代码结构">
+      <created>1592794756634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592794756634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="kafka项目添加">
+      <created>1592962182691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592962182691</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加kafka使用的java代码">
+      <created>1593411780979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593411780979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="kafka在linux服务器上搭建使用过程">
+      <created>1593567947957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593567947957</updated>
+    </task>
+    <task id="LOCAL-00010" summary="调整consumer消费这段代码">
+      <created>1593569723798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593569723798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="调整kafka的代码结构，以spring-kafka方式实现消息生产消费">
+      <created>1593571606177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593571606177</updated>
+    </task>
+    <task id="LOCAL-00012" summary="调整md文档目录">
+      <created>1593586781940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593586781940</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加leetcode剑指offer算法题目">
+      <created>1593671536468</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593671536469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="调整简单的定时任务执行项目">
+      <created>1593740748012</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593740748012</updated>
+    </task>
+    <task id="LOCAL-00015" summary="优化国内实时天气查询项目">
+      <created>1594003871226</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594003871227</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加zookeeper测试代码，实现分布式锁">
+      <created>1594090930238</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594090930238</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加zookeeper测试代码，实现分布式锁">
+      <created>1594100891882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594100891882</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加zookeeper测试代码，实现分布式锁">
+      <created>1594104187407</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594104187408</updated>
+    </task>
+    <task id="LOCAL-00019" summary="调整秒杀系统控制器配置代码">
+      <created>1596520624818</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596520624818</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -475,13 +979,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20408000" />
+    <option name="totallyTimeSpent" value="112055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.21406959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,21 +997,21 @@
       <window_info id="JRebel" order="9" sideWeight="0.509375" side_tool="true" weight="0.30673498" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.717608" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3678161" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3004926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.57471263" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50378215" side_tool="true" weight="0.46469623" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.30541873" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045386" side_tool="true" weight="0.49425286" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.45155993" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" sideWeight="0.49924356" weight="0.7126246" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49924356" weight="0.37914693" />
       <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50378215" side_tool="true" weight="0.492635" />
-      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49621785" weight="0.46469623" />
+      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49546143" weight="0.6633826" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
@@ -517,7 +1021,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49723756" visible="true" weight="0.2246596" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49723756" weight="0.2246596" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -538,289 +1042,457 @@
     <MESSAGE value="调整RedisLock注释代码" />
     <MESSAGE value="修改api-manager关于用户登录权限api控制的代码" />
     <MESSAGE value="新增arrayList 与 linkedList性能比较分析代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增arrayList 与 linkedList性能比较分析代码" />
+    <MESSAGE value="调整整体项目的代码结构" />
+    <MESSAGE value="kafka项目添加" />
+    <MESSAGE value="添加kafka使用的java代码" />
+    <MESSAGE value="kafka在linux服务器上搭建使用过程" />
+    <MESSAGE value="调整consumer消费这段代码" />
+    <MESSAGE value="调整kafka的代码结构，以spring-kafka方式实现消息生产消费" />
+    <MESSAGE value="调整md文档目录" />
+    <MESSAGE value="添加leetcode剑指offer算法题目" />
+    <MESSAGE value="调整简单的定时任务执行项目" />
+    <MESSAGE value="优化国内实时天气查询项目" />
+    <MESSAGE value="添加zookeeper测试代码，实现分布式锁" />
+    <MESSAGE value="调整秒杀系统控制器配置代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整秒杀系统控制器配置代码" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>request.getParameter(&quot;loginUserId&quot;)</expression-string>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;));</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getAttribute(&quot;loginUserId&quot;)</expression-string>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 10);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 10,  RoundingMode.UP);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 8,  RoundingMode.UP);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 7,  RoundingMode.UP);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 7);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12106.0&quot;).abs().divide(new BigDecimal(&quot;24212&quot;), 2);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-121124.564&quot;).abs().divide(new BigDecimal(&quot;242222&quot;), 2, RoundingMode.UP)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new BigDecimal(&quot;-12111&quot;).abs().divide(new BigDecimal(&quot;242222&quot;), 2, RoundingMode.UP)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/test/java/com/sansan/springboot/api/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-lock/readme.md">
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/服务器/AB压力测试工具.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="-741" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/dynamicquery/DynamicQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/web/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="198" column="23" lean-forward="true" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/queue/activemq/ActiveMQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/queue/redis/RedisSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/queue/redis/RedisConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/web/SeckillPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/aop/LimitAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/aop/ServiceLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/AlgorithmVs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/api/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/config/SpringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/config/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/lock/LockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/limit/NginxLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/FindMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/interceptor/MyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-kafka/REDEME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/config/KafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/多线程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-lock/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/RedisLockApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/doc/redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-lock/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Dubbo.md">
+    <entry file="file://$PROJECT_DIR$/redis-lock/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="342">
-            <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Dubbo知识精华.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/service/RedisLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/一些设计上的基本常识 - 梁飞.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/interceptor/RedisSessionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/架构之路/Zookeeper.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/update会锁表吗？.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/服务器/Linux中find常见用法示例.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/分库分表/基本思路.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/MySql_course.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/数据库/MySQL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="-228" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/system/SystemResource.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/ApiManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="437">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/sansan/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/interceptor/RedisSessionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/service/impl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot/src/main/resources/mybatis/UserInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/EurekaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/test/java/com/sansan/eureka/CommonListTest.java">
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/web/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-lock/src/main/java/com/sansan/redis/redislock/service/RedisLock.java">
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/utils/HttpRequestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2242">
-            <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="127">
+          <caret line="193" column="17" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot/src/main/java/com/sansan/springboot/api/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-design-type/src/designType/main/com/sansan/cn/redis/TestRedis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-design-type/src/test/java/com/mybatis/SpringMybatisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/authapi/RequestTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-design-type/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-design-type/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/TopicCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/apache-maven-3.5.4/conf/settings-ali.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2318">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/MessageProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#840#874#1" expanded="true" />
+            <element signature="e#919#951#1" expanded="true" />
+            <element signature="e#994#1022#1" expanded="true" />
+            <element signature="e#1061#1087#1" expanded="true" />
+            <element signature="e#1124#1163#1" expanded="true" />
+            <element signature="e#1210#1249#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/producer/RocketMQProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#639#1" expanded="true" />
+            <element signature="e#682#716#1" expanded="true" />
+            <element signature="e#761#796#1" expanded="true" />
+            <element signature="e#842#879#1" expanded="true" />
+            <element signature="e#924#961#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -876,12 +1548,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka</last-edited>
+          <last-edited>security-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

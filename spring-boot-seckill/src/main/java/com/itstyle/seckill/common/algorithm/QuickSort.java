@@ -27,27 +27,31 @@ public class QuickSort {
 
             // 递归调用，对左子数组进行快速排序
             quickSort(list, left, point - 1);
-            // 递归调用，对右子数组进行快速排序
+            // 递归调用，对右子数组进行快速排序 1 3
             quickSort(list, point + 1, right);
         }
     }
 
     /**
-     * 分割数组，找到分割点
+     * 分割数组，找到分割点 1 3 2 5 7
      */
     public static int partition(int[] list, int left, int right) {
-        // 用数组的第一个元素作为基准数
+        // 用数组的第一个元素作为基准数  1
         int first = list[left];
+        // 1 4
         while (left < right) {
             while (left < right && list[right] >= first) {
                 right--;
             }
-            // 交换
+            // right 2
+            // 交换 1 2 3 5 7
             swap(list, left, right);
 
+            // left 1  right 2  left_value 2 right_value 3
             while (left < right && list[left] <= first) {
                 left++;
             }
+            // left 2
             // 交换
             swap(list, left, right);
         }
