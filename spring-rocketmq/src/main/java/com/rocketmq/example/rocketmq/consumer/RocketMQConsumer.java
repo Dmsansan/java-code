@@ -1,9 +1,7 @@
 package com.rocketmq.example.rocketmq.consumer;
 
-import com.rocketmq.example.entity.User;
 import com.rocketmq.example.exception.RocketMQException;
 import com.rocketmq.example.rocketmq.message.MessageListener;
-import com.rocketmq.example.rocketmq.message.MessageProcessor;
 import com.rocketmq.example.rocketmq.message.impl.AnimalMessageProcessorImpl;
 import com.rocketmq.example.rocketmq.message.impl.UserMessageProcessorImpl;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
