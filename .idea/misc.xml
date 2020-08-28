@@ -7,7 +7,6 @@
         <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/redis-lock/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-task/pom.xml" />
         <option value="$PROJECT_DIR$/weather/pom.xml" />
@@ -16,6 +15,13 @@
         <option value="$PROJECT_DIR$/security-web/pom.xml" />
         <option value="$PROJECT_DIR$/spring-racketmq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/route/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/oa_system/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafaka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-resource/pom.xml" />
       </list>
     </option>
   </component>

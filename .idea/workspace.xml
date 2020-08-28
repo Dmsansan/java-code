@@ -1,20 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="添加zookeeper测试代码，实现分布式锁">
-      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/Panda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/exception/RocketMQException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/utils/JsonUtil2.java" afterDir="false" />
+    <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/REDEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/doc/images/kafka_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/spring-kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/common/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/common/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/common/TopicCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/spring/SimpleConsumerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/spring/SimpleProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-kafaka/src/main/java/sansan.kafka/spring/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/MessageProcessorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/UserMessageProcessorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/REDEME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/doc/images/kafka_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/spring-kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/TopicCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleConsumerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/config/KafkaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/common/Consumer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/common/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/common/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/common/TopicCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/spring/SimpleConsumerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/spring/SimpleProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/spring/SimpleProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-kafka/target/classes/sansan/kafka/spring/config/KafkaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-resource/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-resource/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +65,11 @@
     <ignored path="$PROJECT_DIR$/security-web/target/" />
     <ignored path="$PROJECT_DIR$/spring-racketmq/target/" />
     <ignored path="$PROJECT_DIR$/spring-rocketmq/target/" />
+    <ignored path="$PROJECT_DIR$/route/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-admin/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-admin-client/target/" />
+    <ignored path="$PROJECT_DIR$/oa_system/target/" />
+    <ignored path="$PROJECT_DIR$/spring-resource/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +83,11 @@
     <session id="-574165943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
@@ -73,7 +112,7 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,15 +120,15 @@
           <entry key="class" value="2" />
           <entry key="conf" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="147" />
+          <entry key="java" value="158" />
           <entry key="jsp" value="1" />
           <entry key="lua" value="1" />
           <entry key="md" value="46" />
           <entry key="png" value="5" />
-          <entry key="properties" value="21" />
+          <entry key="properties" value="22" />
           <entry key="sql" value="2" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -97,13 +136,13 @@
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="158" />
           <entry key="JSP" value="1" />
           <entry key="Markdown" value="46" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="21" />
+          <entry key="Properties" value="22" />
           <entry key="SQL" value="2" />
-          <entry key="XML" value="25" />
+          <entry key="XML" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -114,8 +153,8 @@
           <entry key="java" value="4734" />
           <entry key="md" value="1575" />
           <entry key="properties" value="134" />
-          <entry key="txt" value="585" />
-          <entry key="xml" value="183" />
+          <entry key="txt" value="623" />
+          <entry key="xml" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -123,10 +162,10 @@
           <entry key="HTML" value="374" />
           <entry key="JAVA" value="4734" />
           <entry key="Markdown" value="1575" />
-          <entry key="PLAIN_TEXT" value="643" />
+          <entry key="PLAIN_TEXT" value="681" />
           <entry key="Properties" value="134" />
           <entry key="VTL" value="62" />
-          <entry key="XML" value="183" />
+          <entry key="XML" value="188" />
         </counts>
       </usages-collector>
     </session>
@@ -134,118 +173,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/UserMessageProcessorImpl.java">
+        <entry file="file://$PROJECT_DIR$/route/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-82">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/user/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/Panda.java">
+        <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/SpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1064#1090#1" expanded="true" />
-                <element signature="e#1584#1617#1" expanded="true" />
-                <element signature="e#1661#1696#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-resource/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="342">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java">
+        <entry file="file://$PROJECT_DIR$/spring-kafaka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/utils/JsonUtil2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -281,8 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/spring/SimpleConsumerListener.java" />
-        <option value="$PROJECT_DIR$/spring-design-type/pom.xml" />
         <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/mybatis/SpringMybatisApplication.java" />
         <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/server/api/ApiApplication.java" />
         <option value="$PROJECT_DIR$/spring-design-type/src/main/java/com/sansan/spring/Application.java" />
@@ -326,12 +300,14 @@
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/exception/RocketMQException.java" />
-        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/Panda.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java" />
         <option value="$PROJECT_DIR$/spring-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-resource/pom.xml" />
       </list>
     </option>
   </component>
@@ -358,21 +334,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-rocketmq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="weather" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -417,10 +379,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,125 +389,61 @@
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-kafaka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-resource" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-rocketmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -561,8 +455,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598509729645" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rocketmq" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598580451513" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-resource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -572,14 +466,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\doc" />
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sansan.kafka.spring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ProjectWorkPlace\JavaHightStudy\doc" />
       <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
     </key>
   </component>
@@ -675,6 +569,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.micor.client.AdminClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.micor.admin.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.springboot.api.ApiManagerApplication" />
@@ -696,9 +604,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OasysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oasys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.gson.oasys.OasysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisLockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="redis-lock" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.redis.redislock.RedisLockApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="route" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="microservice.route.RouteApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -752,6 +674,10 @@
       <item itemvalue="Application.FindMedian" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Spring Boot.WeatherApplication" />
+      <item itemvalue="Spring Boot.OasysApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.AdminClientApplication" />
+      <item itemvalue="Spring Boot.RouteApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -809,7 +735,8 @@
       <workItem from="1597225721832" duration="344000" />
       <workItem from="1597628537254" duration="103000" />
       <workItem from="1597800171077" duration="1749000" />
-      <workItem from="1598490113485" duration="12153000" />
+      <workItem from="1598490113485" duration="14047000" />
+      <workItem from="1598578865328" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="添加redis分布式锁实现模块">
       <created>1589783031365</created>
@@ -944,7 +871,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596520624818</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="扩展rocketmq多个消息处理类">
+      <created>1598509866811</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598509866811</updated>
+    </task>
+    <task id="LOCAL-00021" summary="扩展rocketmq多个消息处理类">
+      <created>1598511515812</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598511515812</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -953,12 +894,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116986000" />
+    <option name="totallyTimeSpent" value="119940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.30711043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -984,7 +926,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" sideWeight="0.49924356" weight="0.7126246" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49924356" weight="0.37914693" />
       <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50378215" side_tool="true" weight="0.492635" />
-      <window_info active="true" anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49546143" visible="true" weight="0.6469622" />
+      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49546143" weight="0.6469622" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
@@ -1027,7 +969,8 @@
     <MESSAGE value="优化国内实时天气查询项目" />
     <MESSAGE value="添加zookeeper测试代码，实现分布式锁" />
     <MESSAGE value="调整秒杀系统控制器配置代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整秒杀系统控制器配置代码" />
+    <MESSAGE value="扩展rocketmq多个消息处理类" />
+    <option name="LAST_COMMIT_MESSAGE" value="扩展rocketmq多个消息处理类" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1079,76 +1022,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/queue/redis/RedisSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/queue/redis/RedisConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/web/SeckillPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/aop/LimitAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/aop/ServiceLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/AlgorithmVs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/api/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/config/SpringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1304,9 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,13 +1201,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/controller/IndexController.java" />
     <entry file="file://D:/apache-maven-3.5.4/conf/settings-ali.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2318">
@@ -1356,14 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#607#639#1" expanded="true" />
-            <element signature="e#682#716#1" expanded="true" />
-            <element signature="e#761#796#1" expanded="true" />
-            <element signature="e#842#879#1" expanded="true" />
-            <element signature="e#924#961#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,10 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,21 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,46 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/UserMessageProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1064#1090#1" expanded="true" />
-            <element signature="e#1584#1617#1" expanded="true" />
-            <element signature="e#1661#1696#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1463,7 +1260,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="249">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
@@ -1477,8 +1274,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="266">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/UserMessageProcessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/src/main/java/microservice/route/RouteApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/user/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-kafaka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-resource/src/main/java/com/sansan/spring/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-resource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1534,7 +1441,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>security-web</last-edited>
+          <last-edited>spring-resource</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
