@@ -13,10 +13,14 @@
         <module name="oasys" />
         <module name="redis-lock" />
         <module name="route" />
+        <module name="spring-api" />
         <module name="spring-boot" />
         <module name="spring-boot-seckill" />
         <module name="spring-boot-task" />
+        <module name="spring-consumer" />
+        <module name="spring-dubbo" />
         <module name="spring-kafaka" />
+        <module name="spring-provider" />
         <module name="spring-resource" />
         <module name="spring-rocketmq" />
         <module name="spring-zookeeper" />

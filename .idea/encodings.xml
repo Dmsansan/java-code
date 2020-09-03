@@ -13,8 +13,11 @@
     <file url="file://$PROJECT_DIR$/spring-boot-seckill" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-task" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-design-type" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dubbo/spring-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dubbo/spring-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dubbo/spring-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-kafaka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-resource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-zookeeper" charset="UTF-8" />
