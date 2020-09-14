@@ -1,8 +1,7 @@
-package com.sansan.cn.weather.authapi;
+package com.neusoft.mpc.authapi;
 
-import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class RequestTestController {
 
-    @RequestMapping(value = "/first", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/first")
     public String test () {
         return "request success";
     }

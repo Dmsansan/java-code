@@ -1,4 +1,4 @@
-package com.sansan.cn.weather.utils;
+package com.neusoft.mpc.utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

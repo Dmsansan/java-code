@@ -1,6 +1,6 @@
-package com.sansan.cn.weather.web;
+package com.neusoft.mpc.web;
 
-import com.sansan.cn.weather.utils.HttpRequestUtil;
+import com.neusoft.mpc.utils.HttpRequestUtil;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/weather/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/ApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-api/src/test/java/com/sansan/api/ApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/spring-boot-seckill-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/spring-boot-seckill-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log.2019-10-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log.2019-10-29.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log.2020-01-07.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log.2020-01-13.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.log.2020-07-06.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/weather/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/WeatherApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/authapi/RequestTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/authapi/RequestTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/utils/HttpRequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/utils/HttpRequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/test/java/com/sansan/cn/weather/WeatherApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/test/java/com/neusoft/mpc/WeatherApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +57,13 @@
     <session id="-574165943">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="47" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.121" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
@@ -68,50 +76,53 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="14" />
           <entry key="conf" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="174" />
+          <entry key="gz" value="1" />
+          <entry key="html" value="3" />
+          <entry key="java" value="183" />
           <entry key="jsp" value="1" />
           <entry key="lua" value="1" />
           <entry key="md" value="47" />
           <entry key="png" value="5" />
-          <entry key="properties" value="26" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="28" />
           <entry key="sql" value="2" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="44" />
+          <entry key="xml" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="HTML" value="2" />
+          <entry key="CLASS" value="14" />
+          <entry key="HTML" value="3" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="174" />
+          <entry key="JAVA" value="183" />
           <entry key="JSP" value="1" />
           <entry key="Markdown" value="47" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="26" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="28" />
           <entry key="SQL" value="2" />
-          <entry key="XML" value="44" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -119,115 +130,83 @@
           <entry key="dummy" value="58" />
           <entry key="ft" value="62" />
           <entry key="html" value="374" />
-          <entry key="java" value="5127" />
+          <entry key="java" value="5593" />
           <entry key="md" value="1575" />
-          <entry key="properties" value="267" />
-          <entry key="txt" value="676" />
-          <entry key="xml" value="204" />
+          <entry key="properties" value="450" />
+          <entry key="txt" value="742" />
+          <entry key="xml" value="244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="374" />
-          <entry key="JAVA" value="5127" />
+          <entry key="JAVA" value="5593" />
           <entry key="Markdown" value="1575" />
-          <entry key="PLAIN_TEXT" value="734" />
-          <entry key="Properties" value="267" />
+          <entry key="PLAIN_TEXT" value="800" />
+          <entry key="Properties" value="450" />
           <entry key="VTL" value="62" />
-          <entry key="XML" value="204" />
+          <entry key="XML" value="244" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/authapi/RequestTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="266">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/weather/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="304">
+              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/client/ProviderService.java">
+        <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/WeatherApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/impl/ProviderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="608">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/ConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/utils/HttpRequestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="114">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/pom.xml">
+        <entry file="file://$PROJECT_DIR$/weather/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/ProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="133">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -264,15 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/web/IndexController.java" />
-        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java" />
-        <option value="$PROJECT_DIR$/weather/src/main/resources/templates/city-weather.html" />
-        <option value="$PROJECT_DIR$/weather/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/spring-zookeeper/src/main/java/com/sansan/spring/zookeeper/SpringZookeeperApplication.java" />
-        <option value="$PROJECT_DIR$/spring-zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-zookeeper/src/main/java/com/sansan/spring/zookeeper/zktest/ZkTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/config/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/web/SeckillController.java" />
         <option value="$PROJECT_DIR$/spring-boot-seckill/src/main/java/com/itstyle/seckill/common/algorithm/AlgorithmVs.java" />
@@ -315,6 +285,15 @@
         <option value="$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/spring-dubbo/spring-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml" />
+        <option value="$PROJECT_DIR$/weather/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/config/CustomerZuulFilterConfig.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/weather/WeatherApplication.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/config/CustomerZuulFilterConfig.java" />
+        <option value="$PROJECT_DIR$/weather/pom.xml" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/authapi/RequestTestController.java" />
+        <option value="$PROJECT_DIR$/weather/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/WeatherApplication.java" />
       </list>
     </option>
   </component>
@@ -341,15 +320,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="weather" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="weather" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1380" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -387,6 +375,9 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,34 +388,25 @@
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-api" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-api" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-api" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -432,130 +414,58 @@
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="mpc" type="462c0819:PsiDirectoryNode" />
+              <item name="authapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="mpc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mpc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHightStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,8 +477,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599099044092" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-resource" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600063087209" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weather/mpc-norepeat.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -582,7 +492,12 @@
       <recent name="sansan.kafka.spring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\weather" />
+      <recent name="D:\ProjectWorkPlace\JavaHightStudy\weather\src\main\resources" />
       <recent name="D:\ProjectWorkPlace\JavaHightStudy\spring-design-type" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sansan.cn.weather.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ProjectWorkPlace\JavaHightStudy\doc" />
@@ -607,7 +522,7 @@
     </option>
     <option name="contentProportion" value="0.21251932" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.WeatherApplication">
     <configuration name="FindMedian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itstyle.seckill.common.algorithm.FindMedian" />
       <module name="spring-boot-seckill" />
@@ -691,13 +606,6 @@
     <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="admin-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.micor.admin.AdminServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sansan.api.ApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -786,6 +694,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="weather" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neusoft.mpc.WeatherApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="weather" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.mpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neusoft.mpc.WeatherApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="spring-seckill" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-seckill" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itstyle.seckill.Application" />
@@ -808,15 +740,15 @@
       <item itemvalue="Spring Boot.AdminServerApplication" />
       <item itemvalue="Spring Boot.AdminClientApplication" />
       <item itemvalue="Spring Boot.RouteApplication" />
-      <item itemvalue="Application.FindMedian" />
-      <item itemvalue="Application.HeapSort" />
-      <item itemvalue="Spring Boot.WeatherApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.WeatherApplication" />
+      <item itemvalue="Application.FindMedian" />
+      <item itemvalue="Application.HeapSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WeatherApplication" />
         <item itemvalue="Spring Boot.WeatherApplication" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.FindMedian" />
@@ -877,7 +809,13 @@
       <workItem from="1598837832335" duration="676000" />
       <workItem from="1598841457020" duration="616000" />
       <workItem from="1598938330880" duration="1613000" />
-      <workItem from="1599024909840" duration="12861000" />
+      <workItem from="1599024909840" duration="13096000" />
+      <workItem from="1599614648716" duration="920000" />
+      <workItem from="1599644418549" duration="636000" />
+      <workItem from="1599704789138" duration="2521000" />
+      <workItem from="1599727007423" duration="3617000" />
+      <workItem from="1599788978708" duration="13091000" />
+      <workItem from="1600045144733" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="添加redis分布式锁实现模块">
       <created>1589783031365</created>
@@ -1040,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599095679395</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="重配zookeeper端口，对应zoo.cfg文件下的client-port">
+      <created>1599099128322</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599099128322</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1049,13 +994,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137175000" />
+    <option name="totallyTimeSpent" value="160061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.21785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48941177" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" sideWeight="0.5105882" side_tool="true" weight="0.2818448" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1075,15 +1020,15 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.57471263" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5045386" side_tool="true" weight="0.49425286" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.45155993" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.2413793" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" sideWeight="0.49924356" weight="0.7126246" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49924356" weight="0.37914693" />
       <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50378215" side_tool="true" weight="0.492635" />
-      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49546143" weight="0.52545154" />
+      <window_info anchor="bottom" x="22" y="256" width="1322" height="216" id="Run Dashboard" order="16" sideWeight="0.49546143" weight="0.45812806" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
-      <window_info anchor="bottom" id="Problems" order="18" weight="0.3289689" />
+      <window_info anchor="bottom" id="Problems" order="18" weight="0.32840723" />
       <window_info anchor="bottom" id="SVN Properties" order="19" weight="0.3289689" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="20" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1098,6 +1043,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5013774" side_tool="true" weight="0.21331316" />
       <window_info anchor="right" id="BPMNPalette" order="11" weight="0.2065053" />
+      <window_info anchor="right" id="LuaJ" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1127,7 +1073,8 @@
     <MESSAGE value="扩展rocketmq多个消息处理类" />
     <MESSAGE value="调整项目结构" />
     <MESSAGE value="dubbo项目添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo项目添加" />
+    <MESSAGE value="重配zookeeper端口，对应zoo.cfg文件下的client-port" />
+    <option name="LAST_COMMIT_MESSAGE" value="重配zookeeper端口，对应zoo.cfg文件下的client-port" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1179,144 +1126,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/spring-kafka/src/main/java/sansan.kafka/common/TopicCreator.java" />
-    <entry file="file://$PROJECT_DIR$/spring-racketmq/src/main/java/com/racketmq/example/controller/IndexController.java" />
-    <entry file="file://D:/apache-maven-3.5.4/conf/settings-ali.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2318">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/sansan/cn/weather/WeatherApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/producer/RocketMQProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/exception/RocketMQException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/utils/JsonUtil2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/Panda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/SpringRocketMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/AnimalMessageProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/message/impl/UserMessageProcessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rocketmq/src/main/java/com/rocketmq/example/rocketmq/consumer/RocketMQConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/src/main/java/microservice/route/RouteApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-kafka/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/route/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-kafaka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1335,13 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1407,30 +1209,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller.java" />
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/resources/application.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/stereotype/Service.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/ApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/ApiApplication.java" />
     <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/client/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/impl/ProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1443,34 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="1254">
           <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1481,29 +1264,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/java/com/sansan/provider/impl/ProviderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/src/main/java/com/sansan/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/sansan/micor/admin/config/SecuritySecureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-provider/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-dubbo/spring-api/src/main/java/com/sansan/api/client/ProviderService.java">
+    <entry file="file://$PROJECT_DIR$/weather.log.2020-08-19.0.gz" />
+    <entry file="file://$PROJECT_DIR$/weather/src/main/resources/templates/city-weather.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/weather/mpc-norepeat.jar!/com/netflix/zuul/ZuulFilter.class" />
+    <entry file="jar://$PROJECT_DIR$/weather/mpc-norepeat.jar!/com/neusoft/mpc/norepeat/filter/NoRepeatRequestAfterFilter.class" />
+    <entry file="file://D:/apache-maven-3.5.4/conf/settings-ali.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3762" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/weather/mpc-norepeat.jar!/com/neusoft/mpc/norepeat/redis/RedisUtil.class" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-seckill/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.pom" />
+    <entry file="jar://$PROJECT_DIR$/weather/mpc-norepeat.jar!/com/neusoft/mpc/norepeat/filter/NoRepeatRequestFilter.class" />
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/web/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/config/CustomerZuulFilterConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.jar!/com/neusoft/mpc/norepeat/entity/ResultCode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.jar!/com/neusoft/mpc/norepeat/filter/NoRepeatRequestAfterFilter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.jar!/com/neusoft/mpc/norepeat/entity/ApiResult.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.jar!/com/neusoft/mpc/norepeat/entity/FilterTokenType.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/0.0.1-SNAPSHOT/mpc-norepeat-0.0.1-SNAPSHOT.jar!/com/neusoft/mpc/norepeat/filter/NoRepeatRequestFilter.class" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/neusoft/mpc/mpc-norepeat/1.0.0-SNAPSHOT/mpc-norepeat-1.0.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/utils/HttpRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/authapi/RequestTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main/java/com/neusoft/mpc/WeatherApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1559,7 +1443,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-dubbo</last-edited>
+          <last-edited>weather</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
