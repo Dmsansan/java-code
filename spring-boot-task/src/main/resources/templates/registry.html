@@ -8,7 +8,7 @@
     <meta name="description" content="任务管理"/>
     <meta name="author" content="dmsansan"/>
     <meta name="site" content="https://github.com/dmsansan/java-code"/>
-    <title>登陆-定时任务管理</title>
+    <title>注册-定时任务管理</title>
     <link th:href="@{flat_ui/css/vendor/bootstrap.min.css}" rel="stylesheet"/>
     <link th:href="@{flat_ui/css/flat-ui.css}" rel="stylesheet"/>
     <script th:src="@{/libs/jquery-3.2.1.min.js}" type="text/javascript"></script>
@@ -39,14 +39,13 @@
                             <label class="login-field-icon fui-lock" for="password"></label>
                         </div>
 
-                        <button class="btn btn-primary btn-large btn-block" @click="login()">
-                            登陆
+                        <button class="btn btn-primary btn-large btn-block" @click="registry()">
+                            注册
                         </button>
 
                         <span class="text-danger pull-right" style="font-size: 13px;margin-top: 15px;">
 
                             </span>
-                        <a class="login-link" target="_blank" onclick="window.location.href='registry.shtml'">&raquo; 注册</a>
                         <!--  </form> -->
                     </div>
                 </div>
@@ -65,22 +64,20 @@
         },
         methods :{
             //登录
-            login: function () {
+            registry: function () {
                 $.ajax({
-                    url: "../quartz/user/login",
+                    url: "../quartz/user/registry",
                     type: "post",
                     contentType: "application/json",
                     dataTpe: 'json',
                     data: JSON.stringify({'userName': this.username, "passWord": this.password}),
                     success: function (result) {
-                        if (result.code === 1) {
-                            layer.msg(result.msg, {icon: 5});
-                        } else if (result.code === 2){
-                            layer.msg(result.msg, {icon: 5});
-                        } else {
-                            layer.msg("登录成功", {icon: 6},function () {
-                                window.location.href='main.shtml';
+                        if (result.code === 0) {
+                            layer.msg("注册成功", {icon: 6},function () {
+                                window.location.href='login.shtml';
                             });
+                        } else {
+                            layer.msg(result.msg, {icon: 5});
                         }
                     }
                 });

@@ -41,6 +41,11 @@ public class UserController {
             return Result.error(500, "缺少必要参数");
         }
 
+        int count = iUserService.queryCount(userEntity);
+        if (count > 0 ) {
+            return Result.error(1, "用户已存在");
+        }
+
         userEntity.setCreateDate(new Date());
         iUserService.save(userEntity);
         return Result.ok();
