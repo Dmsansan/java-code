@@ -39,11 +39,12 @@ public class UserServiceImpl implements IUserService {
     @Override
     public List<UserEntity> queryListByObject(UserEntity userEntity) {
         StringBuffer nativeSql = new StringBuffer();
-        nativeSql.append(" SELECT * FROM QRTZ_USER_INFO WHERE USER_NAME = ? AND PASS_WORD = ? ");
+        nativeSql.append(" SELECT ID AS id, USER_NAME AS userName, PASS_WORD AS passWord, " +
+                " CREATE_DATE AS createDate FROM QRTZ_USER_INFO WHERE USER_NAME = ? AND PASS_WORD = ? ");
 
         Object[] params = new Object[]{userEntity.getUserName(), userEntity.getPassWord()};
 
-        return dynamicQuery.nativeQueryList(nativeSql.toString(), params);
+        return dynamicQuery.nativeQueryListModel(UserEntity.class, nativeSql.toString(), params);
     }
 
 }

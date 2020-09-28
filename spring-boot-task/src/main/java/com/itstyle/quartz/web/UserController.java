@@ -6,11 +6,9 @@ import com.itstyle.quartz.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;
 import java.util.List;
@@ -21,7 +19,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/user")
-public class UserController {
+public class UserController extends BaseController{
 
     private final static Logger LOGGER = LoggerFactory.getLogger(JobController.class);
 
@@ -73,6 +71,34 @@ public class UserController {
         if (list.size() == 0) {
             return Result.error(2, "用户密码不正确");
         }
+
+        setLoginedUser(list.get(0));
+
         return Result.ok(list);
+    }
+
+    /**
+     * 获取系统登录用户信息
+     * @return
+     */
+    @GetMapping(value = "/loginedUser")
+    public Result loginedUser(){
+        LOGGER.info("获取当前登录用户");
+        UserEntity userEntity = getLoginedUser();
+        if (StringUtils.isEmpty(userEntity.getUserName())) {
+            return Result.error(403, "用户登录信息失效");
+        }
+        return Result.ok(userEntity);
+    }
+
+    /**
+     * 登出系统
+     * @return
+     */
+    @GetMapping(value = "/loginOut")
+    public Result loginOut(){
+        LOGGER.info("登出系统");
+        setLoginedUser(null);
+        return Result.ok("登出成功");
     }
 }
