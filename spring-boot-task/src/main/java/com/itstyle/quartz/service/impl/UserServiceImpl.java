@@ -43,9 +43,7 @@ public class UserServiceImpl implements IUserService {
 
         Object[] params = new Object[]{userEntity.getUserName(), userEntity.getPassWord()};
 
-        List<UserEntity> list = dynamicQuery.nativeQueryList(nativeSql.toString(), params);
-
-        return list;
+        return dynamicQuery.nativeQueryList(nativeSql.toString(), params);
     }
 
 }

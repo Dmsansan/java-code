@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ceb2186-4245-45b1-afb7-4bac8eabe3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/config/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/config/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/config/TaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/config/TaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQueryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQueryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/sql/tables_mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/sql/tables_mysql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/static/flat_ui/css/flat-ui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/task/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/src/main/resources/templates/task/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/config/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/config/IndexController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/dynamicquery/DynamicQueryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/com/itstyle/quartz/dynamicquery/DynamicQueryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-task/target/classes/sql/tables_mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-task/target/classes/sql/tables_mysql.sql" afterDir="false" />
@@ -147,7 +134,7 @@
           <entry key="md" value="1575" />
           <entry key="properties" value="450" />
           <entry key="sql" value="28" />
-          <entry key="txt" value="791" />
+          <entry key="txt" value="809" />
           <entry key="xml" value="244" />
         </counts>
       </usages-collector>
@@ -157,7 +144,7 @@
           <entry key="HTML" value="596" />
           <entry key="JAVA" value="7210" />
           <entry key="Markdown" value="1575" />
-          <entry key="PLAIN_TEXT" value="849" />
+          <entry key="PLAIN_TEXT" value="867" />
           <entry key="Properties" value="450" />
           <entry key="SQL" value="28" />
           <entry key="VTL" value="62" />
@@ -189,8 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="306">
+              <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,11 +207,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="249">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#542#543#0" expanded="true" />
@@ -271,11 +258,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-703">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="475">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -283,8 +270,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="304">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,10 +359,10 @@
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQuery.java" />
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IUserService.java" />
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/UserEntity.java" />
-        <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/UserController.java" />
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/config/TaskRunner.java" />
         <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java" />
+        <option value="$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -632,7 +619,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601264086253" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601264224375" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/weather/mpc-norepeat.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -979,7 +966,7 @@
       <workItem from="1600929827457" duration="8325000" />
       <workItem from="1601170851823" duration="1967000" />
       <workItem from="1601191213317" duration="2846000" />
-      <workItem from="1601256504446" duration="7292000" />
+      <workItem from="1601256504446" duration="7422000" />
     </task>
     <task id="LOCAL-00001" summary="添加redis分布式锁实现模块">
       <created>1589783031365</created>
@@ -1156,7 +1143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600063178349</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="添加定时任务项目登录接口">
+      <created>1601264158017</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601264158017</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1165,7 +1159,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181476000" />
+    <option name="totallyTimeSpent" value="181606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1246,7 +1240,8 @@
     <MESSAGE value="dubbo项目添加" />
     <MESSAGE value="重配zookeeper端口，对应zoo.cfg文件下的client-port" />
     <MESSAGE value="修改weather项目，支持接口防重复提交实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改weather项目，支持接口防重复提交实现" />
+    <MESSAGE value="添加定时任务项目登录接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加定时任务项目登录接口" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1604,38 +1599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/dynamicquery/DynamicQueryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -1677,8 +1640,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/entity/QuartzEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="475">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-task/src/main/java/com/itstyle/quartz/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
