@@ -5883,7 +5883,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
     left: 51px;
     z-index: 100;
     background-clip: padding-box;
-    -webkit-transition: border-color 0.25s ease-out, background-color 0.25s ease-out;
+    -webkit-transition:.login-screen border-color 0.25s ease-out, background-color 0.25s ease-out;
     transition: border-color 0.25s ease-out, background-color 0.25s ease-out;
 }
 
@@ -6860,7 +6860,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 .login-screen {
     background-color: #1abc9c;
     min-height: 473px;
-    padding: 123px 199px 33px 306px;
+    padding: 123px 256px 33px 256px;
 }
 
 .login-icon {
