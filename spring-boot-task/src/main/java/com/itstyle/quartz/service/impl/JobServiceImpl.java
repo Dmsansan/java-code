@@ -43,4 +43,12 @@ public class JobServiceImpl implements IJobService {
         nativeSql.append("WHERE tri.TRIGGER_TYPE = 'CRON'");
         return dynamicQuery.nativeQueryCount(nativeSql.toString(), new Object[]{});
     }
+
+    @Override
+    public int queryAllCount() {
+        StringBuffer nativeSql = new StringBuffer();
+        nativeSql.append(" SELECT * FROM QRTZ_JOB_DETAILS");
+        Long jobsCount = dynamicQuery.nativeQueryCount(nativeSql.toString(), new Object[]{});
+        return jobsCount.intValue();
+    }
 }

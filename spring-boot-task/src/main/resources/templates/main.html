@@ -123,7 +123,7 @@
 
             <ul class="sidebar-menu" data-widget="tree">
                 <li><a href="main.shtml"><i class="fa fa-dashboard"></i>首页</a></li>
-                <li class="active treeview menu-open">
+                <li class="active treeview">
                     <a href="#">
                         <i class="fa fa-th"></i> <span>任务管理</span>
                         <span class="pull-right-container">
@@ -160,7 +160,7 @@
 
                         <div class="info-box-content">
                             <span class="info-box-text">CPU Traffic</span>
-                            <span class="info-box-number">90<small>%</small></span>
+                            <span class="info-box-number" id="cpu_average"></span>
                         </div>
                     </div>
                 </div>
@@ -169,36 +169,38 @@
                         <span class="info-box-icon bg-red"><i class="fa fa-google-plus"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">Likes</span>
-                            <span class="info-box-number">41,410</span>
+                            <span class="info-box-text">Jobs</span>
+                            <span class="info-box-number" id = "job_numbers"></span>
                         </div>
                     </div>
                 </div>
                 <div class="clearfix visible-sm-block"></div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="info-box">
-                        <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
+                <!--<div class="col-md-3 col-sm-6 col-xs-12">-->
+                    <!--<div class="info-box">-->
+                        <!--<span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>-->
 
-                        <div class="info-box-content">
-                            <span class="info-box-text">Sales</span>
-                            <span class="info-box-number">760</span>
-                        </div>
-                    </div>
-                </div>
+                        <!--<div class="info-box-content">-->
+                            <!--<span class="info-box-text">Sales</span>-->
+                            <!--<span class="info-box-number">760</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
 
                         <div class="info-box-content">
-                            <span class="info-box-text">New Members</span>
-                            <span class="info-box-number">2,000</span>
+                            <span class="info-box-text">Users</span>
+                            <span class="info-box-number" id="user_numbers"></span>
                         </div>
                     </div>
                 </div>
             </div>
             <iframe scrolling="yes" frameborder="0"
                     style="width: 100%; min-height: 700px; overflow: visible; background: #fff;"
-                    src='' id="main" name="main"></iframe>
+                    src='' id="main" name="main">
+
+            </iframe>
         </section>
     </div>
 
@@ -240,6 +242,7 @@
         },
         mounted: function(){
             this.loginedUser();
+            this.getHeadTabNumbers();
         },
         methods :{
             //获取登录用户信息
@@ -256,6 +259,23 @@
                             layer.msg(result.msg, {icon: 5},function () {
                                 window.location.href='login.shtml';
                             });
+                        }
+                    }
+                });
+            },
+            //获取头部标签数量展示
+            getHeadTabNumbers: function () {
+                $.ajax({
+                    url: "../quartz/sys/getHeadTabNumbers",
+                    type: "get",
+                    data: {},
+                    success: function (result) {
+                        if (result.code === 0) {
+                            $("#user_numbers").html(result.user_numbers);
+                            $("#job_numbers").html(result.job_numbers);
+                            $("#cpu_average").html(result.cup_average+'<small>%</small>');
+                        } else {
+                            layer.msg("头部标签统计信息获取异常", {icon: 5});
                         }
                     }
                 });

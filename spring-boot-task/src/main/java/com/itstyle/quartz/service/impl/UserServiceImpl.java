@@ -28,7 +28,7 @@ public class UserServiceImpl implements IUserService {
     @Override
     public int queryCount(UserEntity userEntity) {
         StringBuffer nativeSql = new StringBuffer();
-        nativeSql.append(" SELECT COUNT(*) FROM QRTZ_USER_INFO WHERE USER_NAME = ? ");
+        nativeSql.append(" SELECT * FROM QRTZ_USER_INFO WHERE USER_NAME = ? ");
 
         Object[] params = new Object[]{userEntity.getUserName()};
 
@@ -45,6 +45,17 @@ public class UserServiceImpl implements IUserService {
         Object[] params = new Object[]{userEntity.getUserName(), userEntity.getPassWord()};
 
         return dynamicQuery.nativeQueryListModel(UserEntity.class, nativeSql.toString(), params);
+    }
+
+    @Override
+    public int queryAllCount() {
+        StringBuffer nativeSql = new StringBuffer();
+        nativeSql.append(" SELECT * FROM QRTZ_USER_INFO");
+
+        Object[] params = new Object[]{};
+
+        Long count = dynamicQuery.nativeQueryCount(nativeSql.toString(), params);
+        return count.intValue();
     }
 
 }

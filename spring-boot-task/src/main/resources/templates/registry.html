@@ -77,7 +77,9 @@
                                 window.location.href='login.shtml';
                             });
                         } else {
-                            layer.msg(result.msg, {icon: 5});
+                            layer.msg(result.msg, {icon: 5}, function () {
+                                window.location.href='login.shtml';
+                            });
                         }
                     }
                 });

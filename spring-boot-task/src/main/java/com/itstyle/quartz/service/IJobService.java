@@ -9,4 +9,6 @@ public interface IJobService {
     List<QuartzEntity> listQuartzEntity(QuartzEntity quartz, Integer pageNo, Integer pageSize);
 
     Long listQuartzEntity(QuartzEntity quartz);
+
+    int queryAllCount();
 }

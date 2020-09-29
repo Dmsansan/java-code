@@ -92,7 +92,7 @@ public class DynamicQueryImpl implements DynamicQuery {
 
     @Override
     public Long nativeQueryCount(String nativeSql, Object... params) {
-        Object count = createNativeQuery(nativeSql, params).getSingleResult();
+        Object count = createNativeQuery(nativeSql, params).getResultList().size();
         return ((Number) count).longValue();
     }
 

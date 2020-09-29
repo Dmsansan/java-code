@@ -15,4 +15,6 @@ public interface IUserService {
     int queryCount(UserEntity userEntity);
 
     List<UserEntity> queryListByObject(UserEntity userEntity);
+
+    int queryAllCount();
 }
