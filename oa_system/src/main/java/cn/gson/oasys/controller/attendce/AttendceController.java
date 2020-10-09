@@ -61,12 +61,21 @@ public class AttendceController {
     // 格式转化导入
     DefaultConversionService service = new DefaultConversionService();
 
-    // 考勤 前面的签到
+    /**
+     * 考勤 前面的签到
+     *
+     * @param session
+     * @param model
+     * @param request
+     * @return
+     * @throws InterruptedException
+     * @throws UnknownHostException
+     */
     @RequestMapping("singin")
     public String Datag(HttpSession session, Model model, HttpServletRequest request) throws InterruptedException, UnknownHostException {
         //首先获取ip
         InetAddress ia = null;
-        ia = ia.getLocalHost();
+        ia = InetAddress.getLocalHost();
         String attendip = ia.getHostAddress();
         // 时间规范
         String start = "08:00:00", end = "17:00:00";
@@ -194,7 +203,20 @@ public class AttendceController {
     }
 
 
-    // 考勤管理某个管理员下面的所有员工的信息
+    /**
+     * 考勤管理某个管理员下面的所有员工的信息
+     *
+     * @param request
+     * @param session
+     * @param page
+     * @param baseKey
+     * @param type
+     * @param status
+     * @param time
+     * @param icon
+     * @param model
+     * @return
+     */
     @RequestMapping("attendceatt")
     public String testdasf(HttpServletRequest request, HttpSession session,
                            @RequestParam(value = "page", defaultValue = "0") int page,
@@ -367,7 +389,19 @@ public class AttendceController {
         request.setAttribute("url", "attendcelisttable");
     }
 
-    //该管理下面的所有用户
+    /**
+     * 该管理下面的所有用户
+     *
+     * @param request
+     * @param session
+     * @param page
+     * @param baseKey
+     * @param type
+     * @param status
+     * @param time
+     * @param icon
+     * @param model
+     */
     private void allsortpaging(HttpServletRequest request, HttpSession session, int page, String baseKey, String type,
                                String status, String time, String icon, Model model) {
         setSomething(baseKey, type, status, time, icon, model);
@@ -388,7 +422,14 @@ public class AttendceController {
         request.setAttribute("url", "attendcetable");
     }
 
-    //周报表分页
+    /**
+     * 周报表分页
+     *
+     * @param request
+     * @param session
+     * @param page
+     * @param baseKey
+     */
     private void weektablepaging(HttpServletRequest request, HttpSession session, int page, String baseKey) {
         String starttime = request.getParameter("starttime");
         String endtime = request.getParameter("endtime");
@@ -434,7 +475,15 @@ public class AttendceController {
         request.setAttribute("url", "realweektable");
     }
 
-    //月报表
+    /**
+     * 月报表
+     *
+     * @param request
+     * @param model
+     * @param session
+     * @param page
+     * @param baseKey
+     */
     private void monthtablepaging(HttpServletRequest request, Model model, HttpSession session, int page,
                                   String baseKey) {
         Integer offnum, toworknum;

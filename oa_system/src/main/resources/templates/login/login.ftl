@@ -124,18 +124,18 @@
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close"
                                     style="right:0px;"><span aria-hidden="true">&times;</span></button>
                         </div>
-                        <h2>LOGIN</h2>
+                        <h2>OA后台登录</h2>
                         <input type="text" placeholder="UserName/TeL" autofocus="autofocus" value="${(userName)!''}"
                                name="userName" class="userName test"/>
                         <input type="password" placeholder="Password" value="" name="password" class="password test"/>
-                        <input type="text" placeholder="Code" style="margin-bottom: 20px;width:152px" name="code"
+                        <input type="text" placeholder="验证码" style="margin-bottom: 20px;width:152px" name="code"
                                class="code test"/>
                         <div class="login-img" style="display:inline-block">
                             <img class="thisimg" onclick="this.src='captcha?r'+Date.now()" src="captcha" alt="验证码"
                                  style="width: 100px;height: 42px;border-radius: 3px;">
                         </div>
                         <br>
-                        <button class="btn_login btn" type="submit">LOGIN</button>
+                        <button class="btn_login btn" type="submit">登录</button>
 
                     </div>
                 </form>

@@ -92,8 +92,9 @@ public class recordInterceptor extends HandlerInterceptorAdapter {
 
         //还没有登陆不能获取session
 
-        uLog.setUser(new User());
-//		uLog.setUser(userDao.findOne(1l));
+        Long userId = (Long) session.getAttribute("userId");
+//        uLog.setUser(new User());
+		uLog.setUser(userDao.findOne(userId));
         //从菜单表里面匹配
         List<SystemMenu> sMenus = (List<SystemMenu>) systemMenuDao.findAll();
         for (SystemMenu systemMenu : sMenus) {
