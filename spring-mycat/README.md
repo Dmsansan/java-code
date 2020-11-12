@@ -23,3 +23,22 @@
 ​						col1 col2 col3 col4 col5 col6 col7 col8
 
 ​						id%2=0
+
+#### 3、mycat 1.6配置
+
+* conf/schema.xml
+
+  主要配置mycat服务提供的schema, 关联的mysql数据库服务地址，以及数据库表的信息；
+
+* conf/server.xml
+
+  主要配置连接mycat服务的账号密码信息；
+
+* conf/rule.xml
+
+  主要配置数据表的拆分规则；
+
+####4、ps：注意事项
+
+* 1、默认端口是8066
+* 2、需要指定mysql-connector-javaI依赖版本
