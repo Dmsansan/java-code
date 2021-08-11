@@ -1,8 +1,12 @@
 package com.neusoft.mpc.authapi;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author siss
@@ -13,7 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class RequestTestController {
 
     @GetMapping(value = "/first")
-    public String test () {
-        return "request success";
+    public ResponseEntity test() {
+        List<String> wordList = new ArrayList<>();
+        wordList.add("standOne");
+        wordList.add("standTwo");
+        wordList.add("standThree");
+        
+        return ResponseEntity.ok(wordList);
     }
 }

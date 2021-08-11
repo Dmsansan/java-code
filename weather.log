@@ -1,317 +1,101 @@
-2020-09-14 13:39:00.336  INFO 12236 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:39:08.017  INFO 12236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-14 13:39:08.021  INFO 12236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-14 13:39:08.146  INFO 12236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
-2020-09-14 13:39:08.626  WARN 12236 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2020-09-14 13:39:09.247  INFO 12236 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5773211a-f380-3259-accf-f1e2a880e9d3
-2020-09-14 13:39:09.733  INFO 12236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$62f7650a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-14 13:39:10.203  INFO 12236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-14 13:39:10.222  INFO 12236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-14 13:39:10.223  INFO 12236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-09-14 13:39:10.541  INFO 12236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-14 13:39:10.542  INFO 12236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10051 ms
-2020-09-14 13:39:10.686  WARN 12236 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:39:10.686  INFO 12236 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:39:10.698  INFO 12236 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@70972170
-2020-09-14 13:39:13.062  WARN 12236 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:39:13.062  INFO 12236 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:39:13.256  INFO 12236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-14 13:39:13.521  WARN 12236 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2020-09-14 13:39:15.257  INFO 12236 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2020-09-14 13:39:15.281  INFO 12236 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-09-14 13:39:15.348  INFO 12236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-14 13:39:16.582  INFO 12236 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 21.554 seconds (JVM running for 24.83)
-2020-09-14 13:39:52.047  INFO 12236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-14 13:39:52.049  INFO 12236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-14 13:39:52.057  INFO 12236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2020-09-14 13:39:52.103  WARN 12236 --- [http-nio-8080-exec-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
-2020-09-14 13:41:50.357  INFO 16148 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:41:53.990  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-14 13:41:53.997  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-14 13:41:54.080  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
-2020-09-14 13:41:54.266  WARN 16148 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2020-09-14 13:41:54.613  INFO 16148 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5773211a-f380-3259-accf-f1e2a880e9d3
-2020-09-14 13:41:55.482  INFO 16148 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$48d9b68f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-14 13:41:56.235  INFO 16148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-14 13:41:56.291  INFO 16148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-14 13:41:56.292  INFO 16148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-09-14 13:41:56.770  INFO 16148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-14 13:41:56.772  INFO 16148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6377 ms
-2020-09-14 13:41:57.080  WARN 16148 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:41:57.081  INFO 16148 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:41:57.112  INFO 16148 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2e38cb88
-2020-09-14 13:42:00.097  WARN 16148 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:42:00.097  INFO 16148 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:42:00.479  INFO 16148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-14 13:42:00.866  WARN 16148 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2020-09-14 13:42:01.546  INFO 16148 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2020-09-14 13:42:01.564  INFO 16148 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-09-14 13:42:01.736  INFO 16148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-14 13:42:02.994  INFO 16148 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 20.235 seconds (JVM running for 56.018)
-2020-09-14 13:42:56.700  INFO 16148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-14 13:42:56.702  INFO 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-14 13:42:56.718  INFO 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-09-14 13:42:56.758  WARN 16148 --- [http-nio-8080-exec-1] o.s.c.n.zuul.web.ZuulHandlerMapping      : No routes found from RouteLocator
-2020-09-14 13:45:44.658  INFO 2520 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:45:45.505  WARN 2520 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'noRepeatRequestFilter' defined in com.neusoft.mpc.WeatherApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=weatherApplication; factoryMethodName=noRepeatRequestFilter; initMethodName=null; destroyMethodName=(inferred); defined in com.neusoft.mpc.WeatherApplication] for bean 'noRepeatRequestFilter': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=noRepeatApplication; factoryMethodName=noRepeatRequestFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class]] bound.
-2020-09-14 13:45:45.518  INFO 2520 --- [main] ConditionEvaluationReportLoggingListener : 
+2021-08-10 16:56:47.933  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 36344 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-10 16:56:47.948 DEBUG 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-10 16:56:47.948  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-10 16:56:48.820  INFO 36344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-10 16:56:48.828  INFO 36344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-10 16:56:48.829  INFO 36344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-10 16:56:48.911  INFO 36344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-10 16:56:48.912  INFO 36344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 859 ms
+2021-08-10 16:56:49.017  INFO 36344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 16:56:49.119  WARN 36344 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-10 16:56:49.202  INFO 36344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-10 16:56:49.203  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.037 seconds (JVM running for 3.057)
+2021-08-10 16:57:08.490  INFO 36344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 16:57:08.491  INFO 36344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-10 16:57:08.494  INFO 36344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-10 16:57:32.300 ERROR 36344 --- [http-nio-8080-exec-7] com.neusoft.mpc.utils.HttpRequestUtil    : 远程服务未开启
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-09-14 13:45:45.525 ERROR 2520 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+java.net.UnknownHostException: t.weather.sojson.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at com.neusoft.mpc.utils.HttpRequestUtil.sendGet(HttpRequestUtil.java:37)
+	at com.neusoft.mpc.web.IndexController.queryCityWeather(IndexController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
 
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The bean 'noRepeatRequestFilter', defined in com.neusoft.mpc.WeatherApplication, could not be registered. A bean with that name has already been defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class] and overriding is disabled.
-
-Action:
-
-Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
-
-2020-09-14 13:46:30.659  INFO 11324 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:46:31.145  WARN 11324 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'noRepeatRequestFilter' defined in com.neusoft.mpc.WeatherApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=weatherApplication; factoryMethodName=noRepeatRequestFilter; initMethodName=null; destroyMethodName=(inferred); defined in com.neusoft.mpc.WeatherApplication] for bean 'noRepeatRequestFilter': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=noRepeatApplication; factoryMethodName=noRepeatRequestFilter; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class]] bound.
-2020-09-14 13:46:31.154  INFO 11324 --- [main] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-09-14 13:46:31.157 ERROR 11324 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The bean 'noRepeatRequestFilter', defined in com.neusoft.mpc.WeatherApplication, could not be registered. A bean with that name has already been defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class] and overriding is disabled.
-
-Action:
-
-Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
-
-2020-09-14 13:47:49.886  INFO 9116 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:47:50.557  INFO 9116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-14 13:47:50.560  INFO 9116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-14 13:47:50.587  INFO 9116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2020-09-14 13:47:50.658  WARN 9116 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2020-09-14 13:47:50.789  INFO 9116 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5773211a-f380-3259-accf-f1e2a880e9d3
-2020-09-14 13:47:51.012  INFO 9116 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63a39de8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-14 13:47:51.267  INFO 9116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-14 13:47:51.276  INFO 9116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-14 13:47:51.277  INFO 9116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-09-14 13:47:51.476  INFO 9116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-14 13:47:51.477  INFO 9116 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1575 ms
-2020-09-14 13:47:51.561  WARN 9116 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:47:51.562  INFO 9116 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:47:51.572  INFO 9116 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7ecec90d
-2020-09-14 13:47:53.329  WARN 9116 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:47:53.330  INFO 9116 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:47:53.478  INFO 9116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-14 13:47:53.605  WARN 9116 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2020-09-14 13:47:55.096  INFO 9116 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2020-09-14 13:47:55.109  INFO 9116 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-09-14 13:47:55.172  INFO 9116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-14 13:47:56.365  INFO 9116 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 10.675 seconds (JVM running for 12.787)
-2020-09-14 13:48:00.444  INFO 9116 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-14 13:48:00.445  INFO 9116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-14 13:48:00.455  INFO 9116 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
-2020-09-14 13:48:07.184  INFO 9116 --- [http-nio-8080-exec-4] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-09-14 13:48:07.186  INFO 9116 --- [http-nio-8080-exec-4] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-09-14 13:48:11.439  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:11.440  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:11.440  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:15.600  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:15.601  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:15.602  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:16.650  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:16.651  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:16.651  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:17.206  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:17.206  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:17.206  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:17.405  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:17.405  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:17.406  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:17.644  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:17.644  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:17.644  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:17.823  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:17.824  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:17.824  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:18.045  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:18.046  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:18.046  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:18.223  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:18.224  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:18.224  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:18.754  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:18.754  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:18.754  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:28.470  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:28.471  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:28.471  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:29.075  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:29.075  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:29.076  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:44.356  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:44.357  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:44.357  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:45.010  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:45.010  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:45.010  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:45.714  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:45.714  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:45.715  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:45.995  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:45.995  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:45.995  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:46.551  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:46.551  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:46.552  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:46.777  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:46.778  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:46.778  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:46.977  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:46.977  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:46.977  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:47.201  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:47.202  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:47.202  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:47.846  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:47.847  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:47.847  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:48.056  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:48.057  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:48.057  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:48.258  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:48.259  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:48.260  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:48.460  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:48.460  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:48.460  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:50.111  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:50.112  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:50.112  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:50.429  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:50.429  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:50.430  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:50.628  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:50.628  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:50.629  INFO 9116 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:50.834  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:50.835  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:50.835  INFO 9116 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:51.034  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:51.035  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:51.035  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:51.229  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:51.230  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:51.230  INFO 9116 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:51.427  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:51.428  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:51.428  INFO 9116 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:51.809  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:51.810  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:51.810  INFO 9116 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:52.064  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:52.065  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:52.065  INFO 9116 --- [http-nio-8080-exec-1] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:52.269  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:52.269  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:52.272  INFO 9116 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:52.447  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:52.447  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:52.448  INFO 9116 --- [http-nio-8080-exec-2] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:53.543  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:53.543  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:53.543  INFO 9116 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:48:53.958  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:48:53.958  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:48:53.958  INFO 9116 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:50:48.977  INFO 9772 --- [main] com.neusoft.mpc.WeatherApplication       : The following profiles are active: -Dfile.encoding=utf-8
-2020-09-14 13:50:50.619  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-14 13:50:50.621  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-14 13:50:50.647  INFO 9772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2020-09-14 13:50:50.723  WARN 9772 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2020-09-14 13:50:50.958  INFO 9772 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5773211a-f380-3259-accf-f1e2a880e9d3
-2020-09-14 13:50:51.361  INFO 9772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d5df90db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-14 13:50:51.722  INFO 9772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-14 13:50:51.737  INFO 9772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-14 13:50:51.738  INFO 9772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-09-14 13:50:52.070  INFO 9772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-14 13:50:52.071  INFO 9772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3021 ms
-2020-09-14 13:50:52.202  WARN 9772 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:50:52.203  INFO 9772 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:50:52.218  INFO 9772 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4228bf58
-2020-09-14 13:50:54.996  WARN 9772 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:50:54.997  INFO 9772 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:50:55.183  INFO 9772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-14 13:50:55.334  WARN 9772 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2020-09-14 13:50:56.601  INFO 9772 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2020-09-14 13:50:56.610  INFO 9772 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-09-14 13:50:56.665  INFO 9772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-14 13:50:57.865  INFO 9772 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 15.682 seconds (JVM running for 17.796)
-2020-09-14 13:51:31.336  INFO 9772 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-14 13:51:31.338  INFO 9772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-14 13:51:31.352  INFO 9772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
-2020-09-14 13:51:31.576  INFO 9772 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-09-14 13:51:31.579  INFO 9772 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-09-14 13:51:36.538  INFO 9772 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:51:36.539  INFO 9772 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:51:36.539  INFO 9772 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:51:37.685  INFO 9772 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:51:37.685  INFO 9772 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:51:37.686  INFO 9772 --- [http-nio-8080-exec-5] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:51:38.094  INFO 9772 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 璇锋眰杩囦簬棰戠箒
-2020-09-14 13:51:38.094  INFO 9772 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 瀹㈡埛鍦板潃:0:0:0:0:0:0:0:1  璇锋眰鍦板潃锛歿} 璇锋眰鏂瑰紡 http://localhost:8080/api/test/first
-2020-09-14 13:51:38.094  INFO 9772 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:02.760  INFO 864 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2020-09-14 13:53:03.575  INFO 864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-09-14 13:53:03.579  INFO 864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-09-14 13:53:03.607  INFO 864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2020-09-14 13:53:03.703  WARN 864 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2020-09-14 13:53:03.865  INFO 864 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5773211a-f380-3259-accf-f1e2a880e9d3
-2020-09-14 13:53:04.149  INFO 864 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6132a606] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-09-14 13:53:04.468  INFO 864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-09-14 13:53:04.482  INFO 864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-09-14 13:53:04.483  INFO 864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2020-09-14 13:53:04.811  INFO 864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-09-14 13:53:04.812  INFO 864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2026 ms
-2020-09-14 13:53:04.934  WARN 864 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:53:04.935  INFO 864 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:53:04.950  INFO 864 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@709ed6f3
-2020-09-14 13:53:06.993  WARN 864 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2020-09-14 13:53:06.993  INFO 864 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-09-14 13:53:07.177  INFO 864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-14 13:53:07.327  WARN 864 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2020-09-14 13:53:08.661  INFO 864 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2020-09-14 13:53:08.671  INFO 864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2020-09-14 13:53:08.733  INFO 864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2020-09-14 13:53:09.926  INFO 864 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 14.895 seconds (JVM running for 17.717)
-2020-09-14 13:53:15.937  INFO 864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-14 13:53:15.939  INFO 864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-09-14 13:53:15.949  INFO 864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2020-09-14 13:53:16.105  INFO 864 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
-2020-09-14 13:53:16.107  INFO 864 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
-2020-09-14 13:53:19.682  INFO 864 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:19.684  INFO 864 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:19.684  INFO 864 --- [http-nio-8080-exec-3] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:20.885  INFO 864 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:20.886  INFO 864 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:20.886  INFO 864 --- [http-nio-8080-exec-4] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:21.404  INFO 864 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:21.404  INFO 864 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:21.405  INFO 864 --- [http-nio-8080-exec-6] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:21.854  INFO 864 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:21.855  INFO 864 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:21.855  INFO 864 --- [http-nio-8080-exec-7] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:22.153  INFO 864 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:22.153  INFO 864 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:22.154  INFO 864 --- [http-nio-8080-exec-8] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:22.250  INFO 864 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:22.250  INFO 864 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:22.251  INFO 864 --- [http-nio-8080-exec-9] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
-2020-09-14 13:53:22.437  INFO 864 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 请求过于频繁
-2020-09-14 13:53:22.438  INFO 864 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : 客户地址:0:0:0:0:0:0:0:1  请求地址：http://localhost:8080/api/test/first 请求方式 GET
-2020-09-14 13:53:22.438  INFO 864 --- [http-nio-8080-exec-10] c.n.m.n.filter.NoRepeatRequestFilter     : params: 
+2021-08-10 17:03:52.633  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 8972 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-10 17:03:52.637 DEBUG 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-10 17:03:52.638  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-10 17:03:54.143  INFO 8972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-10 17:03:54.173  INFO 8972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-10 17:03:54.174  INFO 8972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-10 17:03:54.303  INFO 8972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-10 17:03:54.304  INFO 8972 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1600 ms
+2021-08-10 17:03:54.688  INFO 8972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 17:03:54.866  WARN 8972 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-10 17:03:54.955  INFO 8972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-10 17:03:54.959  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 3.349 seconds (JVM running for 7.873)
+2021-08-10 17:05:00.275  INFO 8972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-10 17:05:00.276  INFO 8972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-10 17:05:00.303  INFO 8972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms

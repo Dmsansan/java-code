@@ -17,8 +17,24 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>leetcode</module>
+        <module>leet-code</module>
         <module>spring-dubbo</module>
+        <module>admin-client</module>
+        <module>admin-server</module>
+        <module>design-type</module>
+        <module>eureka</module>
+        <module>mongod-order</module>
+        <module>redis-lock</module>
+        <module>route</module>
+        <module>spring-boot</module>
+        <module>spring-boot-seckill</module>
+        <module>spring-boot-task</module>
+        <module>spring-kafaka</module>
+        <module>spring-mycat</module>
+        <module>spring-resource</module>
+        <module>spring-rocketmq</module>
+        <module>spring-zookeeper</module>
+        <module>weather</module>
     </modules>
 
     <build>

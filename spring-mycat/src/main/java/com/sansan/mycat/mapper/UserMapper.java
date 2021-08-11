@@ -14,8 +14,8 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
-    @Insert("insert into user(id,name) value (#{id},#{name})")
+    @Insert("insert into t_user (id, name) value (#{id},#{name})")
     int insert(User user);
-    @Select("select * from user")
+    @Select("select * from t_user")
     List<User> selectAll();
 }

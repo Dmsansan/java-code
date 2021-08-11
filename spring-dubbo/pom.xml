@@ -11,5 +11,10 @@
 
     <artifactId>spring-dubbo</artifactId>
 
+    <modules>
+        <module>spring-api</module>
+        <module>spring-consumer</module>
+        <module>spring-provider</module>
+    </modules>
 
 </project>

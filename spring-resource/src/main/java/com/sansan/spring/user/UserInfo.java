@@ -1,5 +1,8 @@
 package com.sansan.spring.user;
 
+/**
+ * @author HP
+ */
 public class UserInfo {
     private String id;
     private String username;
