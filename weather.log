@@ -1,101 +1,15 @@
-2021-08-10 16:56:47.933  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 36344 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-08-10 16:56:47.948 DEBUG 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2021-08-10 16:56:47.948  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2021-08-10 16:56:48.820  INFO 36344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-08-10 16:56:48.828  INFO 36344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-08-10 16:56:48.829  INFO 36344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-08-10 16:56:48.911  INFO 36344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-08-10 16:56:48.912  INFO 36344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 859 ms
-2021-08-10 16:56:49.017  INFO 36344 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-08-10 16:56:49.119  WARN 36344 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2021-08-10 16:56:49.202  INFO 36344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-08-10 16:56:49.203  INFO 36344 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.037 seconds (JVM running for 3.057)
-2021-08-10 16:57:08.490  INFO 36344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-10 16:57:08.491  INFO 36344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-08-10 16:57:08.494  INFO 36344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2021-08-10 16:57:32.300 ERROR 36344 --- [http-nio-8080-exec-7] com.neusoft.mpc.utils.HttpRequestUtil    : 远程服务未开启
-
-java.net.UnknownHostException: t.weather.sojson.com
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:196)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
-	at java.net.Socket.connect(Socket.java:606)
-	at java.net.Socket.connect(Socket.java:555)
-	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
-	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
-	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
-	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
-	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
-	at com.neusoft.mpc.utils.HttpRequestUtil.sendGet(HttpRequestUtil.java:37)
-	at com.neusoft.mpc.web.IndexController.queryCityWeather(IndexController.java:43)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-
-2021-08-10 17:03:52.633  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 8972 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-08-10 17:03:52.637 DEBUG 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2021-08-10 17:03:52.638  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2021-08-10 17:03:54.143  INFO 8972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-08-10 17:03:54.173  INFO 8972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-08-10 17:03:54.174  INFO 8972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-08-10 17:03:54.303  INFO 8972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-08-10 17:03:54.304  INFO 8972 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1600 ms
-2021-08-10 17:03:54.688  INFO 8972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-08-10 17:03:54.866  WARN 8972 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2021-08-10 17:03:54.955  INFO 8972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-08-10 17:03:54.959  INFO 8972 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 3.349 seconds (JVM running for 7.873)
-2021-08-10 17:05:00.275  INFO 8972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-10 17:05:00.276  INFO 8972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-08-10 17:05:00.303  INFO 8972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2021-08-11 16:44:06.444  INFO 26464 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 26464 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-11 16:44:06.467 DEBUG 26464 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-11 16:44:06.468  INFO 26464 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-11 16:44:07.352  INFO 26464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 16:44:07.359  INFO 26464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-11 16:44:07.360  INFO 26464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-11 16:44:07.420  INFO 26464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-11 16:44:07.420  INFO 26464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 837 ms
+2021-08-11 16:44:07.582  INFO 26464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-11 16:44:07.688  WARN 26464 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-11 16:44:07.764  INFO 26464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 16:44:07.767  INFO 26464 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.021 seconds (JVM running for 2.829)
+2021-08-11 16:45:02.066  INFO 26464 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 16:45:02.067  INFO 26464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-11 16:45:02.070  INFO 26464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
