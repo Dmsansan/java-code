@@ -7,16 +7,21 @@ import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 
+/**
+ * @author Sansan.si
+ */
 public class HttpRequestUtil {
 
-    /** 日志 */
+    /**
+     * 日志
+     */
     private static Logger log = LogManager.getLogger(HttpRequestUtil.class);
 
     /**
      * 向指定URL发送GET方法的请求
      * 请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
-     * @param url
-     *            发送请求的URL
+     *
+     * @param url 发送请求的URL
      * @return URL 所代表远程资源的响应结果
      */
     public static String sendGet(String url) {
@@ -36,10 +41,6 @@ public class HttpRequestUtil {
             // 建立实际的连接
             connection.connect();
             // 遍历所有的响应头字段
-            // for (String key : map.keySet()) {
-            // System.out.println(key + "--->" + map.get(key));
-            // }
-            // 定义 BufferedReader输入流来读取URL的响应
             in = new BufferedReader(new InputStreamReader(
                     connection.getInputStream(), "utf-8"));
             String line;
@@ -47,7 +48,6 @@ public class HttpRequestUtil {
                 result.append(line);
             }
         } catch (Exception e) {
-//			System.out.println("发送GET请求出现异常！" + e);
             result = new StringBuilder("{\"resCode\":\"1\",\"errCode\":\"1001\",\"resData\":\"\"}");
             e.printStackTrace();
             log.error("远程服务未开启", e);
@@ -69,10 +69,8 @@ public class HttpRequestUtil {
     /**
      * 向指定 URL 发送POST方法的请求
      *
-     * @param url
-     *            发送请求的 URL
-     * @param param
-     *            请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
+     * @param url   发送请求的 URL
+     * @param param 请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
      * @return 所代表远程资源的响应结果
      */
     public static String sendPost(String url, String param) {
@@ -108,7 +106,6 @@ public class HttpRequestUtil {
                 result.append(line);
             }
         } catch (Exception e) {
-//			System.out.println("发送 POST 请求出现异常！" + e);
             result = new StringBuilder("{\"resCode\":\"1\",\"errCode\":\"1001\",\"resData\":\"\"}");
             e.printStackTrace();
             log.error("远程服务未开启", e);
@@ -133,10 +130,8 @@ public class HttpRequestUtil {
     /**
      * 向指定 URL 发送POST方法的请求
      *
-     * @param url
-     *            发送请求的 URL
-     * @param param
-     *            请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
+     * @param url   发送请求的 URL
+     * @param param 请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
      * @return 所代表远程资源的响应结果
      */
     public static String sendFile(String url, String param,
@@ -164,7 +159,6 @@ public class HttpRequestUtil {
             StringBuffer sb = new StringBuffer();
             sb = sb.append(param);
             byte[] paramData = sb.toString().getBytes();
-//			System.out.println(paramData.length);
 
             out = new BufferedOutputStream(conn.getOutputStream());
             out.write(paramData);
@@ -186,7 +180,6 @@ public class HttpRequestUtil {
                 result.append(line);
             }
         } catch (Exception e) {
-//			System.out.println("发送 POST 请求出现异常！" + e);
             result = new StringBuilder("{\"resCode\":\"1\",\"errCode\":\"1001\",\"resData\":\"\"}");
             e.printStackTrace();
         }

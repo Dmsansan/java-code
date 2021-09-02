@@ -1,30 +1,47 @@
-2021-08-24 08:47:12.503  INFO 30252 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 30252 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-08-24 08:47:12.520 DEBUG 30252 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2021-08-24 08:47:12.520  INFO 30252 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2021-08-24 08:47:13.416  INFO 30252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-08-24 08:47:13.422  INFO 30252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-08-24 08:47:13.423  INFO 30252 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-08-24 08:47:13.553  INFO 30252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-08-24 08:47:13.554  INFO 30252 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 933 ms
-2021-08-24 08:47:13.705  INFO 30252 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-08-24 08:47:13.796  WARN 30252 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2021-08-24 08:47:13.862  INFO 30252 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-08-24 08:47:13.864  INFO 30252 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.151 seconds (JVM running for 2.994)
-2021-08-24 08:47:29.002  INFO 30252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-24 08:47:29.003  INFO 30252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-08-24 08:47:29.006  INFO 30252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2021-08-24 09:08:35.122  INFO 33500 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 33500 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-08-24 09:08:35.142 DEBUG 33500 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
-2021-08-24 09:08:35.142  INFO 33500 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
-2021-08-24 09:08:36.084  INFO 33500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2021-08-24 09:08:36.091  INFO 33500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-08-24 09:08:36.091  INFO 33500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-08-24 09:08:36.222  INFO 33500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-08-24 09:08:36.222  INFO 33500 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1014 ms
-2021-08-24 09:08:36.362  INFO 33500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-08-24 09:08:36.504  WARN 33500 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
-2021-08-24 09:08:36.601  INFO 33500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2021-08-24 09:08:36.604  INFO 33500 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.29 seconds (JVM running for 4.483)
-2021-08-24 09:14:49.122  INFO 33500 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-08-24 09:14:49.123  INFO 33500 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-08-24 09:14:49.137  INFO 33500 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2021-08-30 11:51:25.368  INFO 42656 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 42656 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-30 11:51:25.390 DEBUG 42656 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-30 11:51:25.391  INFO 42656 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-30 11:51:26.210  INFO 42656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-30 11:51:26.217  INFO 42656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-30 11:51:26.218  INFO 42656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-30 11:51:26.362  INFO 42656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-30 11:51:26.362  INFO 42656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 896 ms
+2021-08-30 11:51:26.486  INFO 42656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-30 11:51:26.576  WARN 42656 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-30 11:51:26.639  INFO 42656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-30 11:51:26.641  INFO 42656 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 1.982 seconds (JVM running for 2.543)
+2021-08-30 11:52:05.816  INFO 42656 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 11:52:05.817  INFO 42656 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 11:52:05.821  INFO 42656 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-30 11:56:28.045  INFO 49200 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 49200 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-30 11:56:28.050 DEBUG 49200 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-30 11:56:28.051  INFO 49200 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-30 11:56:29.208  INFO 49200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-30 11:56:29.219  INFO 49200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-30 11:56:29.219  INFO 49200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-30 11:56:29.307  INFO 49200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-30 11:56:29.308  INFO 49200 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
+2021-08-30 11:56:29.610  INFO 49200 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-30 11:56:29.724  WARN 49200 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-30 11:56:29.805  INFO 49200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-30 11:56:29.808  INFO 49200 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.507 seconds (JVM running for 8.196)
+2021-08-30 11:57:22.940  INFO 49200 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 11:57:22.940  INFO 49200 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 11:57:22.946  INFO 49200 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-08-30 13:31:58.572  INFO 49200 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-30 14:41:02.503  INFO 39436 --- [main] com.neusoft.mpc.WeatherApplication       : Starting WeatherApplication on DESKTOP-QVH8DSK with PID 39436 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-08-30 14:41:02.522 DEBUG 39436 --- [main] com.neusoft.mpc.WeatherApplication       : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-30 14:41:02.523  INFO 39436 --- [main] com.neusoft.mpc.WeatherApplication       : No active profile set, falling back to default profiles: default
+2021-08-30 14:41:03.740  INFO 39436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-30 14:41:03.751  INFO 39436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-30 14:41:03.752  INFO 39436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-30 14:41:03.825  INFO 39436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-30 14:41:03.826  INFO 39436 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1244 ms
+2021-08-30 14:41:04.113  INFO 39436 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-30 14:41:04.251  WARN 39436 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-30 14:41:04.332  INFO 39436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-30 14:41:04.335  INFO 39436 --- [main] com.neusoft.mpc.WeatherApplication       : Started WeatherApplication in 2.692 seconds (JVM running for 7.113)
+2021-08-30 14:42:14.703  INFO 39436 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 14:42:14.704  INFO 39436 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 14:42:14.710  INFO 39436 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-08-30 16:59:56.293  INFO 39436 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

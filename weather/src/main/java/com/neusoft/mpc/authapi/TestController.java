@@ -14,7 +14,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/test")
-public class RequestTestController {
+public class TestController {
 
     @GetMapping(value = "/first")
     public ResponseEntity test() {
@@ -22,7 +22,12 @@ public class RequestTestController {
         wordList.add("standOne");
         wordList.add("standTwo");
         wordList.add("standThree");
-        
+
         return ResponseEntity.ok(wordList);
+    }
+
+    @GetMapping(value = "/newTest")
+    public ResponseEntity test2() {
+        return ResponseEntity.ok("success");
     }
 }
