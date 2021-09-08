@@ -1,0 +1,5 @@
+2021-08-10 16:55:20.807 INFO  com.neusoft.mpc.WeatherApplicationTests Line:55  - Starting WeatherApplicationTests on DESKTOP-QVH8DSK with PID 7620 (started by HP in D:\workspaces\java-code\weather)
+2021-08-10 16:55:20.810 INFO  com.neusoft.mpc.WeatherApplicationTests Line:651 - No active profile set, falling back to default profiles: default
+2021-08-10 16:55:21.904 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 16:55:22.133 INFO  com.neusoft.mpc.WeatherApplicationTests Line:61  - Started WeatherApplicationTests in 1.798 seconds (JVM running for 3.367)
+2021-08-10 16:55:22.439 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'

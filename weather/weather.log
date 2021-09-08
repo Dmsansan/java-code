@@ -1,0 +1,7 @@
+2021-08-10 16:55:20.807  INFO 7620 --- [main] com.neusoft.mpc.WeatherApplicationTests  : Starting WeatherApplicationTests on DESKTOP-QVH8DSK with PID 7620 (started by HP in D:\workspaces\java-code\weather)
+2021-08-10 16:55:20.809 DEBUG 7620 --- [main] com.neusoft.mpc.WeatherApplicationTests  : Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2021-08-10 16:55:20.810  INFO 7620 --- [main] com.neusoft.mpc.WeatherApplicationTests  : No active profile set, falling back to default profiles: default
+2021-08-10 16:55:21.904  INFO 7620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-10 16:55:22.051  WARN 7620 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Unknown Template Mode 'HTML5 '. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2021-08-10 16:55:22.133  INFO 7620 --- [main] com.neusoft.mpc.WeatherApplicationTests  : Started WeatherApplicationTests in 1.798 seconds (JVM running for 3.367)
+2021-08-10 16:55:22.439  INFO 7620 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

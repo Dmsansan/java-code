@@ -1,0 +1,28 @@
+2020-09-14 13:45:45.525 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'noRepeatRequestFilter', defined in com.neusoft.mpc.WeatherApplication, could not be registered. A bean with that name has already been defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2020-09-14 13:46:31.157 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:40  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'noRepeatRequestFilter', defined in com.neusoft.mpc.WeatherApplication, could not be registered. A bean with that name has already been defined in class path resource [com/neusoft/mpc/norepeat/NoRepeatApplication.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
