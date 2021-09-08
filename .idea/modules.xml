@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/admin-client/admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-type/design-type.iml" filepath="$PROJECT_DIR$/design-type/design-type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-code.iml" filepath="$PROJECT_DIR$/java-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leet-code/leet-code.iml" filepath="$PROJECT_DIR$/leet-code/leet-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongod-order/mongod-order.iml" filepath="$PROJECT_DIR$/mongod-order/mongod-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-tcp/netty-tcp.iml" filepath="$PROJECT_DIR$/netty-tcp/netty-tcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-websocket/netty-websocket.iml" filepath="$PROJECT_DIR$/netty-websocket/netty-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-lock/redis-lock.iml" filepath="$PROJECT_DIR$/redis-lock/redis-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/route/route.iml" filepath="$PROJECT_DIR$/route/route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-dubbo/spring-api/spring-api.iml" filepath="$PROJECT_DIR$/spring-dubbo/spring-api/spring-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-seckill/spring-boot-seckill.iml" filepath="$PROJECT_DIR$/spring-boot-seckill/spring-boot-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" filepath="$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-dubbo/spring-consumer/spring-consumer.iml" filepath="$PROJECT_DIR$/spring-dubbo/spring-consumer/spring-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-dubbo/spring-dubbo.iml" filepath="$PROJECT_DIR$/spring-dubbo/spring-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-kafaka/spring-kafaka.iml" filepath="$PROJECT_DIR$/spring-kafaka/spring-kafaka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mycat/spring-mycat.iml" filepath="$PROJECT_DIR$/spring-mycat/spring-mycat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-dubbo/spring-provider/spring-provider.iml" filepath="$PROJECT_DIR$/spring-dubbo/spring-provider/spring-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-resource/spring-resource.iml" filepath="$PROJECT_DIR$/spring-resource/spring-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rocketmq/spring-rocketmq.iml" filepath="$PROJECT_DIR$/spring-rocketmq/spring-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zookeeper/spring-zookeeper.iml" filepath="$PROJECT_DIR$/spring-zookeeper/spring-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather/weather.iml" filepath="$PROJECT_DIR$/weather/weather.iml" />
+    </modules>
+  </component>
+</project>

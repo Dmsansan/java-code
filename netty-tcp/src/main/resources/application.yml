@@ -1,0 +1,13 @@
+server:
+  port: 15666
+
+spring:
+  profiles:
+    active: dev
+
+tcpServer:
+  enabled: true # 是否在启动时建立socket连接
+  ip: 192.168.10.130
+  port: 4002
+#  ip: 192.168.10.21
+#  port: 60001

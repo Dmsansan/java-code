@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-dubbo" />
+        <module name="mongod-order" />
+        <module name="route" />
+        <module name="spring-resource" />
+        <module name="netty-websocket" />
+        <module name="spring-boot-task" />
+        <module name="spring-rocketmq" />
+        <module name="redis-lock" />
+        <module name="spring-api" />
+        <module name="leet-code" />
+        <module name="weather" />
+        <module name="admin-server" />
+        <module name="spring-boot-seckill" />
+        <module name="netty-tcp" />
+        <module name="spring-provider" />
+        <module name="spring-zookeeper" />
+        <module name="design-type" />
+        <module name="eureka" />
+        <module name="spring-mycat" />
+        <module name="spring-boot" />
+        <module name="spring-kafaka" />
+        <module name="spring-consumer" />
+        <module name="admin-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-client" target="1.8" />
+      <module name="admin-server" target="1.8" />
+      <module name="design-type" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="java-code" target="1.8" />
+      <module name="leet-code" target="1.8" />
+      <module name="mongod-order" target="1.8" />
+      <module name="netty-tcp" target="1.8" />
+      <module name="netty-websocket" target="1.5" />
+      <module name="oasys" target="1.8" />
+      <module name="redis-lock" target="1.8" />
+      <module name="route" target="1.8" />
+      <module name="spring-api" target="1.8" />
+      <module name="spring-boot" target="1.8" />
+      <module name="spring-boot-seckill" target="1.6" />
+      <module name="spring-boot-task" target="1.8" />
+      <module name="spring-consumer" target="1.8" />
+      <module name="spring-dubbo" target="1.8" />
+      <module name="spring-kafaka" target="1.8" />
+      <module name="spring-mycat" target="1.8" />
+      <module name="spring-provider" target="1.8" />
+      <module name="spring-resource" target="1.8" />
+      <module name="spring-rocketmq" target="1.8" />
+      <module name="spring-zookeeper" target="1.8" />
+      <module name="weather" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
+      <module name="design-type" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="leet-code" options="-parameters" />
+      <module name="mongod-order" options="-parameters" />
+      <module name="netty-tcp" options="-parameters" />
+      <module name="redis-lock" options="-parameters" />
+      <module name="route" options="-parameters" />
+      <module name="spring-api" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-task" options="-parameters" />
+      <module name="spring-consumer" options="-parameters" />
+      <module name="spring-dubbo" options="-parameters" />
+      <module name="spring-kafaka" options="-parameters" />
+      <module name="spring-mycat" options="-parameters" />
+      <module name="spring-provider" options="-parameters" />
+      <module name="spring-resource" options="-parameters" />
+      <module name="spring-rocketmq" options="-parameters" />
+      <module name="spring-zookeeper" options="-parameters" />
+      <module name="weather" options="-parameters" />
+    </option>
+  </component>
+</project>
