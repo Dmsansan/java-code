@@ -7,29 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-dubbo" />
+        <module name="spring-consumer" />
         <module name="mongod-order" />
         <module name="route" />
         <module name="spring-resource" />
         <module name="netty-websocket" />
+        <module name="eureka" />
         <module name="spring-boot-task" />
         <module name="spring-rocketmq" />
         <module name="redis-lock" />
         <module name="spring-api" />
         <module name="leet-code" />
-        <module name="weather" />
         <module name="admin-server" />
         <module name="spring-boot-seckill" />
-        <module name="netty-tcp" />
         <module name="spring-provider" />
         <module name="spring-zookeeper" />
         <module name="design-type" />
-        <module name="eureka" />
+        <module name="netty-tcp" />
         <module name="spring-mycat" />
         <module name="spring-boot" />
-        <module name="spring-kafaka" />
-        <module name="spring-consumer" />
+        <module name="influxdb" />
         <module name="admin-client" />
+        <module name="spring-kafaka" />
+        <module name="spring-dubbo" />
+        <module name="weather" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="admin-server" target="1.8" />
       <module name="design-type" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="influxdb" target="1.8" />
       <module name="java-code" target="1.8" />
       <module name="leet-code" target="1.8" />
       <module name="mongod-order" target="1.8" />
@@ -66,6 +68,7 @@
       <module name="admin-server" options="-parameters" />
       <module name="design-type" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="influxdb" options="-parameters" />
       <module name="leet-code" options="-parameters" />
       <module name="mongod-order" options="-parameters" />
       <module name="netty-tcp" options="-parameters" />

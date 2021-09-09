@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/admin-client/pom.xml" />
         <option value="$PROJECT_DIR$/netty-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/netty-tcp/pom.xml" />
+        <option value="$PROJECT_DIR$/influxdb/pom.xml" />
       </list>
     </option>
   </component>
