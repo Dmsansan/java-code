@@ -39,7 +39,8 @@ public class InfluxdbDemoApplicationTests {
 //            i++;
 //        }
 
-        String command = "select * from usage limit 100";
+        // influxDB存在8个小时的时差
+        String command = "select * from usage where time  >= '2021-09-09T07:50:00Z' and  time <=  '2021-09-09T07:50:02Z'  limit 100  tz('Asia/Shanghai')";
 
         QueryResult query = influxDBConnect.query(command);
         List<QueryResult.Result> results = query.getResults();
