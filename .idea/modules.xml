@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/influxdb/influxdb.iml" filepath="$PROJECT_DIR$/influxdb/influxdb.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-code.iml" filepath="$PROJECT_DIR$/java-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-math/java-math.iml" filepath="$PROJECT_DIR$/java-math/java-math.iml" />
       <module fileurl="file://$PROJECT_DIR$/leet-code/leet-code.iml" filepath="$PROJECT_DIR$/leet-code/leet-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongod-order/mongod-order.iml" filepath="$PROJECT_DIR$/mongod-order/mongod-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-tcp/netty-tcp.iml" filepath="$PROJECT_DIR$/netty-tcp/netty-tcp.iml" />

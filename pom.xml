@@ -35,6 +35,7 @@
         <module>spring-rocketmq</module>
         <module>spring-zookeeper</module>
         <module>weather</module>
+        <module>java-math</module>
     </modules>
 
     <build>
