@@ -11,5 +11,47 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.matheclipse:matheclipse-core:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.matheclipse:matheclipse-external:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:30.1.1-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: io.pebbletemplates:pebble:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.jheaps:jheaps:0.13" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.8-1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-text:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.matheclipse:matheclipse-frontend:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.commonmark:commonmark:0.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.commonmark:commonmark-ext-gfm-tables:0.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.11.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.26" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-core:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-clustering:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-fft:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-fitting:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-ode:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-optim:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.hipparchus:hipparchus-stat:1.8" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.logicng:logicng:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.gavaghan:geodesy:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: it.unimi.dsi:fastutil:8.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.12" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.12" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:68.2" level="project" />
+    <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apfloat:apfloat:1.10.1" level="project" />
   </component>
 </module>
