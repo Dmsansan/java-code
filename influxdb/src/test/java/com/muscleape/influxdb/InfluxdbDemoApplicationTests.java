@@ -7,9 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -24,7 +24,7 @@ public class InfluxdbDemoApplicationTests {
     }
 
     @Test
-    public void testInsert() {
+    public void testInsert() throws ParseException {
         Map<String, String> tagsMap = new HashMap<>();
         Map<String, Object> fieldsMap = new HashMap<>();
         long startMillis = System.currentTimeMillis();
@@ -39,15 +39,35 @@ public class InfluxdbDemoApplicationTests {
 //            i++;
 //        }
 
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date startDate = format.parse("2021-09-09 07:50:00");
+        Date endDate = format.parse("2021-09-09 07:50:02");
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(startDate);
+        calendar.add(Calendar.HOUR, 8);
+        // 开始时间
+        String startTime = format.format(calendar.getTime());
+
+        calendar.setTime(endDate);
+        calendar.add(Calendar.HOUR, 8);
+        // 结束时间
+        String endTime = format.format(calendar.getTime());
+
         // influxDB存在8个小时的时差
-        String command = "select * from usage where time  >= '2021-09-09T07:50:00Z' and  time <=  '2021-09-09T07:50:02Z'  limit 100  tz('Asia/Shanghai')";
+        String command = "select * from usage where time  >= '" + startTime + "' and  time <=  '" + endTime + "'  limit 100  tz('Asia/Shanghai')";
 
         QueryResult query = influxDBConnect.query(command);
         List<QueryResult.Result> results = query.getResults();
-        List<List<Object>> values = results.get(0).getSeries().get(0).getValues();
-        long endMillis = System.currentTimeMillis();
-        System.out.println("influxDB execute time :" + (endMillis - startMillis));
-        System.out.println("数据表总共的数据条数：" + values.size());
+        if (results.get(0).getSeries() != null) {
+            List<List<Object>> values = results.get(0).getSeries().get(0).getValues();
+            long endMillis = System.currentTimeMillis();
+            System.out.println("influxDB execute time :" + (endMillis - startMillis));
+            System.out.println("数据表总共的数据条数：" + values.size());
+        } else {
+            System.out.println("该时间段的数据记录不存在");
+        }
+
     }
 
 }
