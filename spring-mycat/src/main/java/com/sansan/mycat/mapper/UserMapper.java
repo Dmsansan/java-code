@@ -16,6 +16,7 @@ public interface UserMapper {
 
     @Insert("insert into t_user (id, name) value (#{id},#{name})")
     int insert(User user);
-    @Select("select * from t_user")
+
+    @Select("select * from t_evaluatedata_ahour limit 100000")
     List<User> selectAll();
 }

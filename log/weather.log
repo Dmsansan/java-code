@@ -1,39 +1,11 @@
-2021-09-08 13:36:27.313 INFO  com.neusoft.mpc.WeatherApplication Line:55  - Starting WeatherApplication on DESKTOP-QVH8DSK with PID 5704 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-09-08 13:36:27.318 INFO  com.neusoft.mpc.WeatherApplication Line:651 - No active profile set, falling back to default profiles: default
-2021-09-08 13:36:28.164 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8081 (http)
-2021-09-08 13:36:28.170 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
-2021-09-08 13:36:28.171 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-08 13:36:28.285 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
-2021-09-08 13:36:28.285 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 891 ms
-2021-09-08 13:36:28.412 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-08 13:36:28.547 INFO  org.apache.catalina.core.StandardService Line:173 - Stopping service [Tomcat]
-2021-09-08 13:36:28.562 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:136 - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-09-08 13:36:28.568 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-09-08 13:37:43.705 INFO  com.neusoft.mpc.WeatherApplication Line:55  - Starting WeatherApplication on DESKTOP-QVH8DSK with PID 64348 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-09-08 13:37:43.708 INFO  com.neusoft.mpc.WeatherApplication Line:651 - No active profile set, falling back to default profiles: default
-2021-09-08 13:37:44.254 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8081 (http)
-2021-09-08 13:37:44.261 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
-2021-09-08 13:37:44.261 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-08 13:37:44.320 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
-2021-09-08 13:37:44.320 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 586 ms
-2021-09-08 13:37:44.422 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-08 13:37:44.559 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-08 13:37:44.561 INFO  com.neusoft.mpc.WeatherApplication Line:61  - Started WeatherApplication in 1.107 seconds (JVM running for 1.46)
-2021-09-08 13:38:48.156 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-08 13:38:48.156 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
-2021-09-08 13:38:48.159 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 2 ms
-2021-09-08 13:43:37.769 INFO  com.neusoft.mpc.WeatherApplication Line:55  - Starting WeatherApplication on DESKTOP-QVH8DSK with PID 59920 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
-2021-09-08 13:43:37.772 INFO  com.neusoft.mpc.WeatherApplication Line:651 - No active profile set, falling back to default profiles: default
-2021-09-08 13:43:38.345 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8081 (http)
-2021-09-08 13:43:38.351 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
-2021-09-08 13:43:38.352 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-09-08 13:43:38.408 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
-2021-09-08 13:43:38.408 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 610 ms
-2021-09-08 13:43:38.522 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
-2021-09-08 13:43:38.650 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8081 (http) with context path ''
-2021-09-08 13:43:38.652 INFO  com.neusoft.mpc.WeatherApplication Line:61  - Started WeatherApplication in 1.137 seconds (JVM running for 1.501)
-2021-09-08 13:43:47.255 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-09-08 13:43:47.255 INFO  org.springframework.web.servlet.DispatcherServlet Line:525 - Initializing Servlet 'dispatcherServlet'
-2021-09-08 13:43:47.259 INFO  org.springframework.web.servlet.DispatcherServlet Line:547 - Completed initialization in 3 ms
+2021-09-14 16:46:35.880 INFO  com.neusoft.mpc.WeatherApplication Line:55  - Starting WeatherApplication on DESKTOP-QVH8DSK with PID 46392 (D:\workspaces\java-code\weather\target\classes started by HP in D:\workspaces\java-code)
+2021-09-14 16:46:35.887 INFO  com.neusoft.mpc.WeatherApplication Line:651 - No active profile set, falling back to default profiles: default
+2021-09-14 16:46:37.034 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:92  - Tomcat initialized with port(s): 8081 (http)
+2021-09-14 16:46:37.046 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2021-09-14 16:46:37.047 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-09-14 16:46:37.120 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2021-09-14 16:46:37.121 INFO  org.springframework.web.context.ContextLoader Line:284 - Root WebApplicationContext: initialization completed in 1161 ms
+2021-09-14 16:46:37.420 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-14 16:46:37.629 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:204 - Tomcat started on port(s): 8081 (http) with context path ''
+2021-09-14 16:46:37.633 INFO  com.neusoft.mpc.WeatherApplication Line:61  - Started WeatherApplication in 2.491 seconds (JVM running for 6.665)
+2021-09-14 16:50:16.365 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:208 - Shutting down ExecutorService 'applicationTaskExecutor'

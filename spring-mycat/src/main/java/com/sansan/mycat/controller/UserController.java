@@ -20,12 +20,13 @@ public class UserController {
     private UserMapper userMapper;
 
     @RequestMapping("/save")
-    public String save(User user){
+    public String save(User user) {
         userMapper.insert(user);
         return "保存成功";
     }
+
     @RequestMapping("/list")
-    public List<User> list(){
+    public List<User> list() {
         return userMapper.selectAll();
     }
 }
