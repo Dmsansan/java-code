@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/netty-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/netty-tcp/pom.xml" />
         <option value="$PROJECT_DIR$/influxdb/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo-config/pom.xml" />
       </list>
     </option>
   </component>
